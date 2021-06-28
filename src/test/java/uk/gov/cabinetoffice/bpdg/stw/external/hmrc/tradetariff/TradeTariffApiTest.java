@@ -31,8 +31,8 @@ import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.TradeTariffCommodityResponse;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.heading.TradeTariffHeadingResponse;
-import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamEndpointLabelNameResolver;
-import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamRequestMetrics;
+//import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamEndpointLabelNameResolver;
+//import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamRequestMetrics;
 
 @ExtendWith(MockitoExtension.class)
 public class TradeTariffApiTest {
@@ -41,8 +41,8 @@ public class TradeTariffApiTest {
       new WireMockServer(SocketUtils.findAvailableTcpPort());
   private static String MOCK_TRADE_TARIFF_API_URL;
 
-  @Mock DownstreamRequestMetrics downstreamRequestMetrics;
-  @Mock DownstreamEndpointLabelNameResolver downstreamEndpointLabelNameResolver;
+//  @Mock DownstreamRequestMetrics downstreamRequestMetrics;
+//  @Mock DownstreamEndpointLabelNameResolver downstreamEndpointLabelNameResolver;
 
   private TradeTariffApi tradeTariffApi;
 
@@ -72,9 +72,9 @@ public class TradeTariffApiTest {
     tradeTariffApi =
         new TradeTariffApi(
             builder,
-            tradeTariffApiConfig,
+            tradeTariffApiConfig/*,
             downstreamRequestMetrics,
-            downstreamEndpointLabelNameResolver);
+            downstreamEndpointLabelNameResolver*/);
   }
 
   @AfterEach

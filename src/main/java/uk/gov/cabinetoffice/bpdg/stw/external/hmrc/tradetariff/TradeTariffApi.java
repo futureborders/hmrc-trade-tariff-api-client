@@ -183,14 +183,14 @@ public class TradeTariffApi {
                       return clientResponse.bodyToMono(TradeTariffHeadingResponse.class);
                     })
                 .timeout(tradeTariffApiConfig.getTimeout())
-                .doOnError(
-                    TimeoutException.class,
-                    error ->
-                        downstreamRequestMetrics.record(
-                            DOWNSTREAM_APP_NAME,
-                            resourceName,
-                            error.getClass().getSimpleName(),
-                            timer.end()))
+//                .doOnError(
+//                    TimeoutException.class,
+//                    error ->
+//                        downstreamRequestMetrics.record(
+//                            DOWNSTREAM_APP_NAME,
+//                            resourceName,
+//                            error.getClass().getSimpleName(),
+//                            timer.end()))
                 .doOnSuccess(
                     response ->
                         log.debug("Received response from Trade Tariff API {}.", apiVersion.name()))
