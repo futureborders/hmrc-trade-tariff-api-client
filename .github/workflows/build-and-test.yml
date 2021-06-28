@@ -31,7 +31,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
 
       - name: Build and Run Tests
-        run: mvn -B test --fail-at-end
+        run: mvn -B verify --fail-at-end
 
       - name: Publish Test Report
         if: ${{ always() }}
@@ -42,6 +42,3 @@ jobs:
         with:
           name: jacoco-report
           path: target/site/jacoco
-
-      - name: Build with Maven
-        run: mvn -B package
