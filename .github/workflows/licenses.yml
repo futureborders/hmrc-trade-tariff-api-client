@@ -46,7 +46,7 @@ jobs:
         with:
           commit-message: 'Updating license headers'
           base: ${{ github.head_ref }}
-          branch: '${{ github.head_ref }}/licenses'
+          branch: '${{ github.head_ref }}-licenses'
           author: github-actions <github-actions@users.noreply.github.com>
           delete-branch: true
           title: "Adds missing source code license headers to PR #${{ github.event.pull_request.number }}"
