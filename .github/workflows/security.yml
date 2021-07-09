@@ -13,9 +13,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -42,6 +39,11 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+
+      - name: Test
+        run: mvn dependency:purge-local-repository test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
