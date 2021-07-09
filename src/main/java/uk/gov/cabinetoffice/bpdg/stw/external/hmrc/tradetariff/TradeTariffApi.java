@@ -16,9 +16,9 @@ import reactor.util.retry.Retry;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.TradeTariffError;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.TradeTariffCommodityResponse;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.heading.TradeTariffHeadingResponse;
-//import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.Timer;
-//import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamEndpointLabelNameResolver;
-//import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamRequestMetrics;
+import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.Timer;
+import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamEndpointLabelNameResolver;
+import uk.gov.cabinetoffice.bpdg.stw.monitoring.prometheus.metrics.downstream.DownstreamRequestMetrics;
 
 @Slf4j
 public class TradeTariffApi {
@@ -27,17 +27,17 @@ public class TradeTariffApi {
 
   private final WebClient webClient;
   private final TradeTariffApiConfig tradeTariffApiConfig;
-//  private final DownstreamRequestMetrics downstreamRequestMetrics;
-//  private final DownstreamEndpointLabelNameResolver downstreamEndpointLabelNameResolver;
+  private final DownstreamRequestMetrics downstreamRequestMetrics;
+  private final DownstreamEndpointLabelNameResolver downstreamEndpointLabelNameResolver;
 
   public TradeTariffApi(
       WebClient.Builder webClientBuilder,
-      TradeTariffApiConfig tradeTariffApiConfig /*,
+      TradeTariffApiConfig tradeTariffApiConfig,
       DownstreamRequestMetrics downstreamRequestMetrics,
-      DownstreamEndpointLabelNameResolver downstreamEndpointLabelNameResolver */) {
+      DownstreamEndpointLabelNameResolver downstreamEndpointLabelNameResolver) {
     this.tradeTariffApiConfig = tradeTariffApiConfig;
-//    this.downstreamRequestMetrics = downstreamRequestMetrics;
-//    this.downstreamEndpointLabelNameResolver = downstreamEndpointLabelNameResolver;
+    this.downstreamRequestMetrics = downstreamRequestMetrics;
+    this.downstreamEndpointLabelNameResolver = downstreamEndpointLabelNameResolver;
     this.webClient =
         webClientBuilder
             .baseUrl(tradeTariffApiConfig.getUrl())
@@ -56,22 +56,22 @@ public class TradeTariffApi {
       String commodityCode, CommoditiesApiVersion apiVersion) {
     log.debug(
         "Calling Trade Tariff API {} with commodity code {}", apiVersion.name(), commodityCode);
-//    final Timer timer = Timer.startNew();
+    final Timer timer = Timer.startNew();
     final String uri = apiVersion.apiPathFor(commodityCode);
-//    final String resourceName = downstreamEndpointLabelNameResolver.get("GET", uri);
+    final String resourceName = downstreamEndpointLabelNameResolver.get("GET", uri);
     return Mono.defer(
         () ->
             this.webClient
                 .get()
                 .uri(uri)
                 .exchange()
-//                .doOnSuccess(
-//                    clientResponse ->
-//                        downstreamRequestMetrics.record(
-//                            DOWNSTREAM_APP_NAME,
-//                            resourceName,
-//                            String.valueOf(clientResponse.statusCode().value()),
-//                            timer.end()))
+                .doOnSuccess(
+                    clientResponse ->
+                        downstreamRequestMetrics.record(
+                            DOWNSTREAM_APP_NAME,
+                            resourceName,
+                            String.valueOf(clientResponse.statusCode().value()),
+                            timer.end()))
                 .flatMap(
                     clientResponse -> {
                       if (clientResponse.statusCode().is5xxServerError()) {
@@ -90,18 +90,18 @@ public class TradeTariffApi {
                           .onErrorReturn(notFoundResponse());
                     })
                 .timeout(tradeTariffApiConfig.getTimeout())
-//                .doOnError(
-//                    TimeoutException.class,
-//                    error ->
-//                        downstreamRequestMetrics.record(
-//                            DOWNSTREAM_APP_NAME,
-//                            resourceName,
-//                            error.getClass().getSimpleName(),
-//                            timer.end()))
+                .doOnError(
+                    TimeoutException.class,
+                    error ->
+                        downstreamRequestMetrics.record(
+                            DOWNSTREAM_APP_NAME,
+                            resourceName,
+                            error.getClass().getSimpleName(),
+                            timer.end()))
                 .retryWhen(
                     Retry.backoff(
-                            tradeTariffApiConfig.getRetryMaxAttempt(),
-                            tradeTariffApiConfig.getRetryMinBackoff())
+                        tradeTariffApiConfig.getRetryMaxAttempt(),
+                        tradeTariffApiConfig.getRetryMinBackoff())
                         .onRetryExhaustedThrow(
                             (retryBackoffSpec, retrySignal) ->
                                 new DownstreamSystemException(retrySignal.failure().getMessage()))
@@ -144,22 +144,22 @@ public class TradeTariffApi {
   public Mono<TradeTariffHeadingResponse> getHeading(
       String headingCode, HeadingsApiVersion apiVersion) {
     log.debug("Calling Trade Tariff API {} with heading code {}", apiVersion.name(), headingCode);
-//    final Timer timer = Timer.startNew();
+    final Timer timer = Timer.startNew();
     final String uri = apiVersion.apiPathFor(headingCode);
-//    final String resourceName = downstreamEndpointLabelNameResolver.get("GET", uri);
+    final String resourceName = downstreamEndpointLabelNameResolver.get("GET", uri);
     return Mono.defer(
         () ->
             this.webClient
                 .get()
                 .uri(uri)
                 .exchange()
-//                .doOnSuccess(
-//                    clientResponse ->
-//                        downstreamRequestMetrics.record(
-//                            DOWNSTREAM_APP_NAME,
-//                            resourceName,
-//                            String.valueOf(clientResponse.statusCode().value()),
-//                            timer.end()))
+                .doOnSuccess(
+                    clientResponse ->
+                        downstreamRequestMetrics.record(
+                            DOWNSTREAM_APP_NAME,
+                            resourceName,
+                            String.valueOf(clientResponse.statusCode().value()),
+                            timer.end()))
                 .flatMap(
                     clientResponse -> {
                       if (clientResponse.statusCode().is5xxServerError()) {
@@ -183,21 +183,21 @@ public class TradeTariffApi {
                       return clientResponse.bodyToMono(TradeTariffHeadingResponse.class);
                     })
                 .timeout(tradeTariffApiConfig.getTimeout())
-//                .doOnError(
-//                    TimeoutException.class,
-//                    error ->
-//                        downstreamRequestMetrics.record(
-//                            DOWNSTREAM_APP_NAME,
-//                            resourceName,
-//                            error.getClass().getSimpleName(),
-//                            timer.end()))
+                .doOnError(
+                    TimeoutException.class,
+                    error ->
+                        downstreamRequestMetrics.record(
+                            DOWNSTREAM_APP_NAME,
+                            resourceName,
+                            error.getClass().getSimpleName(),
+                            timer.end()))
                 .doOnSuccess(
                     response ->
                         log.debug("Received response from Trade Tariff API {}.", apiVersion.name()))
                 .retryWhen(
                     Retry.backoff(
-                            tradeTariffApiConfig.getRetryMaxAttempt(),
-                            tradeTariffApiConfig.getRetryMinBackoff())
+                        tradeTariffApiConfig.getRetryMaxAttempt(),
+                        tradeTariffApiConfig.getRetryMinBackoff())
                         .onRetryExhaustedThrow(
                             (retryBackoffSpec, retrySignal) ->
                                 new DownstreamSystemException(retrySignal.failure().getMessage()))

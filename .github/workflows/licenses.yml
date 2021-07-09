@@ -21,7 +21,7 @@ jobs:
         run: go get -u github.com/google/addlicense
 
       - name: Add license headers using addlicense
-        run: addlicense --check -skip html -c 'Crown Copyright (Single Trade Window)' src sass
+        run: addlicense --check -skip html -c 'Crown Copyright (Single Trade Window)' src/main/java src/test/java
 
   add-license-headers:
     name: Add license headers

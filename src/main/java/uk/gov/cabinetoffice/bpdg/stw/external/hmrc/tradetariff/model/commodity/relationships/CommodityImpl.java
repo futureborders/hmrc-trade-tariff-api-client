@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.Commodity;
@@ -11,6 +12,7 @@ import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.Commodity;
 import java.util.Map;
 import java.util.Optional;
 
+@EqualsAndHashCode(callSuper = true)
 @SuperBuilder
 @Data
 @NoArgsConstructor

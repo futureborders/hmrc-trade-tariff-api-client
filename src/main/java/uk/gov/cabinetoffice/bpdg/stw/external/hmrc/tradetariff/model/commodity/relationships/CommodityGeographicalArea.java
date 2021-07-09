@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
@@ -16,6 +17,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+@EqualsAndHashCode(callSuper = true)
 @SuperBuilder
 @Data
 @NoArgsConstructor
