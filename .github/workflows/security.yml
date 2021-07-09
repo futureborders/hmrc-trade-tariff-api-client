@@ -41,7 +41,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Test
-        run: mvn dependency:purge-local-repository test
+        run: mvn dependency:purge-local-repository test -X
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
