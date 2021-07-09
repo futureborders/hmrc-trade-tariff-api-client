@@ -41,9 +41,9 @@ jobs:
           distribution: 'adopt'
 
       - name: Test
-        run: mvn dependency:purge-local-repository test
+        run: cat /home/runner/.m2/settings.xml && mvn dependency:purge-local-repository test
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: helloworld
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
