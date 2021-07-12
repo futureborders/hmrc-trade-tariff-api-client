@@ -38,7 +38,7 @@ jobs:
       - run: |
           env
           mkdir ~/.m2
-          printf "${{ secrets.HELLO_WORLD }}" > ~/.m2/settings.xml
+          #printf "${{ secrets.HELLO_WORLD }}" > ~/.m2/settings.xml
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
