@@ -35,10 +35,11 @@ jobs:
         with:
           languages: java
 
-      - run: |
+      - name: Setup Java
+        run: |
           env
-          mkdir ~/.m2
-          #printf "${{ secrets.HELLO_WORLD }}" > ~/.m2/settings.xml
+          mkdir $HOME/.m2
+          ls -a $HOME
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
