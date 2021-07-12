@@ -1,14 +1,14 @@
 name: "Security checks"
 
 on:
+  push:
   pull_request:
     types: [opened, synchronize, reopened]
-
   schedule:
     - cron: '0 2 * * 0'
 
 jobs:
-  code-ql:
+  CodeQL-Build:
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main' || github.event_name == 'schedule'
 
     runs-on: ubuntu-latest
@@ -16,11 +16,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 2
-
-      - run: git checkout HEAD^2
-        if: ${{ github.event_name == 'pull_request' }}
 
       - if: github.event_name == 'schedule'
         name: Initialize CodeQL
@@ -29,7 +24,7 @@ jobs:
           config-file: ./.github/codeql/config.yml
           languages: java
 
-      - if: github.event_name == 'pull_request'
+      - if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
         name: Initialize CodeQL
         uses: github/codeql-action/init@v1
         with:
