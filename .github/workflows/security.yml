@@ -35,22 +35,11 @@ jobs:
         with:
           languages: java
 
-      - uses: actions/setup-java@v2
-        with:
-          java-version: '11'
-          distribution: 'adopt'
-
-      - name: Test
-        run: mvn dependency:purge-local-repository test -X
-        env:
-          GITHUB_ACTOR: ${{ secrets.GH_USER }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - run: echo ${{ secrets.HELLO_WORLD }} > $HOME/.m2/settings
+      - run: cat $HOME/.m2/settings
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
-        env:
-          GITHUB_ACTOR: ${{ secrets.GH_USER }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v1
