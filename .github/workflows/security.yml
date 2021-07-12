@@ -35,8 +35,8 @@ jobs:
         with:
           languages: java
 
-      - run: printf "${{ secrets.HELLO_WORLD }}" > "$HOME/.m2/settings.xml"
-      - run: head "$HOME/.m2/settings.xml"
+      - run: mkdir "$HOME/.m2" && printf "${{ secrets.HELLO_WORLD }}" > "$HOME/.m2/settings.xml"
+      - run: head "$HOME/.m2/settings.xml" && tail "$HOME/.m2/settings.xml"
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
