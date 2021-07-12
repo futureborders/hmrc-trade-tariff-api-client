@@ -38,8 +38,7 @@ jobs:
       - name: Setup Java
         run: |
           mkdir $HOME/.m2
-          echo -n "${{ secrets.HELLO_WORLD }}" | base64 -d > $HOME/.m2/settings.xml
-          cat $HOME/.m2/settings.xml
+          echo -n "${{ secrets.MVN_SETTINGS }}" | base64 -d > $HOME/.m2/settings.xml
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
