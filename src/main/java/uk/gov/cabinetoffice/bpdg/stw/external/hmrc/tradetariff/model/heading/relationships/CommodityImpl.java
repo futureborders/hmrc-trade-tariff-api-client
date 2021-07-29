@@ -16,7 +16,6 @@ package uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.heading.re
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -38,9 +37,9 @@ public class CommodityImpl extends TradeTariffHeadingResponseIncludedEntity impl
   private Integer numberIndents;
   private Integer productLineSuffix;
 
-  @Builder.Default private Optional<Boolean> leaf = Optional.empty();
-  @Builder.Default private Optional<Integer> parentSid = Optional.empty();
-  @Builder.Default private Optional<Integer> sid = Optional.empty();
+  private Boolean leaf;
+  private Integer parentSid;
+  private Integer sid;
 
   @JsonProperty("attributes")
   private void unpackAttributes(Map<String, Object> attributes) {
@@ -61,9 +60,20 @@ public class CommodityImpl extends TradeTariffHeadingResponseIncludedEntity impl
             .map(p -> Integer.valueOf(String.valueOf(p)))
             .orElse(null);
 
-    this.leaf = Optional.ofNullable(attributes.get("leaf")).map(Boolean.class::cast);
-    this.parentSid = Optional.ofNullable(attributes.get("parent_sid")).map(Integer.class::cast);
-    this.sid =
-        Optional.ofNullable(attributes.get("goods_nomenclature_sid")).map(Integer.class::cast);
+    this.leaf = Optional.ofNullable(attributes.get("leaf")).map(Boolean.class::cast).orElse(null);
+    this.parentSid = Optional.ofNullable(attributes.get("parent_sid")).map(Integer.class::cast).orElse(null);
+    this.sid = Optional.ofNullable(attributes.get("goods_nomenclature_sid")).map(Integer.class::cast).orElse(null);
+  }
+
+  public Optional<Boolean> getLeaf() {
+    return Optional.ofNullable(leaf);
+  }
+
+  public Optional<Integer> getParentSid() {
+    return Optional.ofNullable(parentSid);
+  }
+
+  public Optional<Integer> getSid() {
+    return Optional.ofNullable(sid);
   }
 }

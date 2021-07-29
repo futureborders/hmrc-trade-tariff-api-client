@@ -15,6 +15,7 @@
     <reactor-test.version>3.1.0.RELEASE</reactor-test.version>
     <reactor-core.version>3.4.5</reactor-core.version>
     <micrometer.version>1.7.1</micrometer.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <licenses>
@@ -92,9 +93,6 @@
               <goal>check</goal>
             </goals>
             <configuration>
-              <excludes>
-                <exclude>uk/gov/cabinetoffice/bpdg/stw/external/hmrc/tradetariff/model/**/*.class</exclude>
-              </excludes>
               <rules>
                 <rule>
                   <element>CLASS</element>

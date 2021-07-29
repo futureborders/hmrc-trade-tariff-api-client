@@ -16,7 +16,6 @@ package uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -38,9 +37,9 @@ public class CommodityImpl extends TradeTariffCommodityResponseIncludedEntity im
   private Integer numberIndents;
   private Integer productLineSuffix;
 
-  @Builder.Default private Optional<Boolean> leaf = Optional.empty();
-  @Builder.Default private Optional<Integer> parentSid = Optional.empty();
-  @Builder.Default private Optional<Integer> sid = Optional.empty();
+  private Boolean leaf;
+  private Integer parentSid;
+  private Integer sid;
 
   @JsonProperty("attributes")
   private void unpackAttributes(Map<String, Object> attributes) {
@@ -60,5 +59,17 @@ public class CommodityImpl extends TradeTariffCommodityResponseIncludedEntity im
         Optional.ofNullable(attributes.get("producline_suffix"))
             .map(p -> Integer.valueOf(String.valueOf(p)))
             .orElse(null);
+  }
+
+  public Optional<Boolean> getLeaf() {
+    return Optional.ofNullable(leaf);
+  }
+
+  public Optional<Integer> getParentSid() {
+    return Optional.ofNullable(parentSid);
+  }
+
+  public Optional<Integer> getSid() {
+    return Optional.ofNullable(sid);
   }
 }
