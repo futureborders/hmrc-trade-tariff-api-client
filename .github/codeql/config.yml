@@ -1,4 +1,4 @@
-name: "STW Trade Tariff API"
+name: "STW HMRC trade tariff api client"
 
 disable-default-queries: false
 
