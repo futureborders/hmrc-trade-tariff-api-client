@@ -39,7 +39,8 @@ pipeline {
           deployLibrary(branch: BRANCH_NAME) {
             sh "mvn  clean deploy"
             // Below is to push to github
-            //sh "mvn --settings ${env.WORKSPACE}/settings.xml clean deploy"          }
+            //sh "mvn --settings ${env.WORKSPACE}/settings.xml clean deploy"          
+          }
         }
       }
     }
