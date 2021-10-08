@@ -27,12 +27,12 @@
     </license>
   </licenses>
 
-  <repositories>
+  <!-- <repositories>
     <repository>
       <id>github</id>
       <url>https://maven.pkg.github.com/futureborders/hmrc-trade-tariff-api-client</url>
     </repository>
-  </repositories>
+  </repositories> -->
 
   <distributionManagement>
     <repository>
