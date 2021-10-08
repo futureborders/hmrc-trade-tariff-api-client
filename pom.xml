@@ -116,7 +116,7 @@
     <dependency>
       <groupId>uk.gov.cabinetoffice.bpdg.stw</groupId>
       <artifactId>stw-prometheus-metrics</artifactId>
-      <version>0.0.14</version>
+      <version>0.0.21</version>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
