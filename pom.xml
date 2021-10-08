@@ -27,6 +27,14 @@
     </license>
   </licenses>
 
+    <repositories>
+    <repository>
+      <id>fb-nexus</id>
+      <name>Futureborders nexus</name>
+      <url>http://nexus.shared.cp.fbp/repository/maven-releases/</url>
+    </repository>
+  </repositories>
+
   <!-- <repositories>
     <repository>
       <id>github</id>
