@@ -230,7 +230,7 @@
     "meta": {
       "duty_calculator": {
         "zero_mfn_duty": false,
-        "trade_defence": false,
+        "trade_defence": true,
         "applicable_measure_units": {},
         "meursing_code": false,
         "entry_price_system": false
