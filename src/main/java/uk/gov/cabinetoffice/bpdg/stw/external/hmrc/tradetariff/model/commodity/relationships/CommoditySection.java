@@ -21,10 +21,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Map;
 import java.util.Optional;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.Section;
 
+@EqualsAndHashCode(callSuper = true)
 @SuperBuilder
 @Data
 @NoArgsConstructor

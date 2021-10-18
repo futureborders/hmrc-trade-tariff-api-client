@@ -21,9 +21,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Map;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
+@EqualsAndHashCode(callSuper = true)
 @SuperBuilder
 @Data
 @NoArgsConstructor

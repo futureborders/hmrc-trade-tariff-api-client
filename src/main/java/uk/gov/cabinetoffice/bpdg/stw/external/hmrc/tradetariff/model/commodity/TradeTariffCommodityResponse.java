@@ -24,6 +24,7 @@ import java.util.Optional;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.TradeTariffResponse;
@@ -35,6 +36,7 @@ import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.r
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.CommodityMeasureType;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.TradeTariffCommodityResponseIncludedEntity;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 @SuperBuilder
 @NoArgsConstructor

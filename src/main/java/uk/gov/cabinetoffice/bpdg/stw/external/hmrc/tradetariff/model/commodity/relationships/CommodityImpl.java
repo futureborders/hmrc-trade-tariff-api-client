@@ -22,10 +22,12 @@ import java.util.Map;
 import java.util.Optional;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.Commodity;
 
+@EqualsAndHashCode(callSuper = true)
 @SuperBuilder
 @Data
 @NoArgsConstructor
