@@ -16,13 +16,12 @@ package uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.Map;
+import java.util.Optional;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.Map;
-import java.util.Optional;
 
 @Builder
 @Data

@@ -16,11 +16,10 @@
 
 package uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff;
 
+import java.time.Duration;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Value;
-
-import java.time.Duration;
 
 @Value
 @Builder
