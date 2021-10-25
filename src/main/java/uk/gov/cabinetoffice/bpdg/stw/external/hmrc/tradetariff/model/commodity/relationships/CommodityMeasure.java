@@ -41,10 +41,14 @@ import lombok.experimental.SuperBuilder;
 public class CommodityMeasure extends TradeTariffCommodityResponseIncludedEntity {
 
   private boolean isImport;
+  private boolean isVAT;
+  private boolean isExcise;
   private String measureTypeId;
   private String geographicalAreaId;
   private String additionalCodeId;
   private String legalActId;
+  private String dutyExpressionId;
+  private String quotaNumber;
   @Builder.Default private Set<String> measureConditionIds = new HashSet<>();
   @Builder.Default private Set<String> excludedCountries = new HashSet<>();
 
@@ -54,6 +58,14 @@ public class CommodityMeasure extends TradeTariffCommodityResponseIncludedEntity
         Optional.ofNullable(attributes.get("import"))
             .map(Boolean.class::cast)
             .orElseThrow(() -> new IllegalArgumentException("Measure should have a trade type"));
+    this.isVAT =
+        Optional.ofNullable(attributes.get("vat"))
+            .map(Boolean.class::cast)
+            .orElseThrow(() -> new IllegalArgumentException("Measure should have a vat indicator"));
+    this.isExcise =
+        Optional.ofNullable(attributes.get("excise"))
+            .map(Boolean.class::cast)
+            .orElseThrow(() -> new IllegalArgumentException("Measure should have a excise indicator"));
   }
 
   @JsonProperty("relationships")
@@ -116,5 +128,23 @@ public class CommodityMeasure extends TradeTariffCommodityResponseIncludedEntity
             .findFirst()
             .orElse(new HashMap<>())
             .get("id");
+
+    this.dutyExpressionId =
+        Optional.ofNullable(relationships.get("duty_expression"))
+            .map(Map.class::cast)
+            .map(m -> m.get("data"))
+            .map(Map.class::cast)
+            .map(m -> m.get("id"))
+            .map(String.class::cast)
+            .orElse(null);
+
+    this.quotaNumber =
+        Optional.ofNullable(relationships.get("order_number"))
+            .map(Map.class::cast)
+            .map(m -> m.get("data"))
+            .map(Map.class::cast)
+            .map(m -> m.get("id"))
+            .map(String.class::cast)
+            .orElse(null);
   }
 }

@@ -29,16 +29,18 @@ import lombok.experimental.SuperBuilder;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, defaultImpl = Void.class, property = "type")
 @JsonSubTypes({
-  @JsonSubTypes.Type(value = CommoditySection.class, name = "section"),
-  @JsonSubTypes.Type(value = CommodityChapter.class, name = "chapter"),
-  @JsonSubTypes.Type(value = CommodityImpl.class, name = "commodity"),
-  @JsonSubTypes.Type(value = CommodityMeasure.class, name = "measure"),
-  @JsonSubTypes.Type(value = CommodityMeasureType.class, name = "measure_type"),
-  @JsonSubTypes.Type(value = CommodityGeographicalArea.class, name = "geographical_area"),
-  @JsonSubTypes.Type(value = CommodityMeasureCondition.class, name = "measure_condition"),
-  @JsonSubTypes.Type(value = CommodityHeading.class, name = "heading"),
-  @JsonSubTypes.Type(value = CommodityAdditionalCode.class, name = "additional_code")
+    @JsonSubTypes.Type(value = CommoditySection.class, name = "section"),
+    @JsonSubTypes.Type(value = CommodityChapter.class, name = "chapter"),
+    @JsonSubTypes.Type(value = CommodityImpl.class, name = "commodity"),
+    @JsonSubTypes.Type(value = CommodityMeasure.class, name = "measure"),
+    @JsonSubTypes.Type(value = CommodityMeasureType.class, name = "measure_type"),
+    @JsonSubTypes.Type(value = CommodityGeographicalArea.class, name = "geographical_area"),
+    @JsonSubTypes.Type(value = CommodityMeasureCondition.class, name = "measure_condition"),
+    @JsonSubTypes.Type(value = CommodityHeading.class, name = "heading"),
+    @JsonSubTypes.Type(value = CommodityAdditionalCode.class, name = "additional_code"),
+    @JsonSubTypes.Type(value = DutyExpression.class, name = "duty_expression")
 })
 public abstract class TradeTariffCommodityResponseIncludedEntity {
+
   protected String id;
 }

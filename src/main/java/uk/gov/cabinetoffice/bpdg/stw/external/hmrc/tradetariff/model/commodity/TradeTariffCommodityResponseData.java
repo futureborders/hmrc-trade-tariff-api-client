@@ -16,8 +16,12 @@ package uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Optional;
+import java.util.Set;
+import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -36,6 +40,7 @@ public class TradeTariffCommodityResponseData {
   private String formattedDescription;
   private Integer numberIndents;
   private TaxAndDuty taxAndDuty;
+  private List<DutyCalculatorAdditionalCode> dutyCalculatorAdditionalCodes;
 
   @JsonProperty("attributes")
   private void unpackAttributes(Map<String, Object> attributes) {
@@ -70,6 +75,28 @@ public class TradeTariffCommodityResponseData {
         .map(obj -> !obj)
         .orElse(null);
     this.taxAndDuty = new TaxAndDuty(zeroMfnDuty, tradeDefence);
+
+    //noinspection unchecked
+    this.dutyCalculatorAdditionalCodes = dutyCalculator.map(obj -> obj.get("applicable_additional_codes"))
+        .map(l -> (Map<String, Map<String, Object>>) l)
+        .map(Map::entrySet)
+        .orElse(Set.of())
+        .stream()
+        .map(l -> ((Entry<String, Map<String, Object>>) l).getValue().get("additional_codes"))
+        .flatMap(l -> ((List<Map<String, Object>>) l)
+            .stream()
+            .map(m -> DutyCalculatorAdditionalCode.builder()
+                .code(String.valueOf(m.get("code")))
+                .overlay(String.valueOf(m.get("overlay"))).build()))
+        .collect(Collectors.toList());
+  }
+
+  @Data
+  @Builder
+  public static class DutyCalculatorAdditionalCode {
+
+    String code;
+    String overlay;
   }
 
 }

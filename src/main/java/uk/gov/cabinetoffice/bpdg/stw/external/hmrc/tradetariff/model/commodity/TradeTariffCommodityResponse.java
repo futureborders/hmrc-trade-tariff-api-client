@@ -34,6 +34,7 @@ import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.r
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.CommodityMeasure;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.CommodityMeasureCondition;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.CommodityMeasureType;
+import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.DutyExpression;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.TradeTariffCommodityResponseIncludedEntity;
 
 @EqualsAndHashCode(callSuper = true)
@@ -45,7 +46,8 @@ import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.r
 public class TradeTariffCommodityResponse
     extends TradeTariffResponse<TradeTariffCommodityResponseData> {
 
-  @Builder.Default private List<TradeTariffCommodityResponseIncludedEntity> included = new ArrayList<>();
+  @Builder.Default
+  private List<TradeTariffCommodityResponseIncludedEntity> included = new ArrayList<>();
 
   @JsonIgnore
   public Optional<CommodityHeading> getHeading() {
@@ -75,5 +77,10 @@ public class TradeTariffCommodityResponse
   @JsonIgnore
   public List<CommodityAdditionalCode> getAdditionalCodes() {
     return getIncludedType(CommodityAdditionalCode.class);
+  }
+
+  @JsonIgnore
+  public List<DutyExpression> getDutyRates() {
+    return getIncludedType(DutyExpression.class);
   }
 }
