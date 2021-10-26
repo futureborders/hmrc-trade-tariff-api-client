@@ -35,7 +35,7 @@
     <repository>
       <id>fb-nexus</id>
       <name>Futureborders nexus</name>
-      <url>http://nexus.shared.cp.fbp/repository/maven-releases/</url>
+      <url>${env.NEXUS_HOST}/repository/maven-releases/</url>
     </repository>
   </repositories>
 
