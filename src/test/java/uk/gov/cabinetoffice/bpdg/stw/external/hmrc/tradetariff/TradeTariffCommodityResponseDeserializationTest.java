@@ -21,6 +21,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import lombok.SneakyThrows;
@@ -32,7 +33,9 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.mockito.junit.jupiter.MockitoExtension;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.TaxAndDuty;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.TradeTariffCommodityResponse;
+import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.TradeTariffCommodityResponseData.DutyCalculatorAdditionalCode;
 import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.CommodityMeasure;
+import uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.relationships.DutyExpression;
 
 @ExtendWith(MockitoExtension.class)
 class TradeTariffCommodityResponseDeserializationTest {
@@ -143,9 +146,9 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // when / then
     assertThatThrownBy(
-            () ->
-                objectMapper.readValue(
-                    new File(commodityResponseFilePath), TradeTariffCommodityResponse.class))
+        () ->
+            objectMapper.readValue(
+                new File(commodityResponseFilePath), TradeTariffCommodityResponse.class))
         .isInstanceOf(JsonMappingException.class)
         .hasCauseInstanceOf(IllegalArgumentException.class);
   }
@@ -160,9 +163,9 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // when / then
     assertThatThrownBy(
-            () ->
-                objectMapper.readValue(
-                    new File(commodityResponseFilePath), TradeTariffCommodityResponse.class))
+        () ->
+            objectMapper.readValue(
+                new File(commodityResponseFilePath), TradeTariffCommodityResponse.class))
         .isInstanceOf(JsonMappingException.class)
         .hasCauseInstanceOf(IllegalArgumentException.class);
   }
@@ -318,5 +321,94 @@ class TradeTariffCommodityResponseDeserializationTest {
     assertThat(expectedResponse.getIncludedCommodities().get(0).getNumberIndents()).isEqualTo(1);
     assertThat(expectedResponse.getIncludedCommodities().get(0).getProductLineSuffix())
         .isEqualTo(10);
+  }
+
+  @Test
+  @SneakyThrows
+  void shouldGetDutyExpressionForCommodities() {
+    // given
+    var objectMapper = new ObjectMapper();
+    var commodityResponseFilePath = "src/test/resources/undenatured-ethyl-alcohol-vol-80-over.json";
+
+    // when
+    var expectedResponse =
+        objectMapper.readValue(
+            new File(commodityResponseFilePath), TradeTariffCommodityResponse.class);
+
+    // then
+    assertThat(expectedResponse).isNotNull();
+    assertThat(expectedResponse.getDutyRates()).hasSize(53);
+    assertThat(expectedResponse.getDutyRates()).contains(
+        DutyExpression.builder().id("20118018-duty_expression").base("0.00 %").build());
+    assertThat(expectedResponse.getDutyRates()).contains(
+        DutyExpression.builder().id("20126375-duty_expression").base("16.00 GBP / hl").build());
+  }
+
+  @Test
+  @SneakyThrows
+  void shouldGetMeasureDetails() {
+    // given
+    var objectMapper = new ObjectMapper();
+    var commodityResponseFilePath = "src/test/resources/undenatured-ethyl-alcohol-vol-80-over.json";
+
+    // when
+    var expectedResponse =
+        objectMapper.readValue(
+            new File(commodityResponseFilePath), TradeTariffCommodityResponse.class);
+
+    // then
+    assertThat(expectedResponse).isNotNull();
+    assertThat(expectedResponse.getMeasures()).hasSize(53);
+    assertThat(expectedResponse.getMeasures()).contains(
+        CommodityMeasure.builder().isImport(true).isVAT(false).isExcise(false).measureTypeId("142").geographicalAreaId("1006").additionalCodeId(null).dutyExpressionId("20118018-duty_expression")
+            .legalActId("C2100006").quotaNumber(null).measureConditionIds(
+                Set.of("20091993", "20091994")).excludedCountries(Set.of()).id("20118018").build());
+    assertThat(expectedResponse.getMeasures()).contains(
+        CommodityMeasure.builder().isImport(true).isVAT(true).isExcise(false).measureTypeId("305").geographicalAreaId("1011").additionalCodeId(null).dutyExpressionId("-1010374042-duty_expression")
+            .legalActId("V1970ATS").quotaNumber(null).measureConditionIds(
+                Set.of()).excludedCountries(Set.of()).id("-1010374042").build());
+    assertThat(expectedResponse.getMeasures()).contains(
+        CommodityMeasure.builder().isImport(true).isVAT(false).isExcise(true).measureTypeId("306").geographicalAreaId("1011").additionalCodeId("-1009206084").dutyExpressionId("-1009444058-duty_expression")
+            .legalActId("X1970451").quotaNumber(null).measureConditionIds(
+                Set.of()).excludedCountries(Set.of()).id("-1009444058").build());
+  }
+
+  @Test
+  @SneakyThrows
+  void shouldGetTaxAndDutyData() {
+    // given
+    var objectMapper = new ObjectMapper();
+    var commodityResponseFilePath = "src/test/resources/undenatured-ethyl-alcohol-vol-80-over.json";
+
+    // when
+    var expectedResponse =
+        objectMapper.readValue(
+            new File(commodityResponseFilePath), TradeTariffCommodityResponse.class);
+
+    // then
+    assertThat(expectedResponse).isNotNull();
+    assertThat(expectedResponse.getData()).isNotNull();
+    assertThat(expectedResponse.getData().getTaxAndDuty()).isEqualTo(TaxAndDuty.builder().hasMostFavouredNationDuty(true).hasTradeRemedies(false).build());
+  }
+
+  @Test
+  @SneakyThrows
+  void shouldGetDutyCalculatorAdditionalCodes() {
+    // given
+    var objectMapper = new ObjectMapper();
+    var commodityResponseFilePath = "src/test/resources/undenatured-ethyl-alcohol-vol-80-over.json";
+
+    // when
+    var expectedResponse =
+        objectMapper.readValue(
+            new File(commodityResponseFilePath), TradeTariffCommodityResponse.class);
+
+    // then
+    assertThat(expectedResponse).isNotNull();
+    assertThat(expectedResponse.getData()).isNotNull();
+    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).hasSize(3);
+    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(DutyCalculatorAdditionalCode.builder().code("2600").overlay("The product I am importing is COVID-19 critical").build());
+    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(DutyCalculatorAdditionalCode.builder().code("2601").overlay("The product I am importing is not COVID-19 critical").build());
+    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(DutyCalculatorAdditionalCode.builder().code("X451").overlay("451 - Spirits other than UK-produced whisky").build());
   }
 }
