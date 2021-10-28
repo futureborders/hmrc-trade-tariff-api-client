@@ -36,7 +36,7 @@ pipeline {
       steps {
         container('maven') {
           mavenSettings(path: "${env.WORKSPACE}/settings.xml")
-          deployLibrary(branch: BRANCH_NAME) {
+          deployLibraryV2(branch: BRANCH_NAME) {
             sh "mvn  clean deploy"
             // Below is to push to github
             //sh "mvn --settings ${env.WORKSPACE}/settings.xml clean deploy"          
