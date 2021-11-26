@@ -20,7 +20,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.awaitility.Awaitility.await;
 import static uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.CommoditiesApiVersion.COMMODITIES_GB_V2;
-import static uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.CommoditiesApiVersion.COMMODITIES_NI_V2;
+import static uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.CommoditiesApiVersion.COMMODITIES_XI_V2;
 import static uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.HeadingsApiVersion.HEADINGS_GB_V2;
 import static uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.HeadingsApiVersion.HEADINGS_NI_V2;
 
@@ -227,10 +227,10 @@ public class TradeTariffApiTest {
           objectMapper.readValue(
               new File(commodityResponseFilePath), TradeTariffCommodityResponse.class);
       stubCommoditiesResponse(
-          COMMODITIES_NI_V2.apiPathFor("1006101000"), commodityResponseFilePath);
+          COMMODITIES_XI_V2.apiPathFor("1006101000"), commodityResponseFilePath);
       // when
       final Mono<TradeTariffCommodityResponse> tradeTariffCommodityResponsePublisher =
-          tradeTariffApi.getCommodity("1006101000", LocalDate.now(), COMMODITIES_NI_V2);
+          tradeTariffApi.getCommodity("1006101000", LocalDate.now(), COMMODITIES_XI_V2);
       // then
       StepVerifier.create(tradeTariffCommodityResponsePublisher)
           .expectNext(expectedResponse)

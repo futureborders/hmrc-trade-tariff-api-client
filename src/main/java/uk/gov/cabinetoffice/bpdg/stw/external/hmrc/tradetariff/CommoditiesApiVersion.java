@@ -18,7 +18,7 @@ package uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff;
 
 public enum CommoditiesApiVersion {
   COMMODITIES_GB_V2("/api/v2/commodities/%s"),
-  COMMODITIES_NI_V2("/xi/api/v2/commodities/%s");
+  COMMODITIES_XI_V2("/xi/api/v2/commodities/%s");
 
   private final String apiPath;
 
