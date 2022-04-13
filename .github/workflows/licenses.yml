@@ -18,7 +18,7 @@ jobs:
           go-version: '^1.15.6'
 
       - name: Install google/addlicence
-        run: go get -u github.com/google/addlicense
+        run: go get -u github.com/google/addlicense@latest
 
       - name: Add license headers using addlicense
         run: addlicense --check -skip html -c 'Crown Copyright (Single Trade Window)' src/main/java src/test/java
@@ -36,7 +36,7 @@ jobs:
           go-version: '^1.15.6'
 
       - name: Install google/addlicence
-        run: go get -u github.com/google/addlicense
+        run: go get -u github.com/google/addlicense@latest
 
       - name: Add license headers using addlicense
         run: addlicense -c 'Crown Copyright (Single Trade Window)' src/main/java src/test/java
