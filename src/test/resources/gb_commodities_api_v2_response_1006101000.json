@@ -451,6 +451,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": true,
         "excise": false,
         "vat": false
       },
@@ -3869,6 +3870,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -4013,6 +4015,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": "2021-12-31T23:59:59.000Z",
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -4256,6 +4259,7 @@
         "effective_start_date": "2019-09-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": true
       },
@@ -4415,6 +4419,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -4594,6 +4599,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -4820,6 +4826,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -4977,6 +4984,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -5090,6 +5098,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -5211,6 +5220,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -5513,6 +5523,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -5658,6 +5669,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -5783,6 +5795,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -5869,6 +5882,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -5955,6 +5969,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6041,6 +6056,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6127,6 +6143,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6213,6 +6230,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6299,6 +6317,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6385,6 +6404,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6471,6 +6491,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6570,6 +6591,7 @@
         "effective_start_date": "2021-03-05T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6656,6 +6678,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6742,6 +6765,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6828,6 +6852,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -6914,6 +6939,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7000,6 +7026,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7086,6 +7113,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7172,6 +7200,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7258,6 +7287,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7344,6 +7374,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7430,6 +7461,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7516,6 +7548,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7602,6 +7635,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7688,6 +7722,7 @@
         "effective_start_date": "2021-01-20T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7774,6 +7809,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7860,6 +7896,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -7946,6 +7983,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -8032,6 +8070,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -8118,6 +8157,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },
@@ -8204,6 +8244,7 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false
       },

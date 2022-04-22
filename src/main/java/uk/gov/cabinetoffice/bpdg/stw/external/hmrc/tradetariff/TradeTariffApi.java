@@ -148,11 +148,10 @@ public class TradeTariffApi {
   }
 
   private TradeTariffCommodityResponse notFoundResponse() {
-    return TradeTariffCommodityResponse.builder()
-        .errors(
-            Collections.singletonList(
-                TradeTariffError.builder().detail("404 - not found.").build()))
-        .build();
+      TradeTariffCommodityResponse response = new TradeTariffCommodityResponse();
+      response.setErrors(Collections.singletonList(
+              TradeTariffError.builder().detail("404 - not found.").build()));
+    return response;
   }
 
   private ExchangeFilterFunction responseFilter() {
@@ -209,12 +208,11 @@ public class TradeTariffApi {
                   }
                   if (clientResponse.statusCode().equals(HttpStatus.NOT_FOUND)) {
                     log.debug("No heading found in headings API response for code {}", headingCode);
+                      TradeTariffHeadingResponse response = new TradeTariffHeadingResponse();
+                      response.setErrors(Collections.singletonList(
+                              TradeTariffError.builder().detail("404 - not found.").build()));
                     return Mono.just(
-                        TradeTariffHeadingResponse.builder()
-                            .errors(
-                                Collections.singletonList(
-                                    TradeTariffError.builder().detail("404 - not found.").build()))
-                            .build());
+                        response);
                   }
 
                   return clientResponse.bodyToMono(TradeTariffHeadingResponse.class);

@@ -54,10 +54,6 @@
       "import_measures": {
         "data": [
           {
-            "id": "20118018",
-            "type": "measure"
-          },
-          {
             "id": "20126376",
             "type": "measure"
           },
@@ -78,7 +74,7 @@
             "type": "measure"
           },
           {
-            "id": "20136676",
+            "id": "20179205",
             "type": "measure"
           },
           {
@@ -115,6 +111,10 @@
           },
           {
             "id": "20134682",
+            "type": "measure"
+          },
+          {
+            "id": "20179809",
             "type": "measure"
           },
           {
@@ -194,6 +194,10 @@
             "type": "measure"
           },
           {
+            "id": "20151493",
+            "type": "measure"
+          },
+          {
             "id": "20093062",
             "type": "measure"
           },
@@ -210,7 +214,15 @@
             "type": "measure"
           },
           {
-            "id": "20150608",
+            "id": "20179778",
+            "type": "measure"
+          },
+          {
+            "id": "20151827",
+            "type": "measure"
+          },
+          {
+            "id": "20146555",
             "type": "measure"
           },
           {
@@ -227,6 +239,10 @@
           },
           {
             "id": "20081689",
+            "type": "measure"
+          },
+          {
+            "id": "20179857",
             "type": "measure"
           },
           {
@@ -337,7 +353,7 @@
         "entry_price_system": false,
         "meursing_code": false,
         "source": "uk",
-        "trade_defence": false,
+        "trade_defence": true,
         "zero_mfn_duty": false
       }
     }
@@ -350,7 +366,7 @@
         "numeral": "IV",
         "title": "Prepared foodstuffs; beverages, spirits and vinegar; tobacco and manufactured tobacco substitutes",
         "position": 4,
-        "section_note": "1.  In this section, the term 'pellets' means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight."
+        "section_note": "In this section the term 'pellets' means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight."
       }
     },
     {
@@ -368,7 +384,7 @@
         "goods_nomenclature_item_id": "2200000000",
         "description": "BEVERAGES, SPIRITS AND VINEGAR",
         "formatted_description": "Beverages, spirits and vinegar",
-        "chapter_note": "* 1\\. This chapter does not cover:\r\n  * (a) products of this chapter (other than those of heading 2209) prepared for culinary purposes and thereby rendered unsuitable for consumption as beverages (generally heading 2103);\r\n  * (b) sea water (heading 2501);\r\n  * (c) distilled or conductivity water or water of similar purity (heading 2853);\r\n  * (d) acetic acid of a concentration exceeding 10% by weight of acetic acid (heading 2915);\r\n  * (e) medicaments of heading 3003 or 3004; or\r\n  * (f) perfumery or toilet preparations (Chapter 33).\r\n\r\n* 2\\. For the purposes of this chapter and of Chapters 20 and 21, the alcoholic strength by volume shall be determined at a temperature of 20°C.\r\n\r\n* 3\\. For the purposes of heading 2202, the term 'non-alcoholic beverages' means beverages of an alcoholic strength by volume not exceeding 0.5% vol. Alcoholic beverages are classified in headings 2203 to 2206 or heading 2208 as appropriate.\r\n\r\n\r\n## Subheading note ##\r\n\r\n* 1\\. For the purposes of subheading 2204 10, the expression 'sparkling wine' means wine which, when kept at a temperature of 20°C in closed containers, has an excess pressure of not less than 3 bar.\r\n\r\n## Additional chapter notes ##\r\n\r\n* 1\\. Subheading 2202 10 00 covers waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, providing they are for direct consumption as a beverage.\r\n* 2\\. For the purposes of headings 2204 and 2205 and subheading 2206 00 10:\r\n  * (a) 'actual alcoholic strength by volume' means the number of volumes of pure alcohol contained at a temperature of 20°C in 100 volumes of the product at that temperature;\r\n  * (b) 'potential alcoholic strength by volume' means the number of volumes of pure alcohol at a temperature of 20°C capable of being produced by total fermentation of the sugars contained in 100 volumes of the product at that temperature;\r\n  * (c) 'total alcoholic strength by volume' means the sum of the actual and potential alcoholic strengths;\r\n  * (d) 'natural alcoholic strength by volume' means the total alcoholic strength by volume of a product before any enrichment;\r\n  * (e) '% vol' is the symbol for alcoholic strength by volume.\r\n\r\n* 3\\. For the purposes of subheading 2204 30 10, 'grape must in fermentation' means the product derived from the fermentation of grape must, having an actual alcoholic strength by volume of more than 1% vol and less than three-fifths of its total alcoholic strength by volume.\r\n\r\n* 4\\. For the purposes of subheadings 2204 21, 2204 22 and 2204 29:\r\n  * A. ''total dry extract' means the content in grams per litre of all the substances in a product which, under given physical conditions do not volatilise.\r\n  * The total dry extract must be determined with the densimeter at 20°C.\r\n\r\n  * B. (a) the presence in the products of subheadings 2204 21 11 to 2204 21 98, 2204 22 22 to 2204 22 98 and 2204 29 22 to 2204 29 98 of the quantities of total dry extract per litre indicated in 1, 2, 3 and 4 below does not affect their classification:\r\n    * 1\\. products of an actual alcoholic strength by volume of not more than 13% vol: 90g or less of total extract per litre;\r\n    * 2\\. products of an actual alcoholic strength by volume of more than 13% vol but not more than 15% vol: 130g or less of total dry extract per litre;\r\n    * 3\\. products of an actual alcoholic strength by volume of more than 15% vol but not more than 18% vol: 130g or less of total dry extract per litre;\r\n    * 4\\. products of an actual alcoholic strength by volume of more than 18% vol but not more than 22% vol: 330g or less of total dry extract per litre.\r\n\r\n* Products with a total dry extract exceeding the maximum quantity shown above in each category are to be classified in the next following category, except that if the total dry extract exceeds 330 g/l the products are to be classified in subheadings 2204 21 98, 2204 22 98 and 2204 29 98;\r\n\r\n  * (b) the above rules do not apply to products of subheadings 2204 21 23 and 2204 22 33.\r\n\r\n* 5\\. Subheadings 2204 21 11 to 2204 21 98, 2204 22 22 to 2204 22 98 and 2204 29 22 to 2204 29 98 shall be taken to include:\r\n\r\n  * (a) grape must with fermentation arrested by the addition of alcohol, that is to say, a product:\r\n    * \\- having an actual alcoholic strength by volume of not less than 12% vol but less than 15% vol. and \r\n     * \\- obtained by the addition to unfermented grape must having a natural alcoholic strength by volume of not less than 8.5% vol. of a product derived from the distillation of wine;\r\n  * (b) wine fortified for distillation, that is to say a product:\r\n    * \\- having an actual alcoholic strength by volume of not less than 18% vol. but not more than 24% vol.\r\n    * \\- obtained exclusively by the addition to wine containing no residual sugar of an unrectified product derived from the distillation of wine and having a maximum actual alcoholic strength by volume of 86% vol. and\r\n     * \\- having a maximum volatile acidity of 1.5g/l, expressed as acetic acid;\r\n   * (c) liqueur wine, that is to say, a product:\r\n     * \\- having a total alcoholic strength by volume of not less than 17.5% vol. and an actual alcoholic strength by volume of not less than 15% vol. but not more than 22% vol. and\r\n     * \\- obtained from grape must or wine, which must come from vine varieties approved in the third country of origin for the production of liqueur wine and have a minimum natural alcoholic strength by volume of 12% vol,\r\n      * \\- by freezing, or\r\n      * \\- by the addition during or after fermentation: \r\n      * \\- of a product derived from the distillation of wine, or\r\n      * \\- of concentrated grape must or, in the case of certain liqueur wines with a designation of origin or with a geographical indication appearing in the register provided for by Article 104 of Regulation (EU) No 1308/2013  and for which such practise is traditional, of grape must concentrated by direct heat, which, apart from this operation, corresponds to the definition of concentrated grape must, or\r\n      * \\- of a mixture of these products.\r\n\r\n* However, certain liqueur wines with a designation of origin or with a geographical indication appearing in the register provided for by Article 104 of Regulation (EU) No 1308/2013 may be obtained from unfermented fresh grape must which does not need to have a minimum natural alcoholic strength by volume of 12 % vol.\r\n\r\n* 6\\. For the purposes of subheadings 2204 10, 2204 21, 2204 22 and 2204 29:\r\n  * (a) wines with a protected designation of origin (PDO) and wines with a protected geographical indication (PGI) are wines which comply with the provisions of the UK equivalent of Articles 93 to 108 of Regulation (EU) No 1308/2013;\r\n  * (b) varietal wines are wines which comply with the provisions of the UK equivalent of Article 120 of Regulation (EU) No 1308/2013; \r\n  * (c) wines produced in the European Union are wines which comply with the provisions of the UK equivalent of Regulation (EU) No 1308/2013 and the provisions of the UK equivalent of Article 45 of Regulation (EU) 33/2019.\r\n\r\n* 7\\. For the purposes of subheadings 2204 30 92 and 2204 30 96 'concentrated grape must' means grape must for which the figure indicated by a refractometer (used in accordance with the method prescribed in the 'Compendium of International Methods of Analysis of Wines and Musts' of the International Organisation of Vine and Wine) at a temperature of 20C is not less than 50.9%.\r\n\r\n* 8\\. Only vermouth and other wine of fresh grapes flavoured with plants or aromatic substances having an actual alcoholic strength by volume of not less than 7% vol shall be regarded as products of heading 2205.\r\n\r\n* 9\\. For the purposes of subheading 2206 00 10, the expression 'piquette' means the product obtained by the fermentation of untreated grape marc macerated in water or by the extraction of fermented grape marc with water.\r\n\r\n* 10\\. For the purposes of subheadings 2206 00 31 and 2206 00 39, the following are regarded as 'sparkling':\r\n   * \\- fermented beverages in bottles with 'mushroom' stoppers held in place by ties or fastenings,\r\n   * \\- fermented beverages otherwise put up, with an excess pressure of 3 bar or more, measured at a temperature of 20 C.\r\n\r\n* 11\\. For the purposes of subheadings 2209 00 11 and 2209 00 19, the expression 'wine vinegar' means vinegar obtained exclusively by acetous fermentation of wine and having a total acidity of not less than 60g/l, expressed as acetic acid.\r\n\r\n* 12\\. Subheading 2207 20 covers mixtures of ethyl alcohol used as raw material to produce fuels for motor vehicles of an alcoholic strength by volume of 50 % or higher and denatured with one or more of the following substances:\r\n  * (a) automotive petrol (conforming to EN 228);\r\n  * (b) tert-butyl ethyl ether (ethyl tert-butylether, ETBE);\r\n  * (c) methyl tert-butylether (MTBE); \r\n  * (d) 2-methylpropan-2-ol (tert-butyl alcohol, tertiary butyl alcohol, TBA);\r\n  * (e) 2-methylpropan-1-ol (2-methyl-1-propanol, isobutanol);\r\n  * (f)\tpropan-2-ol (isopropyl alcohol, 2-propanol, isopropanol).\r\n * The denaturants referred to in points (e) and (f) of the first paragraph must be used in combination with at least one of the denaturants listed in points (a) to (d) of the first paragraph.\r\n\r\n* 13\\.  For the purposes of subheadings 2202 99 11 and 2202 99 15, the protein content shall be determined by multiplying the total nitrogen content, calculated using the method laid down in (the UK equivalent of points 2 to 8 of part C of Annex III to Commission Regulation (EC) No 152/2009), by the factor of 6.25.\r\n\r\n* 14\\. For the purposes of this chapter, “agricultural products” means:\r\n  * goods of chapters 1 to 4, 6 to 12, 16 and 23 of the classification;\r\n  * goods of headings 0504, 0515, 1501, 1502, 1503, 1504, 1507, 1512, 1513, 1517, 1701, 1702, 1703, 1705, 1801, 1802, 2204, 2205, 2207, 2210, 2401, 2501, 5410 and 5701 of the classification;\r\n  * pectin;\r\n  * ethyl alcohol or neutral spirits, whether or not denatured, of any strength, obtained from agricultural products listed in the three bullet points above, excluding liqueurs and other spirituous beverages and compound alcoholic preparations (known as \"concentrated extracts\") for the manufacture of beverages.\r\n"
+        "chapter_note": "1. This chapter does not cover:\r\n\r\n    - a. products of this chapter (other than those of heading 2209) prepared for culinary purposes and thereby rendered unsuitable for consumption as beverages (generally heading 2103);\r\n    \r\n    - b. sea water (heading 2501);\r\n    \r\n    - c. distilled or conductivity water or water of similar purity (heading 2853);\r\n    \r\n    - d. acetic acid of a concentration exceeding 10% by weight of acetic acid (heading 2915);\r\n    \r\n    - e. medicaments of heading 3003 or 3004; or\r\n    \r\n    - f. perfumery or toilet preparations (Chapter 33).\r\n\r\n2. For the purposes of this chapter and of Chapters 20 and 21, the alcoholic strength by volume shall be determined at a temperature of 20°C.\r\n\r\n3. For the purposes of heading 2202, the term 'non-alcoholic beverages' means beverages of an alcoholic strength by volume not exceeding 0.5% vol. Alcoholic beverages are classified in headings 2203 to 2206 or heading 2208 as appropriate.\r\n\r\n### Subheading note\r\n\r\n1. For the purposes of subheading 2204 10, the expression 'sparkling wine' means wine which, when kept at a temperature of 20°C in closed containers, has an excess pressure of not less than 3 bar.\r\n\r\n### Additional chapter notes\r\n\r\n1. Subheading 2202 10 00 covers waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, providing they are for direct consumption as a beverage.\r\n\r\n2. For the purposes of headings 2204 and 2205 and subheading 2206 00 10:\r\n\r\n    - a. 'actual alcoholic strength by volume' means the number of volumes of pure alcohol contained at a temperature of 20°C in 100 volumes of the product at that temperature;\r\n    \r\n    - b. 'potential alcoholic strength by volume' means the number of volumes of pure alcohol at a temperature of 20°C capable of being produced by total fermentation of the sugars contained in 100 volumes of the product at that temperature;\r\n    \r\n    - c. 'total alcoholic strength by volume' means the sum of the actual and potential alcoholic strengths;\r\n    \r\n    - d. 'natural alcoholic strength by volume' means the total alcoholic strength by volume of a product before any enrichment;\r\n    \r\n    - e. '% vol' is the symbol for alcoholic strength by volume.\r\n\r\n3. For the purposes of subheading 2204 30 10, 'grape must in fermentation' means the product derived from the fermentation of grape must, having an actual alcoholic strength by volume of more than 1% vol and less than three-fifths of its total alcoholic strength by volume.\r\n\r\n4. For the purposes of subheadings 2204 21, 2204 22 and 2204 29:\r\n\r\n    A. 'total dry extract' means the content in grams per litre of all the substances in a product which, under given physical conditions do not volatilise. The total dry extract must be determined with the densimeter at 20°C.\r\n    \r\n    B. (a) the presence in the products of subheadings 2204 21 11 to 2204 21 98, 2204 22 22 to 2204 22 98 and 2204 29 22 to 2204 29 98 of the quantities of total dry extract per litre indicated in 1, 2, 3 and 4 below does not affect their classification:\r\n    \r\n    1. products of an actual alcoholic strength by volume of not more than 13% vol: 90g or less of total extract per litre;\r\n    \r\n    2. products of an actual alcoholic strength by volume of more than 13% vol but not more than 15% vol: 130g or less of total dry extract per litre;\r\n    \r\n    3. products of an actual alcoholic strength by volume of more than 15% vol but not more than 18% vol: 130g or less of total dry extract per litre;\r\n    \r\n    4. products of an actual alcoholic strength by volume of more than 18% vol but not more than 22% vol: 330g or less of total dry extract per litre. Products with a total dry extract exceeding the maximum quantity shown above in each category are to be classified in the next following category, except that if the total dry extract exceeds 330 g/l the products are to be classified in subheadings 2204 21 98, 2204 22 98 and 2204 29 98;\r\n    \r\n    (b) the above rules do not apply to products of subheadings 2204 21 23 and 2204 22 33.\r\n\r\n5. Subheadings 2204 21 11 to 2204 21 98, 2204 22 22 to 2204 22 98 and 2204 29 22 to 2204 29 98 shall be taken to include:\r\n\r\n    - a. grape must with fermentation arrested by the addition of alcohol, that is to say, a product:\r\n\r\n        - having an actual alcoholic strength by volume of not less than 12% vol but less than 15% vol, and\r\n\r\n        - obtained by the addition to unfermented grape must having a natural alcoholic strength by volume of not less than 8.5% vol of a product derived from the distillation of wine;\r\n\r\n    - b. wine fortified for distillation, that is to say a product:\r\n\r\n        - having an actual alcoholic strength by volume of not less than 18% vol but not more than 24% vol,\r\n        \r\n        - obtained exclusively by the addition to wine containing no residual sugar of an unrectified product derived from the distillation of wine and having a maximum actual alcoholic strength by volume of 86% vol, and\r\n        \r\n        - having a maximum volatile acidity of 1.5g/l, expressed as acetic acid;\r\n\r\n    - c. liqueur wine, that is to say, a product:\r\n\r\n        - having a total alcoholic strength by volume of not less than 17.5% vol and an actual alcoholic strength by volume of not less than 15% vol but not more than 22% vol. and\r\n        \r\n        - obtained from grape must or wine, which must come from vine varieties approved in the third country of origin for the production of liqueur wine and have a minimum natural alcoholic strength by volume of 12% vol,\r\n        \r\n        - by freezing, or\r\n        \r\n        - by the addition during or after fermentation:\r\n        \r\n        - of a product derived from the distillation of wine, or\r\n        \r\n        - of concentrated grape must or, in the case of certain liqueur wines with a designation of origin or with a geographical indication appearing in the register provided for by the UK equivalent of Article 104 of Regulation (EU) No 1308/2013 and for which such practise is traditional, of grape must concentrated by direct heat, which, apart from this operation, corresponds to the definition of concentrated grape must, or\r\n        \r\n        - of a mixture of these products.\r\n        \r\n        However, certain liqueur wines with a designation of origin or with a geographical indication appearing in the register provided for by the UK equivalent of Article 104 of Regulation (EU) No 1308/2013 may be obtained from unfermented fresh grape must which does not need to have a minimum natural alcoholic strength by volume of 12 % vol.\r\n\r\n6. For the purposes of subheadings 2204 10, 2204 21, 2204 22 and 2204 29:\r\n\r\n    - a. wines with a protected designation of origin (PDO) and wines with a protected geographical indication (PGI) are wines which comply with the provisions of the UK equivalent of Articles 93 to 108 of Regulation (EU) No 1308/2013;\r\n    \r\n    - alent of Article 120 of Regulation (EU) No 1308/2013;\r\n    \r\n    - c. wines produced in the European Union are wines which comply with the provisions of the UK equivalent of Regulation (EU) No 1308/2013 and the provisions of the UK equivalent of Article 45 of Regulation (EU) 33/2019.\r\n\r\n7. For the purposes of subheadings 2204 30 92 and 2204 30 96 'concentrated grape must' means grape must for which the figure indicated by a refractometer (used in accordance with the method prescribed in the 'Compendium of International Methods of Analysis of Wines and Musts' of the International Organisation of Vine and Wine) at a temperature of 20C is not less than 50.9%.\r\n\r\n8. Only vermouth and other wine of fresh grapes flavoured with plants or aromatic substances having an actual alcoholic strength by volume of not less than 7% vol shall be regarded as products of heading 2205.\r\n\r\n9. For the purposes of subheading 2206 00 10, the expression 'piquette' means the product obtained by the fermentation of untreated grape marc macerated in water or by the extraction of fermented grape marc with water.\r\n\r\n10. For the purposes of subheadings 2206 00 31 and 2206 00 39, the following are regarded as 'sparkling':\r\n\r\n    - fermented beverages in bottles with 'mushroom' stoppers held in place by ties or fastenings,\r\n    \r\n    - fermented beverages otherwise put up, with an excess pressure of 3 bar or more, measured at a temperature of 20 C.\r\n\r\n11. For the purposes of subheadings 2209 00 11 and 2209 00 19, the expression 'wine vinegar' means vinegar obtained exclusively by acetous fermentation of wine and having a total acidity of not less than 60g/l, expressed as acetic acid.\r\n\r\n12. Subheading 2207 20 covers mixtures of ethyl alcohol used as raw material to produce fuels for motor vehicles of an alcoholic strength by volume of 50 % or higher and denatured with one or more of the following substances:\r\n\r\n    a) automotive petrol (conforming to EN 228);\r\n    \r\n    b) tert-butyl ethyl ether (ethyl tert-butylether, ETBE);\r\n    \r\n    c) methyl tert-butylether (MTBE);\r\n    \r\n    d) 2-methylpropan-2-ol (tert-butyl alcohol, tertiary butyl alcohol, TBA);\r\n    \r\n    e) 2-methylpropan-1-ol (2-methyl-1-propanol, isobutanol);\r\n    \r\n    f) propan-2-ol (isopropyl alcohol, 2-propanol, isopropanol).\r\n    \r\n    The denaturants referred to in points (e) and (f) of the first paragraph must be used in combination with at least one of the denaturants listed in points (a) to (d) of the first paragraph.\r\n\r\n13. For the purposes of subheadings 2202 99 11 and 2202 99 15, the protein content shall be determined by multiplying the total nitrogen content, calculated using the method laid down in (the UK equivalent of points 2 to 8 of part C of Annex III to Commission Regulation (EC) No 152/2009), by the factor of 6.25.\r\n\r\n14. For the purposes of this chapter, “agricultural products” means:\r\n\r\n    - goods of chapters 1 to 4, 6 to 12, 16 and 23 of the classification;\r\n    \r\n    - goods of headings 0504, 0515, 1501, 1502, 1503, 1504, 1507, 1512, 1513, 1517, 1701, 1702, 1703, 1705, 1801, 1802, 2204, 2205, 2207, 2210, 2401, 2501, 5410 and 5701 of the classification;\r\n    \r\n    - pectin;\r\n    \r\n    - ethyl alcohol or neutral spirits, whether or not denatured, of any strength, obtained from agricultural products listed in the three bullet points above, excluding liqueurs and other spirituous beverages and compound alcoholic preparations (known as \"concentrated extracts\") for the manufacture of beverages.\r\n"
       },
       "relationships": {
         "guides": {
@@ -413,223 +429,6 @@
       }
     },
     {
-      "id": "20118018-duty_expression",
-      "type": "duty_expression",
-      "attributes": {
-        "base": "0.00 %",
-        "formatted_base": "<span>0.00</span> %"
-      }
-    },
-    {
-      "id": "142",
-      "type": "measure_type",
-      "attributes": {
-        "description": "Tariff preference",
-        "national": null,
-        "measure_type_series_id": "C",
-        "id": "142"
-      }
-    },
-    {
-      "id": "C2100006",
-      "type": "legal_act",
-      "attributes": {
-        "validity_start_date": "2021-01-01T00:00:00.000Z",
-        "validity_end_date": null,
-        "officialjournal_number": "1",
-        "officialjournal_page": 1,
-        "published_date": "2021-01-01",
-        "regulation_code": "C0000/21",
-        "regulation_url": "",
-        "description": null
-      }
-    },
-    {
-      "id": "20091993",
-      "type": "measure_condition",
-      "attributes": {
-        "action": "Apply the mentioned duty",
-        "action_code": "27",
-        "certificate_description": "Proof of origin containing the following statement in English: \"Product originating in accordance with the Canada-UK Trade Agreement\".",
-        "condition": "Q: Presentation of an endorsed certificate/licence",
-        "condition_code": "Q",
-        "condition_duty_amount": null,
-        "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null,
-        "condition_monetary_unit_code": null,
-        "document_code": "U088",
-        "duty_expression": "",
-        "monetary_unit_abbreviation": null,
-        "requirement": "Proofs of origin: Proof of origin containing the following statement in English: \"Product originating in accordance with the Canada-UK Trade Agreement\"."
-      },
-      "relationships": {
-        "measure_condition_components": {
-          "data": []
-        }
-      }
-    },
-    {
-      "id": "20091994",
-      "type": "measure_condition",
-      "attributes": {
-        "action": "Measure not applicable",
-        "action_code": "07",
-        "certificate_description": null,
-        "condition": "Q: Presentation of an endorsed certificate/licence",
-        "condition_code": "Q",
-        "condition_duty_amount": null,
-        "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null,
-        "condition_monetary_unit_code": null,
-        "document_code": "",
-        "duty_expression": "",
-        "monetary_unit_abbreviation": null,
-        "requirement": null
-      },
-      "relationships": {
-        "measure_condition_components": {
-          "data": []
-        }
-      }
-    },
-    {
-      "id": "20118018-01",
-      "type": "measure_component",
-      "attributes": {
-        "duty_expression_id": "01",
-        "duty_amount": 0.0,
-        "monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
-        "measurement_unit_code": null,
-        "measurement_unit_qualifier_code": null,
-        "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%"
-      }
-    },
-    {
-      "id": "GB",
-      "type": "geographical_area",
-      "attributes": {
-        "id": "GB",
-        "description": "United Kingdom",
-        "geographical_area_id": "GB"
-      }
-    },
-    {
-      "id": "1006",
-      "type": "geographical_area",
-      "attributes": {
-        "id": "1006",
-        "description": "UK-Canada agreement: re-imported goods",
-        "geographical_area_id": "1006"
-      },
-      "relationships": {
-        "children_geographical_areas": {
-          "data": [
-            {
-              "id": "GB",
-              "type": "geographical_area"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "CD727",
-      "type": "footnote",
-      "attributes": {
-        "code": "CD727",
-        "description": "Eligibility to benefit from this preference is subject to the presentation of an origin declaration stating the European Union origin of the goods, in the context of the Canada-European Union Comprehensive Economic and Trade Agreement (CETA).",
-        "formatted_description": "Eligibility to benefit from this preference is subject to the presentation of an origin declaration stating the European Union origin of the goods, in the context of the Canada-European Union Comprehensive Economic and Trade Agreement (CETA)."
-      }
-    },
-    {
-      "id": "20118018",
-      "type": "measure",
-      "attributes": {
-        "id": 20118018,
-        "origin": "eu",
-        "effective_start_date": "2021-01-01T00:00:00.000Z",
-        "effective_end_date": null,
-        "import": true,
-        "excise": false,
-        "vat": false,
-        "reduction_indicator": null,
-        "meursing": false,
-        "resolved_duty_expression": null
-      },
-      "relationships": {
-        "duty_expression": {
-          "data": {
-            "id": "20118018-duty_expression",
-            "type": "duty_expression"
-          }
-        },
-        "measure_type": {
-          "data": {
-            "id": "142",
-            "type": "measure_type"
-          }
-        },
-        "legal_acts": {
-          "data": [
-            {
-              "id": "C2100006",
-              "type": "legal_act"
-            }
-          ]
-        },
-        "measure_conditions": {
-          "data": [
-            {
-              "id": "20091993",
-              "type": "measure_condition"
-            },
-            {
-              "id": "20091994",
-              "type": "measure_condition"
-            }
-          ]
-        },
-        "measure_components": {
-          "data": [
-            {
-              "id": "20118018-01",
-              "type": "measure_component"
-            }
-          ]
-        },
-        "national_measurement_units": {
-          "data": []
-        },
-        "geographical_area": {
-          "data": {
-            "id": "1006",
-            "type": "geographical_area"
-          }
-        },
-        "excluded_countries": {
-          "data": []
-        },
-        "footnotes": {
-          "data": [
-            {
-              "id": "CD727",
-              "type": "footnote"
-            }
-          ]
-        },
-        "order_number": {
-          "data": null
-        }
-      },
-      "meta": {
-        "duty_calculator": {
-          "source": "uk"
-        }
-      }
-    },
-    {
       "id": "20126376-duty_expression",
       "type": "duty_expression",
       "attributes": {
@@ -642,9 +441,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Third country duty",
-        "national": null,
         "measure_type_series_id": "C",
-        "id": "103"
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "103",
+        "measure_type_series_description": "Applicable duty"
       }
     },
     {
@@ -666,14 +470,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "AD",
@@ -1357,6 +1162,15 @@
         "id": "GA",
         "description": "Gabon",
         "geographical_area_id": "GA"
+      }
+    },
+    {
+      "id": "GB",
+      "type": "geographical_area",
+      "attributes": {
+        "id": "GB",
+        "description": "United Kingdom",
+        "geographical_area_id": "GB"
       }
     },
     {
@@ -3893,11 +3707,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -3931,6 +3747,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -3963,7 +3782,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -3976,17 +3796,33 @@
       }
     },
     {
+      "id": "HLT",
+      "type": "measurement_unit",
+      "attributes": {
+        "description": "Hectolitre",
+        "measurement_unit_code": "HLT"
+      }
+    },
+    {
       "id": "20126375-01",
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 16.0,
+        "duty_amount": 16,
         "monetary_unit_code": "GBP",
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": "HLT",
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
+      },
+      "relationships": {
+        "measurement_unit": {
+          "data": {
+            "id": "HLT",
+            "type": "measurement_unit"
+          }
+        }
       }
     },
     {
@@ -4007,11 +3843,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4045,6 +3883,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4072,7 +3913,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -4089,9 +3931,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Supplementary unit",
-        "national": null,
         "measure_type_series_id": "O",
-        "id": "109"
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 2,
+        "validity_end_date": null,
+        "validity_start_date": "2008-01-01T00:00:00.000Z",
+        "id": "109",
+        "measure_type_series_description": "Supplementary unit"
       }
     },
     {
@@ -4109,6 +3956,14 @@
       }
     },
     {
+      "id": "LTR",
+      "type": "measurement_unit",
+      "attributes": {
+        "description": "Litre",
+        "measurement_unit_code": "LTR"
+      }
+    },
+    {
       "id": "2982607-99",
       "type": "measure_component",
       "attributes": {
@@ -4120,6 +3975,14 @@
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "Supplementary unit",
         "duty_expression_abbreviation": "UNSUP"
+      },
+      "relationships": {
+        "measurement_unit": {
+          "data": {
+            "id": "LTR",
+            "type": "measurement_unit"
+          }
+        }
       }
     },
     {
@@ -4131,11 +3994,13 @@
         "effective_start_date": "2008-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": true,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4169,6 +4034,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4190,7 +4058,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -4207,9 +4076,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Value added tax",
-        "national": null,
         "measure_type_series_id": "P",
-        "id": "305"
+        "measure_component_applicable_code": 0,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "305",
+        "measure_type_series_description": "VAT"
       }
     },
     {
@@ -4231,14 +4105,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 20.0,
+        "duty_amount": 20,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "03020",
@@ -4258,11 +4133,13 @@
         "effective_start_date": "2020-06-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": true,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4296,6 +4173,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4322,7 +4202,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -4339,9 +4220,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Excises",
-        "national": null,
         "measure_type_series_id": "Q",
-        "id": "306"
+        "measure_component_applicable_code": 0,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "306",
+        "measure_type_series_description": "Excises"
       }
     },
     {
@@ -4359,6 +4245,14 @@
       }
     },
     {
+      "id": "LPA",
+      "type": "measurement_unit",
+      "attributes": {
+        "description": "Litre pure (100%) alcohol",
+        "measurement_unit_code": "LPA"
+      }
+    },
+    {
       "id": "-1009444058-01",
       "type": "measure_component",
       "attributes": {
@@ -4370,6 +4264,14 @@
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
+      },
+      "relationships": {
+        "measurement_unit": {
+          "data": {
+            "id": "LPA",
+            "type": "measurement_unit"
+          }
+        }
       }
     },
     {
@@ -4399,11 +4301,13 @@
         "effective_start_date": "2019-07-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": true,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4437,6 +4341,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4469,12 +4376,13 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
     {
-      "id": "20136676-duty_expression",
+      "id": "20179205-duty_expression",
       "type": "duty_expression",
       "attributes": {
         "base": "",
@@ -4486,9 +4394,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Import control of organic products",
-        "national": null,
         "measure_type_series_id": "B",
-        "id": "750"
+        "measure_component_applicable_code": 0,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "2017-01-01T00:00:00.000Z",
+        "id": "750",
+        "measure_type_series_description": "Entry into free circulation or exportation subject to conditions"
       }
     },
     {
@@ -4506,7 +4419,7 @@
       }
     },
     {
-      "id": "20114001",
+      "id": "20180576",
       "type": "measure_condition",
       "attributes": {
         "action": "Import/export allowed after control",
@@ -4520,6 +4433,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "C644",
         "duty_expression": "",
+        "guidance_cds": "- Enter the reference number of the Certificate.\n\n- Where a sequentially numbered range of certificates covers the goods, enter the lowest to the highest reference numbers of the certificates concerned, e.g. document code + 0054037-0054047: status code.\n\n- Where certificates are not sequentially numbered, enter the reference number of each certificate concerned.\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AE, AP, GE, LE, LP, UE",
+        "guidance_chief": "- Use one of the [status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations) AE, AP, GE, LE, LP, UE.\n\n",
+        "measure_condition_class": "document",
         "monetary_unit_abbreviation": null,
         "requirement": "Other certificates: Certificate of Inspection for Organic Products as referred to in Article 33(1)(d) of <a href=\"https://www.legislation.gov.uk/eur/2007/834\">Regulation (EC) No 834/2007</a> as retained in UK law."
       },
@@ -4530,7 +4446,7 @@
       }
     },
     {
-      "id": "20114002",
+      "id": "20180577",
       "type": "measure_condition",
       "attributes": {
         "action": "Import/export allowed after control",
@@ -4544,6 +4460,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "Y929",
         "duty_expression": "",
+        "guidance_cds": "- Complete the statement 'Excluded from regulation 834/2007'.\n\n- Use of this code constitutes a legal declaration that the goods are not concerned by Regulation (EC) No 834/2007 (organic products) Council Regulation (EC) No 834/2007 on organic production and labelling of organic products.\n\n- Sufficient evidence must be held in records to demonstrate eligibility for this waiver which must be produced on demand.\n\n- No document status code is required.",
+        "guidance_chief": "",
+        "measure_condition_class": "exemption",
         "monetary_unit_abbreviation": null,
         "requirement": "Particular provisions: Goods not covered by <a href=\"https://www.legislation.gov.uk/eur/2007/834\">Regulation (EC) No 834/2007</a> (e.g. non organic goods) as retained in UK Law."
       },
@@ -4554,7 +4473,7 @@
       }
     },
     {
-      "id": "20114003",
+      "id": "20180578",
       "type": "measure_condition",
       "attributes": {
         "action": "Import/export not allowed after control",
@@ -4568,6 +4487,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "",
         "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
         "monetary_unit_abbreviation": null,
         "requirement": null
       },
@@ -4582,29 +4504,31 @@
       "type": "footnote",
       "attributes": {
         "code": "CD808",
-        "description": "If goods bear a reference to organic production in the labelling, advertising or accompanying documents, the declarant has to present the certificate of inspection C644 as referred to in the Article 33(1)(d) of the Regulation (EC) No 834/2007 (equivalent products). If the goods are not equivalent products, code Y929 must be declared.<br>Without prejudice to any measures or actions taken in accordance with Article 30 of Regulation (EC) No 834/2007 and/or Article 85 of Regulation (EC) No 889/2008, the release for free circulation in the Community of products not in conformity with the requirements of that Regulation shall be conditional on the removal of references to organic production from the labelling, advertising and accompanying documents.<br>",
-        "formatted_description": "If goods bear a reference to organic production in the labelling, advertising or accompanying documents, the declarant has to present the certificate of inspection C644 as referred to in the Article 33(1)(d) of the Regulation (EC) No 834/2007 (equivalent products). If the goods are not equivalent products, code Y929 must be declared.<br>Without prejudice to any measures or actions taken in accordance with Article 30 of Regulation (EC) No 834/2007 and/or Article 85 of Regulation (EC) No 889/2008, the release for free circulation in the Community of products not in conformity with the requirements of that Regulation shall be conditional on the removal of references to organic production from the labelling, advertising and accompanying documents.<br>"
+        "description": "Where goods are not accompanied by a Certificate of Inspection attesting that they conform to the requirements of <a href='https://www.legislation.gov.uk/eur/2007/834/introduction'>aRegulation (EC) No 834/2007</a> and href='https://www.legislation.gov.uk/eur/2008/889/contents'>aRegulation (EC) No 889/2008</a> as retained in UK law, they will not be released for free circulation unless references to organic production are removed from the labelling, advertising and accompanying documents.",
+        "formatted_description": "Where goods are not accompanied by a Certificate of Inspection attesting that they conform to the requirements of <a href='https://www.legislation.gov.uk/eur/2007/834/introduction'>aRegulation (EC) No 834/2007</a> and href='https://www.legislation.gov.uk/eur/2008/889/contents'>aRegulation (EC) No 889/2008</a> as retained in UK law, they will not be released for free circulation unless references to organic production are removed from the labelling, advertising and accompanying documents."
       }
     },
     {
-      "id": "20136676",
+      "id": "20179205",
       "type": "measure",
       "attributes": {
-        "id": 20136676,
+        "id": 20179205,
         "origin": "eu",
-        "effective_start_date": "2021-01-01T00:00:00.000Z",
-        "effective_end_date": "2021-12-31T23:59:59.000Z",
+        "effective_start_date": "2022-01-01T00:00:00.000Z",
+        "effective_end_date": "2022-06-30T23:59:59.000Z",
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
           "data": {
-            "id": "20136676-duty_expression",
+            "id": "20179205-duty_expression",
             "type": "duty_expression"
           }
         },
@@ -4625,20 +4549,23 @@
         "measure_conditions": {
           "data": [
             {
-              "id": "20114001",
+              "id": "20180576",
               "type": "measure_condition"
             },
             {
-              "id": "20114002",
+              "id": "20180577",
               "type": "measure_condition"
             },
             {
-              "id": "20114003",
+              "id": "20180578",
               "type": "measure_condition"
             }
           ]
         },
         "measure_components": {
+          "data": []
+        },
+        "resolved_measure_components": {
           "data": []
         },
         "national_measurement_units": {
@@ -4651,136 +4578,7 @@
           }
         },
         "excluded_countries": {
-          "data": [
-            {
-              "id": "AT",
-              "type": "geographical_area"
-            },
-            {
-              "id": "BE",
-              "type": "geographical_area"
-            },
-            {
-              "id": "BG",
-              "type": "geographical_area"
-            },
-            {
-              "id": "CH",
-              "type": "geographical_area"
-            },
-            {
-              "id": "CY",
-              "type": "geographical_area"
-            },
-            {
-              "id": "CZ",
-              "type": "geographical_area"
-            },
-            {
-              "id": "DE",
-              "type": "geographical_area"
-            },
-            {
-              "id": "DK",
-              "type": "geographical_area"
-            },
-            {
-              "id": "EE",
-              "type": "geographical_area"
-            },
-            {
-              "id": "ES",
-              "type": "geographical_area"
-            },
-            {
-              "id": "EU",
-              "type": "geographical_area"
-            },
-            {
-              "id": "FI",
-              "type": "geographical_area"
-            },
-            {
-              "id": "FR",
-              "type": "geographical_area"
-            },
-            {
-              "id": "GR",
-              "type": "geographical_area"
-            },
-            {
-              "id": "HR",
-              "type": "geographical_area"
-            },
-            {
-              "id": "HU",
-              "type": "geographical_area"
-            },
-            {
-              "id": "IE",
-              "type": "geographical_area"
-            },
-            {
-              "id": "IS",
-              "type": "geographical_area"
-            },
-            {
-              "id": "IT",
-              "type": "geographical_area"
-            },
-            {
-              "id": "LI",
-              "type": "geographical_area"
-            },
-            {
-              "id": "LT",
-              "type": "geographical_area"
-            },
-            {
-              "id": "LU",
-              "type": "geographical_area"
-            },
-            {
-              "id": "LV",
-              "type": "geographical_area"
-            },
-            {
-              "id": "MT",
-              "type": "geographical_area"
-            },
-            {
-              "id": "NL",
-              "type": "geographical_area"
-            },
-            {
-              "id": "NO",
-              "type": "geographical_area"
-            },
-            {
-              "id": "PL",
-              "type": "geographical_area"
-            },
-            {
-              "id": "PT",
-              "type": "geographical_area"
-            },
-            {
-              "id": "RO",
-              "type": "geographical_area"
-            },
-            {
-              "id": "SE",
-              "type": "geographical_area"
-            },
-            {
-              "id": "SI",
-              "type": "geographical_area"
-            },
-            {
-              "id": "SK",
-              "type": "geographical_area"
-            }
-          ]
+          "data": []
         },
         "footnotes": {
           "data": [
@@ -4796,7 +4594,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -4809,18 +4608,48 @@
       }
     },
     {
+      "id": "142",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Tariff preference",
+        "measure_type_series_id": "C",
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "142",
+        "measure_type_series_description": "Applicable duty"
+      }
+    },
+    {
+      "id": "C2100006",
+      "type": "legal_act",
+      "attributes": {
+        "validity_start_date": "2021-01-01T00:00:00.000Z",
+        "validity_end_date": null,
+        "officialjournal_number": "1",
+        "officialjournal_page": 1,
+        "published_date": "2021-01-01",
+        "regulation_code": "C0000/21",
+        "regulation_url": "",
+        "description": null
+      }
+    },
+    {
       "id": "20125858-01",
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "1013",
@@ -4958,11 +4787,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4996,6 +4827,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5017,7 +4851,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "eu"
         }
       }
     },
@@ -5034,14 +4869,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "1033",
@@ -5123,11 +4959,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5161,6 +4999,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5182,7 +5023,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "cariforum"
         }
       }
     },
@@ -5199,14 +5041,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "1034",
@@ -5244,11 +5087,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5282,6 +5127,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5303,7 +5151,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "esa"
         }
       }
     },
@@ -5320,14 +5169,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "1035",
@@ -5373,11 +5223,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5411,6 +5263,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5432,7 +5287,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "sacum"
         }
       }
     },
@@ -5463,14 +5319,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "2005",
@@ -5684,11 +5541,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5722,6 +5581,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5743,7 +5605,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "gsp"
         }
       }
     },
@@ -5760,14 +5623,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "2027",
@@ -5780,10 +5644,6 @@
       "relationships": {
         "children_geographical_areas": {
           "data": [
-            {
-              "id": "AM",
-              "type": "geographical_area"
-            },
             {
               "id": "BO",
               "type": "geographical_area"
@@ -5811,6 +5671,10 @@
             {
               "id": "PK",
               "type": "geographical_area"
+            },
+            {
+              "id": "UZ",
+              "type": "geographical_area"
             }
           ]
         }
@@ -5825,11 +5689,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5863,6 +5729,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5884,7 +5753,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "gsp"
         }
       }
     },
@@ -5901,14 +5771,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "2080",
@@ -5978,11 +5849,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6016,6 +5889,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6037,7 +5913,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "oct"
         }
       }
     },
@@ -6054,14 +5931,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "2200",
@@ -6111,11 +5989,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6149,6 +6029,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6170,7 +6053,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "central-america"
         }
       }
     },
@@ -6201,14 +6085,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20134682",
@@ -6219,11 +6104,13 @@
         "effective_start_date": "2021-05-03T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6257,6 +6144,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6278,7 +6168,215 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "albania"
+        }
+      }
+    },
+    {
+      "id": "20179809-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "35.00 %",
+        "formatted_base": "<span>35.00</span> %"
+      }
+    },
+    {
+      "id": "695",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Additional duties",
+        "measure_type_series_id": "J",
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "2005-05-01T00:00:00.000Z",
+        "id": "695",
+        "measure_type_series_description": "Countervailing charge"
+      }
+    },
+    {
+      "id": "C2200010",
+      "type": "legal_act",
+      "attributes": {
+        "validity_start_date": "2022-03-25T00:00:00.000Z",
+        "validity_end_date": null,
+        "officialjournal_number": "1",
+        "officialjournal_page": 1,
+        "published_date": null,
+        "regulation_code": "C0001/22",
+        "regulation_url": "",
+        "description": null
+      }
+    },
+    {
+      "id": "20182121",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Measure not applicable",
+        "action_code": "07",
+        "certificate_description": "Goods of Belarusian or Russian origin exported from any country before 25th March 2022",
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "9008",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": "National Document: Goods of Belarusian or Russian origin exported from any country before 25th March 2022"
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "20182122",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Apply the mentioned duty",
+        "action_code": "27",
+        "certificate_description": null,
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "unknown",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "20179809-01",
+      "type": "measure_component",
+      "attributes": {
+        "duty_expression_id": "01",
+        "duty_amount": 35,
+        "monetary_unit_code": null,
+        "monetary_unit_abbreviation": null,
+        "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
+        "duty_expression_description": "% or amount",
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
+    },
+    {
+      "id": "SN007",
+      "type": "footnote",
+      "attributes": {
+        "code": "SN007",
+        "description": "Goods of Russian or Belarusian origin that were exported out of Russia and Belarus before 25th March 2022 are exempt from these additional duties and document code 9008 should be used. You may need to provide commercial evidence to HMRC when using this Document Code.",
+        "formatted_description": "Goods of Russian or Belarusian origin that were exported out of Russia and Belarus before 25th March 2022 are exempt from these additional duties and document code 9008 should be used. You may need to provide commercial evidence to HMRC when using this Document Code."
+      }
+    },
+    {
+      "id": "20179809",
+      "type": "measure",
+      "attributes": {
+        "id": 20179809,
+        "origin": "eu",
+        "effective_start_date": "2022-03-25T00:00:00.000Z",
+        "effective_end_date": null,
+        "import": true,
+        "export": false,
+        "excise": false,
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20179809-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "695",
+            "type": "measure_type"
+          }
+        },
+        "legal_acts": {
+          "data": [
+            {
+              "id": "C2200010",
+              "type": "legal_act"
+            }
+          ]
+        },
+        "measure_conditions": {
+          "data": [
+            {
+              "id": "20182121",
+              "type": "measure_condition"
+            },
+            {
+              "id": "20182122",
+              "type": "measure_condition"
+            }
+          ]
+        },
+        "measure_components": {
+          "data": [
+            {
+              "id": "20179809-01",
+              "type": "measure_component"
+            }
+          ]
+        },
+        "resolved_measure_components": {
+          "data": []
+        },
+        "national_measurement_units": {
+          "data": []
+        },
+        "geographical_area": {
+          "data": {
+            "id": "BY",
+            "type": "geographical_area"
+          }
+        },
+        "excluded_countries": {
+          "data": []
+        },
+        "footnotes": {
+          "data": [
+            {
+              "id": "SN007",
+              "type": "footnote"
+            }
+          ]
+        },
+        "order_number": {
+          "data": null
+        }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -6295,14 +6393,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20139023",
@@ -6313,11 +6412,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6351,6 +6452,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6372,7 +6476,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "canada"
         }
       }
     },
@@ -6389,14 +6494,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20057575",
@@ -6407,11 +6513,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6445,6 +6553,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6466,7 +6577,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "switzerland-liechtenstein"
         }
       }
     },
@@ -6483,14 +6595,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20079690",
@@ -6501,11 +6614,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6539,6 +6654,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6560,7 +6678,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "cotedivoire"
         }
       }
     },
@@ -6577,14 +6696,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20120652",
@@ -6595,11 +6715,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6633,6 +6755,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6654,7 +6779,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "cameroon"
         }
       }
     },
@@ -6671,14 +6797,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20049753",
@@ -6689,11 +6816,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6727,6 +6856,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6748,7 +6880,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "andean"
         }
       }
     },
@@ -6765,14 +6898,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20051168",
@@ -6783,11 +6917,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6821,6 +6957,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6842,7 +6981,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "andean"
         }
       }
     },
@@ -6859,14 +6999,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20139442",
@@ -6877,11 +7018,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6915,6 +7058,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6936,7 +7082,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "egypt"
         }
       }
     },
@@ -6953,14 +7100,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20080070",
@@ -6971,11 +7119,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7009,6 +7159,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7030,7 +7183,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "pacific"
         }
       }
     },
@@ -7047,14 +7201,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20139508",
@@ -7065,11 +7220,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7103,6 +7260,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7124,7 +7284,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "georgia"
         }
       }
     },
@@ -7141,14 +7302,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20133262",
@@ -7159,11 +7321,13 @@
         "effective_start_date": "2021-03-05T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7197,6 +7361,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7218,7 +7385,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "ghana"
         }
       }
     },
@@ -7235,14 +7403,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20073177",
@@ -7253,11 +7422,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7291,6 +7462,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7312,7 +7486,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "israel"
         }
       }
     },
@@ -7329,14 +7504,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20091101",
@@ -7347,11 +7523,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7385,6 +7563,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7406,7 +7587,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "iceland-norway"
         }
       }
     },
@@ -7423,14 +7605,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20134818",
@@ -7441,11 +7624,13 @@
         "effective_start_date": "2021-05-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7479,6 +7664,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7500,7 +7688,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "jordan"
         }
       }
     },
@@ -7517,14 +7706,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20139652",
@@ -7535,11 +7725,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7573,6 +7765,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7594,7 +7789,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "japan"
         }
       }
     },
@@ -7611,14 +7807,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20079595",
@@ -7629,11 +7826,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7667,6 +7866,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7688,7 +7890,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "kenya"
         }
       }
     },
@@ -7705,9 +7908,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Import control on luxury goods",
-        "national": null,
         "measure_type_series_id": "B",
-        "id": "728"
+        "measure_component_applicable_code": 2,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "2018-02-01T00:00:00.000Z",
+        "id": "728",
+        "measure_type_series_description": "Entry into free circulation or exportation subject to conditions"
       }
     },
     {
@@ -7739,6 +7947,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "Y945",
         "duty_expression": "",
+        "guidance_cds": "- Complete the statement 'regulation 2017/1509 exempt'.\n\n- Use of this code constitutes a legal declaration that the goods are travellers' personal effects or goods of a non-commercial nature for travellers' personal use contained in their luggage (Art 10.2 of Regulation (EU) 2017/1509) entitled to exemption from prohibition on goods from Democratic People's Republic of Korea.\n\n- Sufficient evidence must be held in records to demonstrate eligibility for this waiver which must be produced on demand.\n\n- No document status code is required.",
+        "guidance_chief": "",
+        "measure_condition_class": "exemption",
         "monetary_unit_abbreviation": null,
         "requirement": "Particular provisions: Travellers' personal effects or goods of a non-commercial nature for travellers' personal use contained in their luggage (Art 10.2 of Regulation (EU) 2017/1509)"
       },
@@ -7763,6 +7974,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "Y946",
         "duty_expression": "",
+        "guidance_cds": "- Complete the statement 'regulation 2017/1509 exempt'.\n\n- Use of this code constitutes a legal declaration that the goods are for the official purposes of diplomatic or consular missions of Member States in the DPRK or international organisations enjoying immunities in accordance with international law, or to the personal effects of their staff (Art 10.3 of Regulation (EU) 2017/1509).\n\n- Sufficient evidence must be held in records to demonstrate eligibility for this waiver which must be produced on demand.\n\n- No document status code is required.",
+        "guidance_chief": "",
+        "measure_condition_class": "exemption",
         "monetary_unit_abbreviation": null,
         "requirement": "Particular provisions: Goods necessary for the official purposes of diplomatic or consular missions of Member States in the DPRK or international organisations enjoying immunities in accordance with international law, or to the personal effects of their staff (Art 10.3 of Regulation (EU) 2017/1509)"
       },
@@ -7787,6 +8001,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "",
         "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
         "monetary_unit_abbreviation": null,
         "requirement": null
       },
@@ -7805,11 +8022,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7851,6 +8070,9 @@
         "measure_components": {
           "data": []
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7872,7 +8094,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -7889,14 +8112,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20140465",
@@ -7907,11 +8131,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7945,6 +8171,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7966,7 +8195,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "south-korea"
         }
       }
     },
@@ -7983,14 +8213,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20103470",
@@ -8001,11 +8232,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8039,6 +8272,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8060,7 +8296,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "switzerland-liechtenstein"
         }
       }
     },
@@ -8077,14 +8314,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20140121",
@@ -8095,11 +8333,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8133,6 +8373,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8154,7 +8397,109 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "morocco"
+        }
+      }
+    },
+    {
+      "id": "20151493-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "0.00 %",
+        "formatted_base": "<span>0.00</span> %"
+      }
+    },
+    {
+      "id": "20151493-01",
+      "type": "measure_component",
+      "attributes": {
+        "duty_expression_id": "01",
+        "duty_amount": 0,
+        "monetary_unit_code": null,
+        "monetary_unit_abbreviation": null,
+        "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
+        "duty_expression_description": "% or amount",
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
+    },
+    {
+      "id": "20151493",
+      "type": "measure",
+      "attributes": {
+        "id": 20151493,
+        "origin": "eu",
+        "effective_start_date": "2021-01-01T00:00:00.000Z",
+        "effective_end_date": null,
+        "import": true,
+        "export": false,
+        "excise": false,
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20151493-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "142",
+            "type": "measure_type"
+          }
+        },
+        "legal_acts": {
+          "data": [
+            {
+              "id": "C2100006",
+              "type": "legal_act"
+            }
+          ]
+        },
+        "measure_conditions": {
+          "data": []
+        },
+        "measure_components": {
+          "data": [
+            {
+              "id": "20151493-01",
+              "type": "measure_component"
+            }
+          ]
+        },
+        "resolved_measure_components": {
+          "data": []
+        },
+        "national_measurement_units": {
+          "data": []
+        },
+        "geographical_area": {
+          "data": {
+            "id": "MD",
+            "type": "geographical_area"
+          }
+        },
+        "excluded_countries": {
+          "data": []
+        },
+        "footnotes": {
+          "data": []
+        },
+        "order_number": {
+          "data": null
+        }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "uk",
+          "scheme_code": "moldova"
         }
       }
     },
@@ -8171,14 +8516,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20093062",
@@ -8189,11 +8535,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8227,6 +8575,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8248,7 +8599,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "north-macedonia"
         }
       }
     },
@@ -8265,14 +8617,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20053028",
@@ -8283,11 +8636,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8321,6 +8676,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8342,7 +8700,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "andean"
         }
       }
     },
@@ -8359,14 +8718,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20080355",
@@ -8377,11 +8737,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8415,6 +8777,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8436,7 +8801,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "pacific"
         }
       }
     },
@@ -8453,14 +8819,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20140413",
@@ -8471,11 +8838,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8509,6 +8878,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8530,51 +8902,224 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "palestinian-authority"
         }
       }
     },
     {
-      "id": "20150608-duty_expression",
+      "id": "20179778-duty_expression",
       "type": "duty_expression",
       "attributes": {
-        "base": "10.00 GBP / hl",
-        "formatted_base": "<span>10.00</span> GBP / <abbr title='Hectolitre'>hl</abbr>"
+        "base": "35.00 %",
+        "formatted_base": "<span>35.00</span> %"
       }
     },
     {
-      "id": "20150608-01",
+      "id": "20182069",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Measure not applicable",
+        "action_code": "07",
+        "certificate_description": "Goods of Belarusian or Russian origin exported from any country before 25th March 2022",
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "9008",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": "National Document: Goods of Belarusian or Russian origin exported from any country before 25th March 2022"
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "20182070",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Apply the mentioned duty",
+        "action_code": "27",
+        "certificate_description": null,
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "unknown",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "20179778-01",
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 10.0,
-        "monetary_unit_code": "GBP",
+        "duty_amount": 35,
+        "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
-        "measurement_unit_code": "HLT",
+        "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
-      "id": "20150608",
+      "id": "20179778",
       "type": "measure",
       "attributes": {
-        "id": 20150608,
+        "id": 20179778,
         "origin": "eu",
-        "effective_start_date": "2021-01-01T00:00:00.000Z",
-        "effective_end_date": "2021-11-20T23:59:59.000Z",
+        "effective_start_date": "2022-03-25T00:00:00.000Z",
+        "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
           "data": {
-            "id": "20150608-duty_expression",
+            "id": "20179778-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "695",
+            "type": "measure_type"
+          }
+        },
+        "legal_acts": {
+          "data": [
+            {
+              "id": "C2200010",
+              "type": "legal_act"
+            }
+          ]
+        },
+        "measure_conditions": {
+          "data": [
+            {
+              "id": "20182069",
+              "type": "measure_condition"
+            },
+            {
+              "id": "20182070",
+              "type": "measure_condition"
+            }
+          ]
+        },
+        "measure_components": {
+          "data": [
+            {
+              "id": "20179778-01",
+              "type": "measure_component"
+            }
+          ]
+        },
+        "resolved_measure_components": {
+          "data": []
+        },
+        "national_measurement_units": {
+          "data": []
+        },
+        "geographical_area": {
+          "data": {
+            "id": "RU",
+            "type": "geographical_area"
+          }
+        },
+        "excluded_countries": {
+          "data": []
+        },
+        "footnotes": {
+          "data": [
+            {
+              "id": "SN007",
+              "type": "footnote"
+            }
+          ]
+        },
+        "order_number": {
+          "data": null
+        }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "uk",
+          "scheme_code": null
+        }
+      }
+    },
+    {
+      "id": "20151827-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "0.00 %",
+        "formatted_base": "<span>0.00</span> %"
+      }
+    },
+    {
+      "id": "20151827-01",
+      "type": "measure_component",
+      "attributes": {
+        "duty_expression_id": "01",
+        "duty_amount": 0,
+        "monetary_unit_code": null,
+        "monetary_unit_abbreviation": null,
+        "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
+        "duty_expression_description": "% or amount",
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
+    },
+    {
+      "id": "20151827",
+      "type": "measure",
+      "attributes": {
+        "id": 20151827,
+        "origin": "eu",
+        "effective_start_date": "2021-01-01T00:00:00.000Z",
+        "effective_end_date": null,
+        "import": true,
+        "export": false,
+        "excise": false,
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20151827-duty_expression",
             "type": "duty_expression"
           }
         },
@@ -8598,10 +9143,121 @@
         "measure_components": {
           "data": [
             {
-              "id": "20150608-01",
+              "id": "20151827-01",
               "type": "measure_component"
             }
           ]
+        },
+        "resolved_measure_components": {
+          "data": []
+        },
+        "national_measurement_units": {
+          "data": []
+        },
+        "geographical_area": {
+          "data": {
+            "id": "SB",
+            "type": "geographical_area"
+          }
+        },
+        "excluded_countries": {
+          "data": []
+        },
+        "footnotes": {
+          "data": []
+        },
+        "order_number": {
+          "data": null
+        }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "uk",
+          "scheme_code": "pacific"
+        }
+      }
+    },
+    {
+      "id": "20146555-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "8.00 GBP / hl",
+        "formatted_base": "<span>8.00</span> GBP / <abbr title='Hectolitre'>hl</abbr>"
+      }
+    },
+    {
+      "id": "20146555-01",
+      "type": "measure_component",
+      "attributes": {
+        "duty_expression_id": "01",
+        "duty_amount": 8,
+        "monetary_unit_code": "GBP",
+        "monetary_unit_abbreviation": null,
+        "measurement_unit_code": "HLT",
+        "measurement_unit_qualifier_code": null,
+        "duty_expression_description": "% or amount",
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {
+        "measurement_unit": {
+          "data": {
+            "id": "HLT",
+            "type": "measurement_unit"
+          }
+        }
+      }
+    },
+    {
+      "id": "20146555",
+      "type": "measure",
+      "attributes": {
+        "id": 20146555,
+        "origin": "eu",
+        "effective_start_date": "2021-11-21T00:00:00.000Z",
+        "effective_end_date": "2022-11-20T23:59:59.000Z",
+        "import": true,
+        "export": false,
+        "excise": false,
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20146555-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "142",
+            "type": "measure_type"
+          }
+        },
+        "legal_acts": {
+          "data": [
+            {
+              "id": "C2100006",
+              "type": "legal_act"
+            }
+          ]
+        },
+        "measure_conditions": {
+          "data": []
+        },
+        "measure_components": {
+          "data": [
+            {
+              "id": "20146555-01",
+              "type": "measure_component"
+            }
+          ]
+        },
+        "resolved_measure_components": {
+          "data": []
         },
         "national_measurement_units": {
           "data": []
@@ -8624,7 +9280,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "singapore"
         }
       }
     },
@@ -8641,14 +9298,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20125970",
@@ -8659,11 +9317,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8697,6 +9357,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8718,7 +9381,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "eu"
         }
       }
     },
@@ -8735,14 +9399,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20077934",
@@ -8753,11 +9418,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8791,6 +9458,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8812,7 +9482,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "tunisia"
         }
       }
     },
@@ -8829,14 +9500,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20102871",
@@ -8847,11 +9519,13 @@
         "effective_start_date": "2021-01-20T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8885,6 +9559,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8906,7 +9583,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "turkey"
         }
       }
     },
@@ -8923,9 +9601,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Preferential tariff quota",
-        "national": null,
         "measure_type_series_id": "C",
-        "id": "143"
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 1,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "143",
+        "measure_type_series_description": "Applicable duty"
       }
     },
     {
@@ -8933,29 +9616,30 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
-      "id": "20429",
+      "id": "22715",
       "type": "definition",
       "attributes": {
         "initial_volume": "13620000.0",
-        "validity_start_date": "2021-01-01T00:00:00.000Z",
-        "validity_end_date": "2021-12-31T00:00:00.000Z",
+        "validity_start_date": "2022-01-01T00:00:00.000Z",
+        "validity_end_date": "2022-12-31T23:59:59.000Z",
         "status": "Open",
         "description": null,
-        "balance": "13620000.0",
+        "balance": "11666789.0",
         "measurement_unit": "Kilogram (kg)",
         "monetary_unit": null,
         "measurement_unit_qualifier": null,
-        "last_allocation_date": null,
+        "last_allocation_date": "2022-03-17T13:00:00.000Z",
         "suspension_period_start_date": null,
         "suspension_period_end_date": null,
         "blocking_period_start_date": null,
@@ -8971,7 +9655,7 @@
       "relationships": {
         "definition": {
           "data": {
-            "id": "20429",
+            "id": "22715",
             "type": "definition"
           }
         }
@@ -8984,13 +9668,15 @@
         "id": 20081689,
         "origin": "eu",
         "effective_start_date": "2021-01-01T00:00:00.000Z",
-        "effective_end_date": "2021-12-31T00:00:00.000Z",
+        "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9024,6 +9710,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9048,7 +9737,226 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "ukraine"
+        }
+      }
+    },
+    {
+      "id": "20179857-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "",
+        "formatted_base": ""
+      }
+    },
+    {
+      "id": "465",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Restriction on entry into free circulation",
+        "measure_type_series_id": "B",
+        "measure_component_applicable_code": 2,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "465",
+        "measure_type_series_description": "Entry into free circulation or exportation subject to conditions"
+      }
+    },
+    {
+      "id": "X2203950",
+      "type": "legal_act",
+      "attributes": {
+        "validity_start_date": "2022-03-30T00:00:00.000Z",
+        "validity_end_date": null,
+        "officialjournal_number": "1",
+        "officialjournal_page": 1,
+        "published_date": null,
+        "regulation_code": "S.I. 2022/395",
+        "regulation_url": "https://www.legislation.gov.uk/uksi/2022/395",
+        "description": "The Russia (Sanctions) (EU Exit) (Amendment) (No. 7) Regulations 2022"
+      }
+    },
+    {
+      "id": "20182236",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Import/export allowed after control",
+        "action_code": "29",
+        "certificate_description": "Goods originating in non-government controlled Ukrainian territory with a certificate of origin issued by the Ukrainian authorities",
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "9009",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "document",
+        "monetary_unit_abbreviation": null,
+        "requirement": "National Document: Goods originating in non-government controlled Ukrainian territory with a certificate of origin issued by the Ukrainian authorities"
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "20182237",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Import/export allowed after control",
+        "action_code": "29",
+        "certificate_description": "Goods originating specifically in the non-government controlled areas of Donetsk and Luhansk oblasts if related to an obligation arising from a contract concluded before 23 February 2022 subject to these contracts, or ancillary contracts necessary for their execution, being concluded by 24 August 2022, and the Secretary of State for the Department for International Trade being informed at least ten working days in advance of the import",
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "9010",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "document",
+        "monetary_unit_abbreviation": null,
+        "requirement": "National Document: Goods originating specifically in the non-government controlled areas of Donetsk and Luhansk oblasts if related to an obligation arising from a contract concluded before 23 February 2022 subject to these contracts, or ancillary contracts necessary for their execution, being concluded by 24 August 2022, and the Secretary of State for the Department for International Trade being informed at least ten working days in advance of the import"
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "20182238",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Import/export not allowed after control",
+        "action_code": "09",
+        "certificate_description": null,
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "SN008",
+      "type": "footnote",
+      "attributes": {
+        "code": "SN008",
+        "description": "<p>The import of goods originating in non-government controlled Ukrainian territory is prohibited under the <a href=\"https://www.legislation.gov.uk/uksi/2022/395\">Russia (Sanctions) (EU Exit) Regulations 2019 (as amended on 30 March 2022)</a>. Exceptions apply for:</p><ul><li>goods that originated in non-government controlled Ukrainian territory are satisfactorily certified by or on behalf of the Government of Ukraine as originating in Ukraine.</li><li>goods originating specifically in non-government controlled areas of Donetsk and Luhansk oblasts and related to an obligation arising from a contract concluded before 23 February 2022. For this exception to apply, these contracts, or ancillary contracts necessary for their execution, should be concluded by 24 August 2022. The Secretary of State for the Department for International Trade should also be informed at least ten working days in advance of this exception being used.</li></ul><p>Please refer to the <a href=\"https://www.gov.uk/government/publications/russia-sanctions-guidance/russia-sanctions-guidance\">Statutory Guidance</a> for further information.</p>",
+        "formatted_description": "<p>The import of goods originating in non-government controlled Ukrainian territory is prohibited under the <a href=\"https://www.legislation.gov.uk/uksi/2022/395\">Russia (Sanctions) (EU Exit) Regulations 2019 (as amended on 30 March 2022)</a>. Exceptions apply for:</p><ul><li>goods that originated in non-government controlled Ukrainian territory are satisfactorily certified by or on behalf of the Government of Ukraine as originating in Ukraine.</li><li>goods originating specifically in non-government controlled areas of Donetsk and Luhansk oblasts and related to an obligation arising from a contract concluded before 23 February 2022. For this exception to apply, these contracts, or ancillary contracts necessary for their execution, should be concluded by 24 August 2022. The Secretary of State for the Department for International Trade should also be informed at least ten working days in advance of this exception being used.</li></ul><p>Please refer to the <a href=\"https://www.gov.uk/government/publications/russia-sanctions-guidance/russia-sanctions-guidance\">Statutory Guidance</a> for further information.</p>"
+      }
+    },
+    {
+      "id": "20179857",
+      "type": "measure",
+      "attributes": {
+        "id": 20179857,
+        "origin": "eu",
+        "effective_start_date": "2022-03-30T00:00:00.000Z",
+        "effective_end_date": null,
+        "import": true,
+        "export": false,
+        "excise": false,
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20179857-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "465",
+            "type": "measure_type"
+          }
+        },
+        "legal_acts": {
+          "data": [
+            {
+              "id": "X2203950",
+              "type": "legal_act"
+            }
+          ]
+        },
+        "measure_conditions": {
+          "data": [
+            {
+              "id": "20182236",
+              "type": "measure_condition"
+            },
+            {
+              "id": "20182237",
+              "type": "measure_condition"
+            },
+            {
+              "id": "20182238",
+              "type": "measure_condition"
+            }
+          ]
+        },
+        "measure_components": {
+          "data": []
+        },
+        "resolved_measure_components": {
+          "data": []
+        },
+        "national_measurement_units": {
+          "data": []
+        },
+        "geographical_area": {
+          "data": {
+            "id": "UA",
+            "type": "geographical_area"
+          }
+        },
+        "excluded_countries": {
+          "data": []
+        },
+        "footnotes": {
+          "data": [
+            {
+              "id": "SN008",
+              "type": "footnote"
+            }
+          ]
+        },
+        "order_number": {
+          "data": null
+        }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -9065,22 +9973,23 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
-      "id": "20683",
+      "id": "22717",
       "type": "definition",
       "attributes": {
         "initial_volume": "136000.0",
-        "validity_start_date": "2021-01-01T00:00:00.000Z",
-        "validity_end_date": "2021-12-31T00:00:00.000Z",
+        "validity_start_date": "2022-01-01T00:00:00.000Z",
+        "validity_end_date": "2022-12-31T23:59:59.000Z",
         "status": "Open",
         "description": null,
         "balance": "136000.0",
@@ -9103,7 +10012,7 @@
       "relationships": {
         "definition": {
           "data": {
-            "id": "20683",
+            "id": "22717",
             "type": "definition"
           }
         }
@@ -9118,11 +10027,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9156,6 +10067,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9180,7 +10094,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "vietnam"
         }
       }
     },
@@ -9197,14 +10112,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20080260",
@@ -9215,11 +10131,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9253,6 +10171,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9274,7 +10195,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "pacific"
         }
       }
     },
@@ -9291,14 +10213,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20126168",
@@ -9309,11 +10232,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9347,6 +10272,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9368,7 +10296,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "eu"
         }
       }
     },
@@ -9385,14 +10314,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20074649",
@@ -9403,11 +10333,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9441,6 +10373,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9462,7 +10397,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "kosovo"
         }
       }
     },
@@ -9479,14 +10415,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20126280",
@@ -9497,11 +10434,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9535,6 +10474,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9556,7 +10498,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "eu"
         }
       }
     },
@@ -9573,14 +10516,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
       "id": "20136053",
@@ -9591,11 +10535,13 @@
         "effective_start_date": "2021-05-20T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9629,6 +10575,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9650,7 +10599,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "serbia"
         }
       }
     },
@@ -9667,22 +10617,23 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
         "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
         "duty_expression_abbreviation": "%"
-      }
+      },
+      "relationships": {}
     },
     {
-      "id": "20447",
+      "id": "22713",
       "type": "definition",
       "attributes": {
         "initial_volume": "25448000.0",
-        "validity_start_date": "2021-01-01T00:00:00.000Z",
-        "validity_end_date": "2021-12-31T00:00:00.000Z",
+        "validity_start_date": "2022-01-01T00:00:00.000Z",
+        "validity_end_date": "2022-12-31T23:59:59.000Z",
         "status": "Open",
         "description": null,
         "balance": "25448000.0",
@@ -9705,7 +10656,7 @@
       "relationships": {
         "definition": {
           "data": {
-            "id": "20447",
+            "id": "22713",
             "type": "definition"
           }
         }
@@ -9718,13 +10669,15 @@
         "id": 20084848,
         "origin": "eu",
         "effective_start_date": "2021-01-01T00:00:00.000Z",
-        "effective_end_date": "2021-12-31T00:00:00.000Z",
+        "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9758,6 +10711,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9782,7 +10738,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": "sacum"
         }
       }
     },
@@ -9799,9 +10756,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Export control on restricted goods and technologies",
-        "national": null,
         "measure_type_series_id": "B",
-        "id": "717"
+        "measure_component_applicable_code": 2,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 1,
+        "validity_end_date": null,
+        "validity_start_date": "2008-02-10T00:00:00.000Z",
+        "id": "717",
+        "measure_type_series_description": "Entry into free circulation or exportation subject to conditions"
       }
     },
     {
@@ -9819,6 +10781,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "C052",
         "duty_expression": "",
+        "guidance_cds": "- Enter the reference number of the authorisation document in the Document Reason (Fourth Component).\n\n- The Document Identity (Second Component) must be left blank.\n\n- If using more than one document, then a separate C052 entry in DE 2/3 is required for each document.\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AC, AE, AF, AP, AT, FP, GE, GP, HP, IA, IP, JA, JP, LE, LP, SP, TP, UA, XW, XX",
+        "guidance_chief": "",
+        "measure_condition_class": "document",
         "monetary_unit_abbreviation": null,
         "requirement": "Other certificates: Export authorisation for restricted goods and technologies"
       },
@@ -9843,6 +10808,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "Y999",
         "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "exemption",
         "monetary_unit_abbreviation": null,
         "requirement": "Particular provisions: Goods for which an export licence is not required. Please use the <a href=\"https://www.ecochecker.trade.gov.uk/spirefox5live/fox/spire/OGEL_GOODS_CHECKER_LANDING_PAGE/new\">Goods Checker</a> to determine whether your items are controlled and whether you need an export licence from the <a href=\"https://www.gov.uk/government/organisations/export-control-organisation\">Export Control Joint Unit</a>."
       },
@@ -9867,6 +10835,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "",
         "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
         "monetary_unit_abbreviation": null,
         "requirement": null
       },
@@ -9894,11 +10865,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": false,
+        "export": true,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -9940,6 +10913,9 @@
         "measure_components": {
           "data": []
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -9966,7 +10942,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     },
@@ -10007,6 +10984,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "C052",
         "duty_expression": "",
+        "guidance_cds": "- Enter the reference number of the authorisation document in the Document Reason (Fourth Component).\n\n- The Document Identity (Second Component) must be left blank.\n\n- If using more than one document, then a separate C052 entry in DE 2/3 is required for each document.\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AC, AE, AF, AP, AT, FP, GE, GP, HP, IA, IP, JA, JP, LE, LP, SP, TP, UA, XW, XX",
+        "guidance_chief": "",
+        "measure_condition_class": "document",
         "monetary_unit_abbreviation": null,
         "requirement": "Other certificates: Export authorisation for restricted goods and technologies"
       },
@@ -10031,6 +11011,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "Y999",
         "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "exemption",
         "monetary_unit_abbreviation": null,
         "requirement": "Particular provisions: Goods for which an export licence is not required. Please use the <a href=\"https://www.ecochecker.trade.gov.uk/spirefox5live/fox/spire/OGEL_GOODS_CHECKER_LANDING_PAGE/new\">Goods Checker</a> to determine whether your items are controlled and whether you need an export licence from the <a href=\"https://www.gov.uk/government/organisations/export-control-organisation\">Export Control Joint Unit</a>."
       },
@@ -10055,6 +11038,9 @@
         "condition_monetary_unit_code": null,
         "document_code": "",
         "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
         "monetary_unit_abbreviation": null,
         "requirement": null
       },
@@ -10082,11 +11068,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": false,
+        "export": true,
         "excise": false,
         "vat": false,
         "reduction_indicator": null,
         "meursing": false,
-        "resolved_duty_expression": null
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -10128,6 +11116,9 @@
         "measure_components": {
           "data": []
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -10154,7 +11145,8 @@
       },
       "meta": {
         "duty_calculator": {
-          "source": "uk"
+          "source": "uk",
+          "scheme_code": null
         }
       }
     }

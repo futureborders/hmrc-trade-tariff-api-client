@@ -54,16 +54,16 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // then
     assertThat(expectedResponse).isNotNull();
-    List<String> legalActIds =
+    Set<String> legalActIds =
         expectedResponse.getMeasures().stream()
             .map(CommodityMeasure::getLegalActId)
-            .collect(Collectors.toList());
+            .collect(Collectors.toSet());
     assertThat(legalActIds)
         .isNotNull()
-        .hasSize(7)
-        .contains(
-            "C2100270", "C2100001", "V1970ATZ", "C2100009", "X1906930", "C2100006", "A1907950")
-        .doesNotContain("A1900160");
+        .hasSize(13)
+        .contains("A1907950", "V1970ATZ", "C2100009", "X1906930", "C2100006", "P2102410", "C2100002", "P2100010",
+            "C2100001", "P2111920", "X2203950", "X1904110", "C2100270")
+        .doesNotContain("C2100020");
   }
 
   private static Stream<Arguments> countryCodesArgument() {
@@ -184,10 +184,10 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // then
     assertThat(expectedResponse).isNotNull();
-    assertThat(expectedResponse.getMeasureConditions()).hasSize(15);
+    assertThat(expectedResponse.getMeasureConditions()).hasSize(21);
     assertThat(expectedResponse.getMeasureConditions().get(0).getCondition())
         .isEqualTo("B: Presentation of a certificate/licence/document");
-    assertThat(expectedResponse.getMeasureConditions().get(0).getId()).isEqualTo("20060652");
+    assertThat(expectedResponse.getMeasureConditions().get(0).getId()).isEqualTo("20145640");
     assertThat(expectedResponse.getMeasureConditions().get(0).getConditionCode()).isEqualTo("B");
     assertThat(expectedResponse.getMeasureConditions().get(0).getAction())
         .isEqualTo("Import/export allowed after control");
@@ -233,7 +233,7 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // then
     assertThat(expectedResponse).isNotNull();
-    assertThat(expectedResponse.getGeographicalAreas()).hasSize(255);
+    assertThat(expectedResponse.getGeographicalAreas()).hasSize(256);
     assertThat(expectedResponse.getGeographicalAreas().get(254).getDescription()).isNotEmpty();
     assertThat(expectedResponse.getGeographicalAreas().get(254).getChildrenGeographicalAreas())
         .hasSizeGreaterThan(0);
@@ -253,7 +253,7 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // then
     assertThat(expectedResponse).isNotNull();
-    assertThat(expectedResponse.getMeasureTypes()).hasSize(7);
+    assertThat(expectedResponse.getMeasureTypes()).hasSize(8);
     assertThat(expectedResponse.getMeasureTypes().get(0).getSeriesId()).isEqualTo("B");
     assertThat(expectedResponse.getMeasureTypes().get(0).getDescription())
         .isEqualTo("Veterinary control");
@@ -337,11 +337,11 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // then
     assertThat(expectedResponse).isNotNull();
-    assertThat(expectedResponse.getDutyRates()).hasSize(53);
+    assertThat(expectedResponse.getDutyRates()).hasSize(57);
     assertThat(expectedResponse.getDutyRates()).contains(
-        DutyExpression.builder().id("20118018-duty_expression").base("0.00 %").build());
+        DutyExpression.builder().id("-1010374042-duty_expression").base("20.00 %").build());
     assertThat(expectedResponse.getDutyRates()).contains(
-        DutyExpression.builder().id("20126375-duty_expression").base("16.00 GBP / hl").build());
+        DutyExpression.builder().id("20146555-duty_expression").base("8.00 GBP / hl").build());
   }
 
   @Test
@@ -358,17 +358,19 @@ class TradeTariffCommodityResponseDeserializationTest {
 
     // then
     assertThat(expectedResponse).isNotNull();
-    assertThat(expectedResponse.getMeasures()).hasSize(53);
+    assertThat(expectedResponse.getMeasures()).hasSize(57);
     assertThat(expectedResponse.getMeasures()).contains(
-        CommodityMeasure.builder().isImport(true).isVAT(false).isExcise(false).measureTypeId("142").geographicalAreaId("1006").additionalCodeId(null).dutyExpressionId("20118018-duty_expression")
-            .legalActId("C2100006").quotaNumber(null).measureConditionIds(
-                Set.of("20091993", "20091994")).excludedCountries(Set.of()).id("20118018").build());
+        CommodityMeasure.builder().isImport(true).isExport(false).isVAT(false).isExcise(false).measureTypeId("142").geographicalAreaId("1013").additionalCodeId(null)
+            .dutyExpressionId("20125858-duty_expression")
+            .legalActId("C2100006").quotaNumber(null).measureConditionIds(Set.of()).excludedCountries(Set.of()).id("20125858").build());
     assertThat(expectedResponse.getMeasures()).contains(
-        CommodityMeasure.builder().isImport(true).isVAT(true).isExcise(false).measureTypeId("305").geographicalAreaId("1011").additionalCodeId(null).dutyExpressionId("-1010374042-duty_expression")
+        CommodityMeasure.builder().isImport(true).isExport(false).isVAT(true).isExcise(false).measureTypeId("305").geographicalAreaId("1011").additionalCodeId(null)
+            .dutyExpressionId("-1010374042-duty_expression")
             .legalActId("V1970ATS").quotaNumber(null).measureConditionIds(
                 Set.of()).excludedCountries(Set.of()).id("-1010374042").build());
     assertThat(expectedResponse.getMeasures()).contains(
-        CommodityMeasure.builder().isImport(true).isVAT(false).isExcise(true).measureTypeId("306").geographicalAreaId("1011").additionalCodeId("-1009206084").dutyExpressionId("-1009444058-duty_expression")
+        CommodityMeasure.builder().isImport(true).isExport(false).isVAT(false).isExcise(true).measureTypeId("306").geographicalAreaId("1011").additionalCodeId("-1009206084")
+            .dutyExpressionId("-1009444058-duty_expression")
             .legalActId("X1970451").quotaNumber(null).measureConditionIds(
                 Set.of()).excludedCountries(Set.of()).id("-1009444058").build());
   }
@@ -388,7 +390,7 @@ class TradeTariffCommodityResponseDeserializationTest {
     // then
     assertThat(expectedResponse).isNotNull();
     assertThat(expectedResponse.getData()).isNotNull();
-    assertThat(expectedResponse.getData().getTaxAndDuty()).isEqualTo(TaxAndDuty.builder().hasMostFavouredNationDuty(true).hasTradeRemedies(false).build());
+    assertThat(expectedResponse.getData().getTaxAndDuty()).isEqualTo(TaxAndDuty.builder().hasMostFavouredNationDuty(true).hasTradeRemedies(true).build());
   }
 
   @Test
@@ -407,8 +409,11 @@ class TradeTariffCommodityResponseDeserializationTest {
     assertThat(expectedResponse).isNotNull();
     assertThat(expectedResponse.getData()).isNotNull();
     assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).hasSize(3);
-    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(DutyCalculatorAdditionalCode.builder().code("2600").overlay("The product I am importing is COVID-19 critical").build());
-    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(DutyCalculatorAdditionalCode.builder().code("2601").overlay("The product I am importing is not COVID-19 critical").build());
-    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(DutyCalculatorAdditionalCode.builder().code("X451").overlay("451 - Spirits other than UK-produced whisky").build());
+    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(
+        DutyCalculatorAdditionalCode.builder().code("2600").overlay("The product I am importing is COVID-19 critical").build());
+    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(
+        DutyCalculatorAdditionalCode.builder().code("2601").overlay("The product I am importing is not COVID-19 critical").build());
+    assertThat(expectedResponse.getData().getDutyCalculatorAdditionalCodes()).contains(
+        DutyCalculatorAdditionalCode.builder().code("X451").overlay("451 - Spirits other than UK-produced whisky").build());
   }
 }

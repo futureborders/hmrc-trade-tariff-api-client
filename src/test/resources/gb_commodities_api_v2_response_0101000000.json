@@ -6,7 +6,8 @@
       "goods_nomenclature_item_id": "0101000000",
       "description": "Live horses, asses, mules and hinnies",
       "bti_url": "https://www.gov.uk/guidance/check-what-youll-need-to-get-a-legally-binding-decision-on-a-commodity-code",
-      "formatted_description": "Live horses, asses, mules and hinnies"
+      "formatted_description": "Live horses, asses, mules and hinnies",
+      "declarable": false
     },
     "relationships": {
       "footnotes": {
@@ -71,7 +72,7 @@
         "numeral": "I",
         "title": "Live animals; animal products",
         "position": 1,
-        "section_note": "1. Any reference in this section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.\r\n2. Except where the context otherwise requires, throughout the nomenclature any reference to 'dried' products also covers products which have been dehydrated, evaporated or freeze-dried.\r\n"
+        "section_note": "1. Any reference in this section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.\r\n\r\n2. Except where the context otherwise requires, throughout the classification any reference to 'dried' products also covers products which have been dehydrated, evaporated or freeze-dried.\r\n"
       }
     },
     {
@@ -89,7 +90,7 @@
         "goods_nomenclature_item_id": "0100000000",
         "description": "LIVE ANIMALS",
         "formatted_description": "Live animals",
-        "chapter_note": "* 1\\. This chapter covers all live animals except:\r\n  * (a) fish and crustaceans, molluscs and other aquatic invertebrates, of heading 0301, 0306, 0307 or 0308;\r\n  * (b) cultures of micro-organisms and other products of heading 3002; and\r\n  * (c) animals of heading 9508.\r\n\r\n* 2\\. In this chapter “pure-bred breeding animal” is defined as in (UK law equivalent to reg 1012/2016)",
+        "chapter_note": "1. This chapter covers all live animals except:\r\n\r\n    a) fish and crustaceans, molluscs and other aquatic invertebrates, of heading 0301, 0306, 0307 or 0308;\r\n\r\n    b) cultures of micro-organisms and other products of heading 3002; and\r\n\r\n    c) animals of heading 9508.\r\n\r\n2. In this chapter “purebred breeding animal” is defined as in (UK law equivalent to EU Regulation 1012/2016)\r\n",
         "forum_url": null
       },
       "relationships": {
@@ -108,8 +109,8 @@
       "type": "footnote",
       "attributes": {
         "code": "TN701",
-        "description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.\u003cbr\u003eThe prohibition shall not apply in respect of: \u003cbr\u003e(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. \u003cbr\u003e(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement.",
-        "formatted_description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.\u003cbr\u003eThe prohibition shall not apply in respect of: \u003cbr\u003e(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. \u003cbr\u003e(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement."
+        "description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.<br>The prohibition shall not apply in respect of: <br>(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. <br>(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement.",
+        "formatted_description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.<br>The prohibition shall not apply in respect of: <br>(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. <br>(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement."
       }
     },
     {
@@ -117,7 +118,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "p/st",
-        "formatted_base": "\u003cabbr title='Number of items'\u003ep/st\u003c/abbr\u003e"
+        "formatted_base": "<abbr title='Number of items'>p/st</abbr>"
       }
     },
     {
@@ -125,9 +126,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Supplementary unit",
-        "national": null,
         "measure_type_series_id": null,
-        "id": "109"
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "109",
+        "measure_type_series_description": null
       }
     },
     {
@@ -157,7 +163,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "20.00 %",
-        "formatted_base": "\u003cspan\u003e20.00\u003c/span\u003e %"
+        "formatted_base": "<span>20.00</span> %"
       }
     },
     {
@@ -165,9 +171,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Value added tax",
-        "national": null,
         "measure_type_series_id": null,
-        "id": "305"
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "305",
+        "measure_type_series_description": null
       }
     },
     {
@@ -226,7 +237,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -234,9 +245,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Third country duty",
-        "national": null,
         "measure_type_series_id": null,
-        "id": "103"
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "103",
+        "measure_type_series_description": null
       }
     },
     {
@@ -328,7 +344,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -336,9 +352,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Non preferential duty under authorised use",
-        "national": null,
         "measure_type_series_id": null,
-        "id": "105"
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "105",
+        "measure_type_series_description": null
       }
     },
     {
@@ -401,7 +422,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "10.00 %",
-        "formatted_base": "\u003cspan\u003e10.00\u003c/span\u003e %"
+        "formatted_base": "<span>10.00</span> %"
       }
     },
     {
@@ -464,7 +485,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "6.00 %",
-        "formatted_base": "\u003cspan\u003e6.00\u003c/span\u003e %"
+        "formatted_base": "<span>6.00</span> %"
       }
     },
     {
@@ -527,7 +548,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "10.00 %",
-        "formatted_base": "\u003cspan\u003e10.00\u003c/span\u003e %"
+        "formatted_base": "<span>10.00</span> %"
       }
     },
     {

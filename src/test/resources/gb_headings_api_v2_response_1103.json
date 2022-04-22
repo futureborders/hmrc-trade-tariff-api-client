@@ -6,7 +6,8 @@
       "goods_nomenclature_item_id": "1103000000",
       "description": "Cereal groats, meal and pellets",
       "bti_url": "https://www.gov.uk/guidance/check-what-youll-need-to-get-a-legally-binding-decision-on-a-commodity-code",
-      "formatted_description": "Cereal groats, meal and pellets"
+      "formatted_description": "Cereal groats, meal and pellets",
+      "declarable": false
     },
     "relationships": {
       "footnotes": {
@@ -139,7 +140,7 @@
         "numeral": "II",
         "title": "Vegetable products",
         "position": 2,
-        "section_note": "* 1\\. In this section the term 'pellets' means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight."
+        "section_note": "1. In this section the term 'pellets' means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.\r\n"
       }
     },
     {
@@ -157,7 +158,7 @@
         "goods_nomenclature_item_id": "1100000000",
         "description": "PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN",
         "formatted_description": "Products of the milling industry; malt; starches; inulin; wheat gluten",
-        "chapter_note": "* 1\\. This chapter does not cover:\r\n  * (a) roasted malt put up as coffee substitutes (heading 0901 or 2101);\r\n  * (b) prepared flours, groats, meals or starches of heading 1901;\r\n  * (c) corn flakes and other products of heading 1904;\r\n  * (d) vegetables, prepared or preserved, of heading 2001, 2004 or 2005;\r\n  * (e) pharmaceutical products (Chapter 30); or\r\n  * (f) starches having the character of perfumery, cosmetic or toilet preparations (Chapter 33).\r\n* 2\\. (A). Products from the milling of the cereals listed in the table below fall in this chapter if they have, by weight on the dry product:\r\n  * (a) a starch content (determined by the modified Ewers polarimetric method) exceeding that indicated in column 2; and\r\n  * (b) an ash content (after deduction of any added minerals) not exceeding that indicated in column 3.\r\n  * Otherwise, they fall in heading 2302.\r\n    * However, germ of cereals, whole, rolled, flaked or ground, is always classified in heading 1104.\r\n  * (B). Products falling in this chapter under the above provisions shall be classified in heading 1101 or 1102 if the percentage passing through a woven metal wire cloth sieve with the aperture indicated in Column 4 or 5 is not less, by weight, than that shown against the cereal concerned.\r\nOtherwise, they fall in heading 1103 or 1104.\r\n\r\n\r\n\r\n| Cereal | Starch content | Ash content | Rate of passage through a sieve with an aperture of 315 micrometres (microns) | Rate of passage through a sieve with an aperture of 500 micrometres (microns) |\r\n|-|-|-|-|-|\r\n| (1) | (2) | (3) | (4) | (5) |\r\n| Wheat and rye | 45 % | 2.5% | 80% | - |\r\n| Barley | 45% | 3% | 80% | - |\r\n| Oats | 45% | 5% | 80% | - |\r\n| Maize (corn) and grain sorghum | 45% | 2% | - | 90% |\r\n| Rice | 45% | 1.6% | 80% | - |\r\n| Buckwheat | 45% | 4% | 80% | - |\r\n| Other cereals | 45% | 2% | 50% | - |\r\n\r\n \r\n\r\n* 3\\. For the purposes of heading 1103, the terms 'groats' and 'meal' mean products obtained by the fragmentation of cereal grains, of which:\r\n  * (a) in the case of maize (corn) products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2mm;\r\n  * (b) in the case of other cereal products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 1.25mm.\r\n\r\n## Additional chapter notes ##\r\n\r\n* 1\\. For the purposes of heading 1106, the terms 'flour', 'meal', and 'powder' mean products (other than shredded desiccated coconut), obtained by milling or some other fragmentation process from dried leguminous vegetables of heading 0713, from sago or roots or tubers of heading 0714 or from products of Chapter 8, of which:\r\n  * (a) in the case of dried leguminous vegetables, sago, roots, tubers and products of Chapter 8 (excluding nuts of headings 0801 and 0802), at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2 mm;\r\n  * (b) in the case of nuts of headings 0801 and 0802 at least 50% by weight passes through a woven metal wire cloth sieve with an aperture of 2.5 mm.\r\n\r\n* 2\\.  The term “denatured” as regards code 1106 20 10 applies when:\r\n  * the goods are homogeneously mixed with one of the denaturants shown in column 1 of the table below in the quantities indicated in column 2 and\r\n  * separation of the goods and the denaturant is not economically viable\r\n\r\n| Denaturant | Minimum quantity to be used (in g) per 100kg of denatured product |\r\n| - | - |\r\n| (1) | (2) |\r\n| Fish oil or fish liver oil, filtered but not deodorised or decolourised, with no additives | 1,000 |\r\n| Fish meal of subheading 2301 20 00, having a characteristic odour and containing by weight in the dry matter at least: 62.5 % crude protein and 6 % crude lipids (fatty matter) | 5,000 |\r\n\r\n",
+        "chapter_note": "1. This chapter does not cover:\r\n\r\n\t- a. roasted malt put up as coffee substitutes (heading 0901 or 2101);\r\n\t- b. prepared flours, groats, meals or starches of heading 1901;\r\n\t- c. corn flakes and other products of heading 1904;\r\n\t- d. vegetables, prepared or preserved, of heading 2001, 2004 or 2005;\r\n\t- e. pharmaceutical products (Chapter 30); or\r\n\t- f. starches having the character of perfumery, cosmetic or toilet preparations (Chapter 33).\r\n\r\n2. (A). Products from the milling of the cereals listed in the table below fall in this chapter if they have, by weight on the dry product:\r\n\r\n\t- a. a starch content (determined by the modified Ewers polarimetric method) exceeding that indicated in column 2; and\r\n\t- b. an ash content (after deduction of any added minerals) not exceeding that indicated in column 3.\r\n\r\n\tOtherwise, they fall in heading 2302.\r\n\r\n\tHowever, germ of cereals, whole, rolled, flaked or ground, is always classified in heading 1104.\r\n\r\n\t(B). Products falling in this chapter under the above provisions shall be classified in heading 1101 or 1102 if the percentage passing through a woven metal wire cloth sieve with the aperture indicated in Column 4 or 5 is not less, by weight, than that shown against the cereal concerned.\r\nOtherwise, they fall in heading 1103 or 1104.\r\n\r\n\r\n\t| Cereal | Starch content | Ash content | Rate of passage through a sieve with an aperture of 315 micrometres (microns) | Rate of passage through a sieve with an aperture of 500 micrometres (microns) |\r\n\t|-|-|-|-|-|\r\n\t| (1) | (2) | (3) | (4) | (5) |\r\n\t| Wheat and rye | 45 % | 2.5% | 80% | - |\r\n\t| Barley | 45% | 3% | 80% | - |\r\n\t| Oats | 45% | 5% | 80% | - |\r\n\t| Maize (corn) and grain sorghum | 45% | 2% | - | 90% |\r\n\t| Rice | 45% | 1.6% | 80% | - |\r\n\t| Buckwheat | 45% | 4% | 80% | - |\r\n\t| Other cereals | 45% | 2% | 50% | - |\r\n\r\n3. For the purposes of heading 1103, the terms 'groats' and 'meal' mean products obtained by the fragmentation of cereal grains, of which:\r\n\r\n\t- a. in the case of maize (corn) products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2mm;\r\n\t- b. in the case of other cereal products, at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 1.25mm.\r\n\r\n### Additional chapter notes\r\n\r\n1. For the purposes of heading 1106, the terms 'flour', 'meal', and 'powder' mean products (other than shredded desiccated coconut), obtained by milling or some other fragmentation process from dried leguminous vegetables of heading 0713, from sago or roots or tubers of heading 0714 or from products of Chapter 8, of which:\r\n\r\n\t- a. in the case of dried leguminous vegetables, sago, roots, tubers and products of Chapter 8 (excluding nuts of headings 0801 and 0802), at least 95% by weight passes through a woven metal wire cloth sieve with an aperture of 2 mm;\r\n\r\n\t- b. in the case of nuts of headings 0801 and 0802 at least 50% by weight passes through a woven metal wire cloth sieve with an aperture of 2.5 mm.\r\n\r\n2. The term “denatured” as regards code 1106 20 10 applies when:\r\n\r\n\t- the goods are homogeneously mixed with one of the denaturants shown in column 1 of the table below in the quantities indicated in column 2 and\r\n\t- separation of the goods and the denaturant is not economically viable.\r\n\r\n\r\n| Denaturant | Minimum quantity to be used (in g) per 100kg of denatured product |\r\n| - | - |\r\n| (1) | (2) |\r\n| Fish oil or fish liver oil, filtered but not deodorised or decolourised, with no additives | 1,000 |\r\n| Fish meal of subheading 2301 20 00, having a characteristic odour and containing by weight in the dry matter at least: 62.5 % crude protein and 6 % crude lipids (fatty matter) | 5,000 |",
         "forum_url": null
       },
       "relationships": {
@@ -176,8 +177,8 @@
       "type": "footnote",
       "attributes": {
         "code": "TN084",
-        "description": "Products consigned from Japan shall be accompanied by a Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) or a Common Health Entry Document for Products (CHED-P) according to Commission Implementing Regulation (EU) 2019/1787.",
-        "formatted_description": "Products consigned from Japan shall be accompanied by a Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) or a Common Health Entry Document for Products (CHED-P) according to Commission Implementing Regulation (EU) 2019/1787."
+        "description": "Products consigned from Japan shall be accompanied by a Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) or a Common Health Entry Document for Products (CHED-P) according to Commission Implementing Regulation (EU) 2019/1787 as transposed into UK law. See <a href=\"https://www.legislation.gov.uk/eur/2019/1787/contents\">[2019/1787]</a> for specific coverage.",
+        "formatted_description": "Products consigned from Japan shall be accompanied by a Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) or a Common Health Entry Document for Products (CHED-P) according to Commission Implementing Regulation (EU) 2019/1787 as transposed into UK law. See <a href=\"https://www.legislation.gov.uk/eur/2019/1787/contents\">[2019/1787]</a> for specific coverage."
       }
     },
     {
@@ -185,8 +186,8 @@
       "type": "footnote",
       "attributes": {
         "code": "TN701",
-        "description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.\u003cbr\u003eThe prohibition shall not apply in respect of: \u003cbr\u003e(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. \u003cbr\u003e(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement.",
-        "formatted_description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.\u003cbr\u003eThe prohibition shall not apply in respect of: \u003cbr\u003e(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. \u003cbr\u003e(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement."
+        "description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.<br>The prohibition shall not apply in respect of: <br>(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. <br>(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement.",
+        "formatted_description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.<br>The prohibition shall not apply in respect of: <br>(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. <br>(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement."
       }
     },
     {
@@ -194,7 +195,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -202,9 +203,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Value added tax",
-        "national": null,
         "measure_type_series_id": null,
-        "id": "305"
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "305",
+        "measure_type_series_description": null
       }
     },
     {
@@ -284,7 +290,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "223.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e223.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>223.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -292,9 +298,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Third country duty",
-        "national": null,
         "measure_type_series_id": null,
-        "id": "103"
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "103",
+        "measure_type_series_description": null
       }
     },
     {
@@ -353,7 +364,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "155.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e155.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>155.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -437,7 +448,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "144.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e144.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>144.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -466,13 +477,13 @@
       "id": "31969",
       "type": "commodity",
       "attributes": {
-        "description": "Of a fat content not exceeding 1,5 % by weight",
+        "description": "Of a fat content not exceeding 1,5 % by weight",
         "number_indents": 3,
         "goods_nomenclature_item_id": "1103131000",
         "leaf": true,
         "goods_nomenclature_sid": 31969,
-        "formatted_description": "Of a fat content not exceeding 1,5 % by weight",
-        "description_plain": "Of a fat content not exceeding 1,5 % by weight",
+        "formatted_description": "Of a fat content not exceeding 1,5 % by weight",
+        "description_plain": "Of a fat content not exceeding 1,5 % by weight",
         "producline_suffix": "80",
         "parent_sid": 31968
       },
@@ -496,7 +507,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "82.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e82.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>82.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -580,7 +591,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "143.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e143.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>143.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -697,7 +708,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "137.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e137.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>137.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -756,7 +767,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "115.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e115.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>115.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -815,7 +826,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "82.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e82.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>82.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -899,7 +910,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "143.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e143.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>143.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -1016,7 +1027,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "137.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e137.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>137.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -1075,7 +1086,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "144.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e144.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>144.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -1134,7 +1145,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "115.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e115.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>115.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -1193,7 +1204,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "146.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e146.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>146.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {
@@ -1252,7 +1263,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "82.00 GBP / 1000 kg",
-        "formatted_base": "\u003cspan\u003e82.00\u003c/span\u003e GBP / \u003cabbr title='Tonne'\u003e1000 kg\u003c/abbr\u003e"
+        "formatted_base": "<span>82.00</span> GBP / <abbr title='Tonne'>1000 kg</abbr>"
       }
     },
     {

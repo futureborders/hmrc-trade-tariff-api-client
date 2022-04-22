@@ -29,9 +29,9 @@ import lombok.experimental.SuperBuilder;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, defaultImpl = Void.class, property = "type")
 @JsonSubTypes({
-  @JsonSubTypes.Type(value = CommoditySection.class, name = "section"),
-  @JsonSubTypes.Type(value = CommodityChapter.class, name = "chapter"),
-  @JsonSubTypes.Type(value = CommodityImpl.class, name = "commodity")
+        @JsonSubTypes.Type(value = CommoditySection.class, name = "section"),
+        @JsonSubTypes.Type(value = CommodityChapter.class, name = "chapter"),
+        @JsonSubTypes.Type(value = CommodityImpl.class, name = "commodity")
 })
 public abstract class TradeTariffHeadingResponseIncludedEntity {
   protected String id;

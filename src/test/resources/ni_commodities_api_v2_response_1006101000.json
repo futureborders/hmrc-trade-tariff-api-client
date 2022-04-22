@@ -12,7 +12,7 @@
       "description_plain": "For sowing",
       "consigned": false,
       "consigned_from": null,
-      "basic_duty_rate": "\u003cspan\u003e7.70\u003c/span\u003e %",
+      "basic_duty_rate": "<span>7.70</span> %",
       "meursing_code": false,
       "declarable": true
     },
@@ -74,7 +74,7 @@
             "type": "measure"
           },
           {
-            "id": "3522480",
+            "id": "3886434",
             "type": "measure"
           },
           {
@@ -94,7 +94,7 @@
             "type": "measure"
           },
           {
-            "id": "3681170",
+            "id": "3684036",
             "type": "measure"
           },
           {
@@ -206,7 +206,7 @@
             "type": "measure"
           },
           {
-            "id": "3791351",
+            "id": "3860102",
             "type": "measure"
           },
           {
@@ -219,6 +219,10 @@
           },
           {
             "id": "3469556",
+            "type": "measure"
+          },
+          {
+            "id": "3900377",
             "type": "measure"
           },
           {
@@ -245,11 +249,16 @@
     },
     "meta": {
       "duty_calculator": {
-        "zero_mfn_duty": false,
-        "trade_defence": false,
+        "applicable_additional_codes": {},
         "applicable_measure_units": {},
+        "applicable_vat_options": {
+          "VAT": "VAT zero rate (0.0%)"
+        },
+        "entry_price_system": false,
         "meursing_code": false,
-        "entry_price_system": false
+        "source": "xi",
+        "trade_defence": false,
+        "zero_mfn_duty": false
       }
     }
   },
@@ -261,7 +270,7 @@
         "numeral": "II",
         "title": "Vegetable products",
         "position": 2,
-        "section_note": "* 1\\. In this section the term 'pellets' means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight."
+        "section_note": "1. In this section the term 'pellets' means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.\r\n"
       }
     },
     {
@@ -279,7 +288,7 @@
         "goods_nomenclature_item_id": "1000000000",
         "description": "CEREALS",
         "formatted_description": "Cereals",
-        "chapter_note": "* 1\\. (A) The products specified in the headings of this chapter are to be classified in those headings only if grains are present, whether or not in the ear or on the stalk.\r\n  * (B) The chapter does not cover grains which have been hulled or otherwise worked. However, rice, husked, milled, polished, glazed, parboiled or broken remains classified in heading 1006.\r\n* 2\\. Heading 1005 does not cover sweetcorn (Chapter 7).\r\n\r\n## Subheading note ##\r\n\r\n* 1\\. The term 'durum wheat' means wheat of the species\r\n_Triticum durum_ and the hybrids derived from the inter-specific crossing of _Triticum durum_ which have the same number (28) of chromosomes as that species.\r\n\r\n## Additional notes ##\r\n\r\n1 The following terms have the meanings hereunder assigned to them:\r\n\r\n(a) ‘round grain rice’ (subheadings 1006 10 30, 1006 20 11, 1006 20 92, 1006 30 21, 1006 30 42, 1006 30 61 and 1006 30 92): rice, the grains of which are of a length not exceeding 5,2 mm and of a length/width ratio of less than 2;\r\n\r\n(b) ‘medium grain rice’ (subheadings 1006 10 50, 1006 20 13, 1006 20 94, 1006 30 23, 1006 30 44, 1006 30 63 and 1006 30 94): rice, the grains of which are of a length exceeding 5,2 mm but not exceeding 6,0 mm and of a length/width ratio of less than 3;\r\n\r\n(c) ‘long grain rice’ (subheadings 1006 10 71, 1006 10 79, 1006 20 15, 1006 20 17, 1006 20 96, 1006 20 98, 1006 30 25, 1006 30 27, 1006 30 46, 1006 30 48, 1006 30 65, 1006 30 67, 1006 30 96 and 1006 30 98): rice, the grains of which are of a length exceeding 6,0 mm;\r\n\r\n(d) ‘paddy rice’ (subheadings 1006 10 30, 1006 10 50, 1006 10 71 and 1006 10 79): rice which has retained its husk after threshing;\r\n\r\n(e) ‘husked rice’ (subheadings 1006 20 11, 1006 20 13, 1006 20 15, 1006 20 17, 1006 20 92, 1006 20 94, 1006 20 96 and 1006 20 98): rice from which only the husk has been removed. Examples of rice falling within this definition are those with the commercial descriptions ‘brown rice’, ‘cargo rice’, ‘loonzain’ and ‘riso sbramato’;\r\n\r\n(f) ‘semi-milled rice’ (subheadings 1006 30 21, 1006 30 23, 1006 30 25, 1006 30 27, 1006 30 42, 1006 30 44, 1006 30 46 and 1006 30 48): rice from which the husk, part of the germ and the whole or part of the outer layers of the pericarp, but not the inner layers, have been removed;\r\n\r\n(g) ‘wholly milled rice’ (subheadings 1006 30 61, 1006 30 63, 1006 30 65, 1006 30 67, 1006 30 92, 1006 30 94, 1006 30 96 and 1006 30 98): rice from which the husk, the whole of the outer and inner layers of the pericarp, the whole of the germ in the case of long or medium grain rice, and at least part thereof in the case of round grain rice, have been removed, but in which longitudinal white striations may remain on not more than 10 % of the grains;\r\n\r\n(h) ‘broken rice’ (subheading 1006 40): grain fragments, the length of which does not exceed three-quarters of the average length of the whole grain.\r\n\r\n2 The duty-rate applicable to mixtures of this chapter is as follows:\r\n\r\n(a) in mixtures where one of the components represents at least 90 % by weight, the rate applicable to that component applies;\r\n\r\nb) in other mixtures, the rate applicable is that of the component which results in the highest amount of import duty.\r\n"
+        "chapter_note": "1. (A) The products specified in the headings of this chapter are to be classified in those headings only if grains are present, whether or not in the ear or on the stalk.\r\n\r\n\t(B) The chapter does not cover grains which have been hulled or otherwise worked. However, rice, husked, milled, polished, glazed, parboiled or broken remains classified in heading 1006.\r\n\r\n2. Heading 1005 does not cover sweetcorn (Chapter 7).\r\n\r\n### Subheading note\r\n\r\n1. The term 'durum wheat' means wheat of the species Triticum durum and the hybrids derived from the inter-specific crossing of Triticum durum which have the same number (28) of chromosomes as that species.\r\n\r\n### Additional chapter notes\r\n\r\n1. The following terms have the meanings hereunder assigned to them:\r\n\r\n\t- (a) ‘round grain rice’ (subheadings 1006 10 30, 1006 20 11, 1006 20 92, 1006 30 21, 1006 30 42, 1006 30 61 and 1006 30 92): rice, the grains of which are of a length not exceeding 5.2 mm and of a length/width ratio of less than 2;\r\n\r\n\t- (b) ‘medium grain rice’ (subheadings 1006 10 50, 1006 20 13, 1006 20 94, 1006 30 23, 1006 30 44, 1006 30 63 and 1006 30 94): rice, the grains of which are of a length exceeding 5.2 mm but not exceeding 6.0 mm and of a length/width ratio of less than 3;\r\n\r\n\t- (c) ‘long grain rice’ (subheadings 1006 10 71, 1006 10 79, 1006 20 15, 1006 20 17, 1006 20 96, 1006 20 98, 1006 30 25, 1006 30 27, 1006 30 46, 1006 30 48, 1006 30 65, 1006 30 67, 1006 30 96 and 1006 30 98): rice, the grains of which are of a length exceeding 6.0 mm;\r\n\r\n\t- (d) ‘paddy rice’ (subheadings 1006 10 30, 1006 10 50, 1006 10 71 and 1006 10 79): rice which has retained its husk after threshing;\r\n\r\n\t- (e) ‘husked rice’ (subheadings 1006 20 11, 1006 20 13, 1006 20 15, 1006 20 17, 1006 20 92, 1006 20 94, 1006 20 96 and 1006 20 98): rice from which only the husk has been removed. Examples of rice falling within this definition are those with the commercial descriptions ‘brown rice’, ‘cargo rice’, ‘loonzain’ and ‘riso sbramato’;\r\n\r\n\t- (f) ‘semi-milled rice’ (subheadings 1006 30 21, 1006 30 23, 1006 30 25, 1006 30 27, 1006 30 42, 1006 30 44, 1006 30 46 and 1006 30 48): rice from which the husk, part of the germ and the whole or part of the outer layers of the pericarp, but not the inner layers, have been removed;\r\n\r\n\t- (g) ‘wholly milled rice’ (subheadings 1006 30 61, 1006 30 63, 1006 30 65, 1006 30 67, 1006 30 92, 1006 30 94, 1006 30 96 and 1006 30 98): rice from which the husk, the whole of the outer and inner layers of the pericarp, the whole of the germ in the case of long or medium grain rice, and at least part thereof in the case of round grain rice, have been removed, but in which longitudinal white striations may remain on not more than 10 % of the grains;\r\n\r\n\t- (h) ‘broken rice’ (subheading 1006 40): grain fragments, the length of which does not exceed three-quarters of the average length of the whole grain.\r\n\r\n2. The duty-rate applicable to mixtures of this chapter is as follows:\r\n\r\n\t- (a) in mixtures where one of the components represents at least 90 % by weight, the rate applicable to that component applies;\r\n\t\r\n\t- (b) in other mixtures, the rate applicable is that of the component which results in the highest amount of import duty."
       },
       "relationships": {
         "guides": {
@@ -328,8 +337,8 @@
       "type": "footnote",
       "attributes": {
         "code": "TN701",
-        "description": "According to  the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.\u003cbr/\u003eThe prohibition shall not apply in respect of: \u003cbr/\u003e(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. \u003cbr/\u003e(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement.",
-        "formatted_description": "According to  the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.\u003cbr/\u003eThe prohibition shall not apply in respect of: \u003cbr/\u003e(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. \u003cbr/\u003e(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement."
+        "description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol. The prohibition shall not apply in respect of: (a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. (b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement. ------------------------- According to Council Regulation (EU) 2022/263 (OJ L42I, p. 77): I. It shall be prohibited to import into the European Union goods originating in non-government controlled areas of the Donetsk and Luhansk oblasts of Ukraine. The import prohibitions not apply in respect of: (a) the execution until 24 May 2022 of trade contracts concluded before 23 February 2022, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal person, entity or body seeking to perform the contract has notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established; (b) goods originating in the specified territories which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with the EU-Ukraine Association Agreement. II. It shall be prohibited to sell, supply, transfer or export goods and technology listed in Annex II to Council Regulation (EU) 2022/263: (a) to any natural or legal person, entity or body in the specified territories, or (b) for use in the specified territories. Annex II shall include certain goods and technologies suited for use in the following key sectors: (i) transport; (ii) telecommunications; (iii) energy; (iv) the prospecting, exploration and production of oil, gas and mineral resources. It shall be prohibited to: (a) provide, directly or indirectly, technical assistance or brokering services related to the goods and technology listed in Annex II to Council Regulation (EU) 2022/263, or related to the provision, manufacture, maintenance and use of such items to any natural or legal person, entity or body in the specified territories or for use in the specified territories; (b) provide, directly or indirectly, financing or financial assistance related to the goods and technology listed in Annex II to Council Regulation (EU) 2022/263 to any natural or legal person, entity or body in the specified territories or for use in the specified territories. The prohibitions in point II above shall be without prejudice to the execution until 24 August 2022 of an obligation arising from a contract concluded before 23 February 2022, or from ancillary contracts necessary for the execution of such contracts, provided that the competent authority has been informed at least five working days in advance.",
+        "formatted_description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol. The prohibition shall not apply in respect of: (a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. (b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement. ------------------------- According to Council Regulation (EU) 2022/263 (OJ L42I, p. 77): I. It shall be prohibited to import into the European Union goods originating in non-government controlled areas of the Donetsk and Luhansk oblasts of Ukraine. The import prohibitions not apply in respect of: (a) the execution until 24 May 2022 of trade contracts concluded before 23 February 2022, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal person, entity or body seeking to perform the contract has notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established; (b) goods originating in the specified territories which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with the EU-Ukraine Association Agreement. II. It shall be prohibited to sell, supply, transfer or export goods and technology listed in Annex II to Council Regulation (EU) 2022/263: (a) to any natural or legal person, entity or body in the specified territories, or (b) for use in the specified territories. Annex II shall include certain goods and technologies suited for use in the following key sectors: (i) transport; (ii) telecommunications; (iii) energy; (iv) the prospecting, exploration and production of oil, gas and mineral resources. It shall be prohibited to: (a) provide, directly or indirectly, technical assistance or brokering services related to the goods and technology listed in Annex II to Council Regulation (EU) 2022/263, or related to the provision, manufacture, maintenance and use of such items to any natural or legal person, entity or body in the specified territories or for use in the specified territories; (b) provide, directly or indirectly, financing or financial assistance related to the goods and technology listed in Annex II to Council Regulation (EU) 2022/263 to any natural or legal person, entity or body in the specified territories or for use in the specified territories. The prohibitions in point II above shall be without prejudice to the execution until 24 August 2022 of an obligation arising from a contract concluded before 23 February 2022, or from ancillary contracts necessary for the execution of such contracts, provided that the competent authority has been informed at least five working days in advance."
       }
     },
     {
@@ -337,7 +346,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -345,9 +354,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "VAT zero rate",
-        "national": true,
         "measure_type_series_id": "P",
-        "id": "VTZ"
+        "measure_component_applicable_code": 0,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1971-12-31T00:00:00.000Z",
+        "id": "VTZ",
+        "measure_type_series_description": "VAT"
       }
     },
     {
@@ -355,14 +369,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "AD",
@@ -3231,8 +3246,13 @@
         "effective_start_date": "2020-09-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": true
+        "vat": true,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -3261,6 +3281,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -3284,6 +3307,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -3291,7 +3320,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -3299,9 +3328,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Tariff preference",
-        "national": null,
         "measure_type_series_id": "C",
-        "id": "142"
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "142",
+        "measure_type_series_description": "Applicable duty"
       }
     },
     {
@@ -3314,24 +3348,30 @@
         "officialjournal_page": 1,
         "published_date": "2017-01-14",
         "regulation_code": "D0037/17",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D11,YEAR_OJ%3D2017,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D11,YEAR_OJ%3D2017,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Comprehensive Economic and Trade Agreement (CETA) Canada"
       }
     },
     {
       "id": "1278256",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "B",
-        "condition": "B: Presentation of a certificate/licence/document",
-        "document_code": "U088",
-        "requirement": "Proofs of origin: Origin declaration stating European Union origin, in the context of the Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
         "action": "Apply the mentioned duty",
-        "duty_expression": "",
+        "action_code": "27",
+        "certificate_description": "Origin declaration stating European Union origin, in the context of the Canada-European Union Comprehensive Economic and Trade Agreement (CETA)",
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "U088",
+        "duty_expression": "",
+        "guidance_cds": "- Reference must be made to Annex 5-A of the CETA agreement.\n\n- Enter the reference number of the Origin declaration.\n\n- Where a sequentially numbered range of declarations cover the goods enter the lowest to the highest reference numbers of the declarations concerned, e.g. document code + 0054037-0054047: status code.\n\n- Where declarations are not sequentially numbered enter the reference number of each declaration concerned.\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AE, AF, AG, AP, AS, AT, GE, GP, LE, LP, UA, UE, UP, US, XB",
+        "guidance_chief": "",
+        "measure_condition_class": "document",
+        "monetary_unit_abbreviation": null,
+        "requirement": "Proofs of origin: Origin declaration stating European Union origin, in the context of the Canada-European Union Comprehensive Economic and Trade Agreement (CETA)"
       },
       "relationships": {
         "measure_condition_components": {
@@ -3343,17 +3383,22 @@
       "id": "1278257",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "B",
-        "condition": "B: Presentation of a certificate/licence/document",
-        "document_code": "",
-        "requirement": null,
         "action": "Measure not applicable",
-        "duty_expression": "",
+        "action_code": "07",
+        "certificate_description": null,
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
       },
       "relationships": {
         "measure_condition_components": {
@@ -3366,14 +3411,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "1006",
@@ -3412,8 +3458,13 @@
         "effective_start_date": "2017-09-21T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -3456,6 +3507,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -3479,6 +3533,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -3486,7 +3546,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "7.70 %",
-        "formatted_base": "\u003cspan\u003e7.70\u003c/span\u003e %"
+        "formatted_base": "<span>7.70</span> %"
       }
     },
     {
@@ -3494,9 +3554,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Third country duty",
-        "national": null,
         "measure_type_series_id": "C",
-        "id": "103"
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "1972-01-01T00:00:00.000Z",
+        "id": "103",
+        "measure_type_series_description": "Applicable duty"
       }
     },
     {
@@ -3509,7 +3574,8 @@
         "officialjournal_page": 1,
         "published_date": "1999-10-28",
         "regulation_code": "R2204/99",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D278,YEAR_OJ%3D1999,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D278,YEAR_OJ%3D1999,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "NC 2000 - mes. 103"
       }
     },
     {
@@ -3522,7 +3588,8 @@
         "officialjournal_page": 1,
         "published_date": "1987-09-07",
         "regulation_code": "R2658/87",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D256,YEAR_OJ%3D1987,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D256,YEAR_OJ%3D1987,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "NC - 1988"
       }
     },
     {
@@ -3534,10 +3601,11 @@
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "2057879",
@@ -3548,8 +3616,13 @@
         "effective_start_date": "2000-07-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -3587,6 +3660,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -3605,6 +3681,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -3620,9 +3702,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Import control on genetically modified organisms (GMO) and products containing GMOs",
-        "national": null,
         "measure_type_series_id": "B",
-        "id": "713"
+        "measure_component_applicable_code": 0,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "2016-02-01T00:00:00.000Z",
+        "id": "713",
+        "measure_type_series_description": "Entry into free circulation or exportation subject to conditions"
       }
     },
     {
@@ -3635,24 +3722,30 @@
         "officialjournal_page": 140,
         "published_date": "2011-12-23",
         "regulation_code": "D0884/11",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D343,YEAR_OJ%3D2011,PAGE_FIRST%3D0140\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D343,YEAR_OJ%3D2011,PAGE_FIRST%3D0140&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Emergency measures regarding unauthorised genetically modified rice in rice products originating from China and repealing Decision 2008/289/EC"
       }
     },
     {
       "id": "1047745",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "Y",
-        "condition": "Y: Other conditions",
-        "document_code": "C678",
-        "requirement": "Other certificates: Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) (as set out in Part 2, Section D of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))",
         "action": "Import/export allowed after control",
-        "duty_expression": "",
+        "action_code": "29",
+        "certificate_description": "Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) (as set out in Part 2, Section D of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))",
+        "condition": "Y: Other conditions",
+        "condition_code": "Y",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "C678",
+        "duty_expression": "",
+        "guidance_cds": "- Enter GBCHDyyyy. followed by the reference number of the CHED-D.\n\n- A separate C678 entry in DE 2/3 is required for each individual CHED-D.\n\n- Note yyyy. represents the year in which the licence was issued, for example GBCHD2021.\n\n- The '.' after the year is part of the licence completion requirements\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AE, JA, JE, LE, LP, XX",
+        "guidance_chief": "",
+        "measure_condition_class": "document",
+        "monetary_unit_abbreviation": null,
+        "requirement": "Other certificates: Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) (as set out in Part 2, Section D of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))"
       },
       "relationships": {
         "measure_condition_components": {
@@ -3664,17 +3757,22 @@
       "id": "1047746",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "Y",
-        "condition": "Y: Other conditions",
-        "document_code": "Y063",
-        "requirement": "Particular provisions: Goods not consigned from China",
         "action": "Import/export allowed after control",
-        "duty_expression": "",
+        "action_code": "29",
+        "certificate_description": "Goods not consigned from China",
+        "condition": "Y: Other conditions",
+        "condition_code": "Y",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "Y063",
+        "duty_expression": "",
+        "guidance_cds": "- Complete the statement 'Not consigned from China'.\n\n- Use of this code constitutes a legal declaration that the goods are not consigned from China.\n\n- Sufficient evidence must be held to demonstrate eligibility for this exemption which must be produced on demand.\n\n- No document status code is required.",
+        "guidance_chief": "",
+        "measure_condition_class": "exemption",
+        "monetary_unit_abbreviation": null,
+        "requirement": "Particular provisions: Goods not consigned from China"
       },
       "relationships": {
         "measure_condition_components": {
@@ -3686,17 +3784,22 @@
       "id": "1047747",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "Y",
-        "condition": "Y: Other conditions",
-        "document_code": "",
-        "requirement": null,
         "action": "Import/export not allowed after control",
-        "duty_expression": "",
+        "action_code": "09",
+        "certificate_description": null,
+        "condition": "Y: Other conditions",
+        "condition_code": "Y",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
       },
       "relationships": {
         "measure_condition_components": {
@@ -3722,8 +3825,13 @@
         "effective_start_date": "2016-02-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -3765,6 +3873,9 @@
         "measure_components": {
           "data": []
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -3793,10 +3904,16 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
-      "id": "3522480-duty_expression",
+      "id": "3886434-duty_expression",
       "type": "duty_expression",
       "attributes": {
         "base": "",
@@ -3808,39 +3925,50 @@
       "type": "measure_type",
       "attributes": {
         "description": "Import control of organic products",
-        "national": null,
         "measure_type_series_id": "B",
-        "id": "750"
+        "measure_component_applicable_code": 0,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "2017-01-01T00:00:00.000Z",
+        "id": "750",
+        "measure_type_series_description": "Entry into free circulation or exportation subject to conditions"
       }
     },
     {
-      "id": "R0708340",
+      "id": "R2123060",
       "type": "legal_act",
       "attributes": {
-        "validity_start_date": "2009-01-01T00:00:00.000Z",
+        "validity_start_date": "2022-01-01T00:00:00.000Z",
         "validity_end_date": null,
-        "officialjournal_number": "L 189",
-        "officialjournal_page": 1,
-        "published_date": "2007-07-20",
-        "regulation_code": "R0834/07",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D189,YEAR_OJ%3D2007,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "officialjournal_number": "L 461",
+        "officialjournal_page": 13,
+        "published_date": "2021-12-27",
+        "regulation_code": "R2306/21",
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D461,YEAR_OJ%3D2021,PAGE_FIRST%3D0013&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "supplementing Regulation (EU) 2018/848 of the European Parliament and of the Council with rules on the official controls in respect of consignments of organic products and in-conversion products intended for import into the Union and on the certificate of inspection"
       }
     },
     {
-      "id": "1113859",
+      "id": "1647026",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "B",
+        "action": "Import/export allowed after control",
+        "action_code": "29",
+        "certificate_description": "Certificate of inspection for organic products",
         "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
         "document_code": "C644",
-        "requirement": "Other certificates: Certificate of inspection for organic products",
-        "action": "Import/export allowed after control",
         "duty_expression": "",
-        "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
+        "guidance_cds": "- Enter the reference number of the Certificate.\n\n- Where a sequentially numbered range of certificates covers the goods, enter the lowest to the highest reference numbers of the certificates concerned, e.g. document code + 0054037-0054047: status code.\n\n- Where certificates are not sequentially numbered, enter the reference number of each certificate concerned.\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AE, AP, GE, LE, LP, UE",
+        "guidance_chief": "- Use one of the [status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations) AE, AP, GE, LE, LP, UE.\n\n",
+        "measure_condition_class": "document",
         "monetary_unit_abbreviation": null,
-        "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "requirement": "Other certificates: Certificate of inspection for organic products"
       },
       "relationships": {
         "measure_condition_components": {
@@ -3849,20 +3977,25 @@
       }
     },
     {
-      "id": "1113860",
+      "id": "1647027",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "B",
+        "action": "Import/export allowed after control",
+        "action_code": "29",
+        "certificate_description": "Goods not concerned by Regulation (EU) 2018/848 (organic products)",
         "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
         "document_code": "Y929",
-        "requirement": "Particular provisions: Goods not concerned by Regulation (EC) No 834/2007 (organic products)",
-        "action": "Import/export allowed after control",
         "duty_expression": "",
-        "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
+        "guidance_cds": "- Complete the statement 'Excluded from regulation 834/2007'.\n\n- Use of this code constitutes a legal declaration that the goods are not concerned by Regulation (EC) No 834/2007 (organic products) Council Regulation (EC) No 834/2007 on organic production and labelling of organic products.\n\n- Sufficient evidence must be held in records to demonstrate eligibility for this waiver which must be produced on demand.\n\n- No document status code is required.",
+        "guidance_chief": "",
+        "measure_condition_class": "exemption",
         "monetary_unit_abbreviation": null,
-        "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "requirement": "Particular provisions: Goods not concerned by Regulation (EU) 2018/848 (organic products)"
       },
       "relationships": {
         "measure_condition_components": {
@@ -3871,20 +4004,25 @@
       }
     },
     {
-      "id": "1113861",
+      "id": "1647028",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "B",
-        "condition": "B: Presentation of a certificate/licence/document",
-        "document_code": "",
-        "requirement": null,
         "action": "Import/export not allowed after control",
-        "duty_expression": "",
+        "action_code": "09",
+        "certificate_description": null,
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
       },
       "relationships": {
         "measure_condition_components": {
@@ -3897,26 +4035,31 @@
       "type": "footnote",
       "attributes": {
         "code": "CD808",
-        "description": "If goods bear a reference to organic production in the labelling, advertising or accompanying documents, the declarant has to present the certificate of inspection C644 as referred to in the Article 33(1)(d) of the Regulation (EC) No 834/2007 (equivalent products). If the goods are not equivalent products, code Y929 must be declared.\u003cbr/\u003eWithout prejudice to any measures or actions taken in accordance with Article 30 of Regulation (EC) No 834/2007 and/or Article 85 of Regulation (EC) No 889/2008, the release for free circulation in the Community of products not in conformity with the requirements of that Regulation shall be conditional on the removal of references to organic production from the labelling, advertising and accompanying documents.\u003cbr/\u003e",
-        "formatted_description": "If goods bear a reference to organic production in the labelling, advertising or accompanying documents, the declarant has to present the certificate of inspection C644 as referred to in the Article 33(1)(d) of the Regulation (EC) No 834/2007 (equivalent products). If the goods are not equivalent products, code Y929 must be declared.\u003cbr/\u003eWithout prejudice to any measures or actions taken in accordance with Article 30 of Regulation (EC) No 834/2007 and/or Article 85 of Regulation (EC) No 889/2008, the release for free circulation in the Community of products not in conformity with the requirements of that Regulation shall be conditional on the removal of references to organic production from the labelling, advertising and accompanying documents.\u003cbr/\u003e"
+        "description": "If goods bear a reference to organic production in the labelling, advertising or accompanying documents, the declarant has to present the certificate of inspection C644 as referred to in the Article 45(1)(ii) of the Regulation (EC) No 834/2007 (equivalent products). If the goods are not equivalent products, code Y929 must be declared. These provisions shall apply in addition to the rules regarding the use of the Common Health Entry Document (CHED) by the competent authorities at border control posts in accordance with Article 56(3), point (b)(i), of Regulation (EU) 2017/625 and at control points in accordance with Commission Delegated Regulation (EU) 2019/2123 and with the rules on decisions on consignments laid down in Article 55 of Regulation (EU) 2017/625. ",
+        "formatted_description": "If goods bear a reference to organic production in the labelling, advertising or accompanying documents, the declarant has to present the certificate of inspection C644 as referred to in the Article 45(1)(ii) of the Regulation (EC) No 834/2007 (equivalent products). If the goods are not equivalent products, code Y929 must be declared. These provisions shall apply in addition to the rules regarding the use of the Common Health Entry Document (CHED) by the competent authorities at border control posts in accordance with Article 56(3), point (b)(i), of Regulation (EU) 2017/625 and at control points in accordance with Commission Delegated Regulation (EU) 2019/2123 and with the rules on decisions on consignments laid down in Article 55 of Regulation (EU) 2017/625. "
       }
     },
     {
-      "id": "3522480",
+      "id": "3886434",
       "type": "measure",
       "attributes": {
-        "id": 3522480,
+        "id": 3886434,
         "origin": "eu",
-        "effective_start_date": "2017-01-01T00:00:00.000Z",
+        "effective_start_date": "2022-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
           "data": {
-            "id": "3522480-duty_expression",
+            "id": "3886434-duty_expression",
             "type": "duty_expression"
           }
         },
@@ -3929,7 +4072,7 @@
         "legal_acts": {
           "data": [
             {
-              "id": "R0708340",
+              "id": "R2123060",
               "type": "legal_act"
             }
           ]
@@ -3937,20 +4080,23 @@
         "measure_conditions": {
           "data": [
             {
-              "id": "1113859",
+              "id": "1647026",
               "type": "measure_condition"
             },
             {
-              "id": "1113860",
+              "id": "1647027",
               "type": "measure_condition"
             },
             {
-              "id": "1113861",
+              "id": "1647028",
               "type": "measure_condition"
             }
           ]
         },
         "measure_components": {
+          "data": []
+        },
+        "resolved_measure_components": {
           "data": []
         },
         "national_measurement_units": {
@@ -3993,6 +4139,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -4000,7 +4152,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -4013,7 +4165,8 @@
         "officialjournal_page": 1,
         "published_date": "2016-07-08",
         "regulation_code": "R1076/16",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D185,YEAR_OJ%3D2016,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D185,YEAR_OJ%3D2016,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Repeal of No 1528/2007 (ACP), recast"
       }
     },
     {
@@ -4021,14 +4174,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "1032",
@@ -4062,8 +4216,13 @@
         "effective_start_date": "2016-07-28T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4097,6 +4256,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4115,6 +4277,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -4122,7 +4290,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -4135,7 +4303,8 @@
         "officialjournal_page": 1,
         "published_date": "2008-10-30",
         "regulation_code": "D0805/08",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D289,YEAR_OJ%3D2008,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D289,YEAR_OJ%3D2008,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "CARIFORUM (EPA) agreement"
       }
     },
     {
@@ -4143,14 +4312,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "1033",
@@ -4236,8 +4406,13 @@
         "effective_start_date": "2010-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4271,6 +4446,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4294,6 +4472,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "cariforum"
+        }
       }
     },
     {
@@ -4301,7 +4485,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -4314,7 +4498,8 @@
         "officialjournal_page": 1,
         "published_date": "2012-04-24",
         "regulation_code": "D0196/12",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D111,YEAR_OJ%3D2012,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D111,YEAR_OJ%3D2012,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Eastern and Southern Africa States (EPA) agreement"
       }
     },
     {
@@ -4322,14 +4507,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "1034",
@@ -4375,8 +4561,13 @@
         "effective_start_date": "2012-05-14T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4410,6 +4601,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4428,6 +4622,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "esa"
+        }
       }
     },
     {
@@ -4435,7 +4635,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -4448,7 +4648,8 @@
         "officialjournal_page": 1,
         "published_date": "2016-09-16",
         "regulation_code": "D1623/16",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D250,YEAR_OJ%3D2016,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D250,YEAR_OJ%3D2016,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "SADC EPA (Botswana, Lesotho, Namibia, Swaziland)"
       }
     },
     {
@@ -4456,14 +4657,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "1035",
@@ -4509,8 +4711,13 @@
         "effective_start_date": "2016-10-10T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4544,6 +4751,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -4562,14 +4772,20 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "sacum"
+        }
       }
     },
     {
-      "id": "3681170-duty_expression",
+      "id": "3684036-duty_expression",
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -4582,29 +4798,31 @@
         "officialjournal_page": 1,
         "published_date": "2012-10-31",
         "regulation_code": "R0978/12",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D303,YEAR_OJ%3D2012,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D303,YEAR_OJ%3D2012,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "GSP,  EBA (Annex IV)"
       }
     },
     {
-      "id": "3681170-01",
+      "id": "3684036-01",
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "2005",
       "type": "geographical_area",
       "attributes": {
         "id": "2005",
-        "description": "GSP (R 12/978) - Annex IV",
+        "description": "GSP-EBA (Special arrangement for the least-developed countries - Everything But Arms)",
         "geographical_area_id": "2005"
       },
       "relationships": {
@@ -4803,21 +5021,26 @@
       }
     },
     {
-      "id": "3681170",
+      "id": "3684036",
       "type": "measure",
       "attributes": {
-        "id": 3681170,
+        "id": 3684036,
         "origin": "eu",
-        "effective_start_date": "2019-01-18T00:00:00.000Z",
-        "effective_end_date": "2022-01-17T00:00:00.000Z",
+        "effective_start_date": "2022-01-18T00:00:00.000Z",
+        "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
           "data": {
-            "id": "3681170-duty_expression",
+            "id": "3684036-duty_expression",
             "type": "duty_expression"
           }
         },
@@ -4841,10 +5064,13 @@
         "measure_components": {
           "data": [
             {
-              "id": "3681170-01",
+              "id": "3684036-01",
               "type": "measure_component"
             }
           ]
+        },
+        "resolved_measure_components": {
+          "data": []
         },
         "national_measurement_units": {
           "data": []
@@ -4864,6 +5090,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "gsp"
+        }
       }
     },
     {
@@ -4871,7 +5103,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -4884,7 +5116,8 @@
         "officialjournal_page": 3,
         "published_date": "2012-12-15",
         "regulation_code": "D0734/12",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D346,YEAR_OJ%3D2012,PAGE_FIRST%3D0003\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D346,YEAR_OJ%3D2012,PAGE_FIRST%3D0003&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Trade Agreement, Central America, Category B"
       }
     },
     {
@@ -4892,14 +5125,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "2200",
@@ -4949,8 +5183,13 @@
         "effective_start_date": "2015-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -4984,6 +5223,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5002,6 +5244,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "central-america"
+        }
       }
     },
     {
@@ -5009,7 +5257,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5022,7 +5270,8 @@
         "officialjournal_page": 13,
         "published_date": "1990-12-31",
         "regulation_code": "D0680/90",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D374,YEAR_OJ%3D1990,PAGE_FIRST%3D0013\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D374,YEAR_OJ%3D1990,PAGE_FIRST%3D0013&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Pref. Andorra"
       }
     },
     {
@@ -5030,14 +5279,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "849590",
@@ -5048,8 +5298,13 @@
         "effective_start_date": "1991-07-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5083,6 +5338,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5101,6 +5359,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "eu"
+        }
       }
     },
     {
@@ -5108,7 +5372,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5121,7 +5385,8 @@
         "officialjournal_page": 165,
         "published_date": "2009-04-28",
         "regulation_code": "D0332/09",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D107,YEAR_OJ%3D2009,PAGE_FIRST%3D0165\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D107,YEAR_OJ%3D2009,PAGE_FIRST%3D0165&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "AL Stabilisation and Association Agreement PRF"
       }
     },
     {
@@ -5129,14 +5394,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3097910",
@@ -5147,8 +5413,13 @@
         "effective_start_date": "2009-04-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5182,6 +5453,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5200,6 +5474,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "albania"
+        }
       }
     },
     {
@@ -5207,7 +5487,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5220,7 +5500,8 @@
         "officialjournal_page": 10,
         "published_date": "2008-06-30",
         "regulation_code": "D0474/08",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D169,YEAR_OJ%3D2008,PAGE_FIRST%3D0010\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D169,YEAR_OJ%3D2008,PAGE_FIRST%3D0010&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "BA Interim Agreement PRF"
       }
     },
     {
@@ -5228,14 +5509,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3064831",
@@ -5246,8 +5528,13 @@
         "effective_start_date": "2009-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5281,6 +5568,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5299,6 +5589,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -5306,7 +5602,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5314,14 +5610,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3578437",
@@ -5332,8 +5629,13 @@
         "effective_start_date": "2017-09-21T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5367,6 +5669,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5385,6 +5690,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "canada"
+        }
       }
     },
     {
@@ -5392,7 +5703,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5405,7 +5716,8 @@
         "officialjournal_page": 1,
         "published_date": "2002-12-30",
         "regulation_code": "D0979/02",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D352,YEAR_OJ%3D2002,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D352,YEAR_OJ%3D2002,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Chile Agreement"
       }
     },
     {
@@ -5413,14 +5725,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "2920811",
@@ -5431,8 +5744,13 @@
         "effective_start_date": "2007-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5466,6 +5784,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5484,6 +5805,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "chile"
+        }
       }
     },
     {
@@ -5491,7 +5818,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5504,7 +5831,8 @@
         "officialjournal_page": 1,
         "published_date": "2009-02-28",
         "regulation_code": "D0152/09",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D057,YEAR_OJ%3D2009,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D057,YEAR_OJ%3D2009,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Cameroon (Central Africa, EPA) agreement"
       }
     },
     {
@@ -5512,14 +5840,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3391792",
@@ -5530,8 +5859,13 @@
         "effective_start_date": "2014-08-04T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5565,6 +5899,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5583,6 +5920,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "cameroon"
+        }
       }
     },
     {
@@ -5597,17 +5940,22 @@
       "id": "1047595",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "B",
-        "condition": "B: Presentation of a certificate/licence/document",
-        "document_code": "C678",
-        "requirement": "Other certificates: Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) (as set out in Part 2, Section D of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))",
         "action": "Entry into free circulation allowed",
-        "duty_expression": "",
+        "action_code": "24",
+        "certificate_description": "Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) (as set out in Part 2, Section D of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))",
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "C678",
+        "duty_expression": "",
+        "guidance_cds": "- Enter GBCHDyyyy. followed by the reference number of the CHED-D.\n\n- A separate C678 entry in DE 2/3 is required for each individual CHED-D.\n\n- Note yyyy. represents the year in which the licence was issued, for example GBCHD2021.\n\n- The '.' after the year is part of the licence completion requirements\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AE, JA, JE, LE, LP, XX",
+        "guidance_chief": "",
+        "measure_condition_class": "document",
+        "monetary_unit_abbreviation": null,
+        "requirement": "Other certificates: Common Health Entry Document for Feed and Food of Non-Animal Origin (CHED-D) (as set out in Part 2, Section D of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))"
       },
       "relationships": {
         "measure_condition_components": {
@@ -5619,17 +5967,22 @@
       "id": "1047596",
       "type": "measure_condition",
       "attributes": {
-        "condition_code": "B",
-        "condition": "B: Presentation of a certificate/licence/document",
-        "document_code": "",
-        "requirement": null,
         "action": "The entry into free circulation is not allowed",
-        "duty_expression": "",
+        "action_code": "04",
+        "certificate_description": null,
+        "condition": "B: Presentation of a certificate/licence/document",
+        "condition_code": "B",
         "condition_duty_amount": null,
-        "condition_monetary_unit_code": null,
-        "monetary_unit_abbreviation": null,
         "condition_measurement_unit_code": null,
-        "condition_measurement_unit_qualifier_code": null
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
       },
       "relationships": {
         "measure_condition_components": {
@@ -5646,8 +5999,13 @@
         "effective_start_date": "2016-02-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5685,6 +6043,9 @@
         "measure_components": {
           "data": []
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5708,6 +6069,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -5715,7 +6082,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5728,7 +6095,8 @@
         "officialjournal_page": 3,
         "published_date": "2012-12-21",
         "regulation_code": "D0735/12",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D354,YEAR_OJ%3D2012,PAGE_FIRST%3D0003\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D354,YEAR_OJ%3D2012,PAGE_FIRST%3D0003&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Trade Agreement, Colombia and Peru, category 0/EP/AV0"
       }
     },
     {
@@ -5736,14 +6104,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3268933",
@@ -5754,8 +6123,13 @@
         "effective_start_date": "2013-08-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5789,6 +6163,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5807,6 +6184,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "andean"
+        }
       }
     },
     {
@@ -5814,7 +6197,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5827,7 +6210,8 @@
         "officialjournal_page": 1,
         "published_date": "2016-12-24",
         "regulation_code": "D2369/16",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D356,YEAR_OJ%3D2016,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D356,YEAR_OJ%3D2016,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Ecuador - Cat. 0"
       }
     },
     {
@@ -5835,14 +6219,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3519674",
@@ -5853,8 +6238,13 @@
         "effective_start_date": "2017-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5888,6 +6278,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -5906,6 +6299,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "andean"
+        }
       }
     },
     {
@@ -5913,7 +6312,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -5926,7 +6325,8 @@
         "officialjournal_page": 4,
         "published_date": "2019-02-06",
         "regulation_code": "D0217/19",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D34,YEAR_OJ%3D2019,PAGE_FIRST%3D0004\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D34,YEAR_OJ%3D2019,PAGE_FIRST%3D0004&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Agreement EU - Morocco on the amendment of Protocols 1 and 4 to the Euro-Mediterranean Agreement (Western Sahara - EH)"
       }
     },
     {
@@ -5934,14 +6334,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "TM904",
@@ -5961,8 +6362,13 @@
         "effective_start_date": "2019-07-19T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -5996,6 +6402,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6019,6 +6428,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -6026,7 +6441,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6039,7 +6454,8 @@
         "officialjournal_page": 1,
         "published_date": "2009-10-16",
         "regulation_code": "D0729/09",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D272,YEAR_OJ%3D2009,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D272,YEAR_OJ%3D2009,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Pacific states (EPA) agreement"
       }
     },
     {
@@ -6047,14 +6463,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3386449",
@@ -6065,8 +6482,13 @@
         "effective_start_date": "2014-07-28T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6100,6 +6522,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6118,6 +6543,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "pacific"
+        }
       }
     },
     {
@@ -6125,7 +6556,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6138,7 +6569,8 @@
         "officialjournal_page": 11,
         "published_date": "2020-12-31",
         "regulation_code": "D2253/20",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D444,YEAR_OJ%3D2020,PAGE_FIRST%3D0011\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D444,YEAR_OJ%3D2020,PAGE_FIRST%3D0011&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Council Decision (Euratom) 2020/2253 of 29 December 2020 approving the conclusion, by the European Commission, on behalf of the European Atomic Energy Community, of the Trade and Cooperation Agreement between the European Union and the European Atomic Energy Community, of the one part, and the United Kingdom of Great Britain and Northern Ireland, of the other part"
       }
     },
     {
@@ -6146,14 +6578,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3822130",
@@ -6164,8 +6597,13 @@
         "effective_start_date": "2021-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6199,6 +6637,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6217,6 +6658,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -6224,7 +6671,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6237,7 +6684,8 @@
         "officialjournal_page": 1,
         "published_date": "2014-08-30",
         "regulation_code": "D0494/14",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D261,YEAR_OJ%3D2014,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D261,YEAR_OJ%3D2014,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Association Agreement - Georgia"
       }
     },
     {
@@ -6245,14 +6693,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3388125",
@@ -6263,8 +6712,13 @@
         "effective_start_date": "2014-09-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6298,6 +6752,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6316,6 +6773,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "georgia"
+        }
       }
     },
     {
@@ -6323,7 +6786,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6336,7 +6799,8 @@
         "officialjournal_page": 1,
         "published_date": "2016-10-21",
         "regulation_code": "D1850/16",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D287,YEAR_OJ%3D2016,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D287,YEAR_OJ%3D2016,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Ghana EPA"
       }
     },
     {
@@ -6344,14 +6808,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3529654",
@@ -6362,8 +6827,13 @@
         "effective_start_date": "2016-12-15T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6397,6 +6867,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6415,6 +6888,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "ghana"
+        }
       }
     },
     {
@@ -6422,7 +6901,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6435,7 +6914,8 @@
         "officialjournal_page": 81,
         "published_date": "2009-11-28",
         "regulation_code": "D0855/09",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D313,YEAR_OJ%3D2009,PAGE_FIRST%3D0081\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D313,YEAR_OJ%3D2009,PAGE_FIRST%3D0081&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Israel - Modification Protocol 1"
       }
     },
     {
@@ -6448,7 +6928,8 @@
         "officialjournal_page": 3,
         "published_date": "2000-06-21",
         "regulation_code": "D0384/00",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D147,YEAR_OJ%3D2000,PAGE_FIRST%3D0003\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D147,YEAR_OJ%3D2000,PAGE_FIRST%3D0003&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Accord IL"
       }
     },
     {
@@ -6456,14 +6937,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3125585",
@@ -6474,8 +6956,13 @@
         "effective_start_date": "2010-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6513,6 +7000,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6531,6 +7021,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "israel"
+        }
       }
     },
     {
@@ -6538,7 +7034,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6551,7 +7047,8 @@
         "officialjournal_page": 57,
         "published_date": "2017-10-24",
         "regulation_code": "D1913/17",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D274,YEAR_OJ%3D2017,PAGE_FIRST%3D0057\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D274,YEAR_OJ%3D2017,PAGE_FIRST%3D0057&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Agreement in the form of an Exchange of Letters between the EU and IS concerning additional trade preferences in agricultural products"
       }
     },
     {
@@ -6559,14 +7056,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3602631",
@@ -6577,8 +7075,13 @@
         "effective_start_date": "2018-05-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6612,6 +7115,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6630,6 +7136,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "iceland-norway"
+        }
       }
     },
     {
@@ -6637,7 +7149,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6650,7 +7162,8 @@
         "officialjournal_page": 1,
         "published_date": "2006-02-13",
         "regulation_code": "D0067/06",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D41,YEAR_OJ%3D2006,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D41,YEAR_OJ%3D2006,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Agreement exchange letters JO"
       }
     },
     {
@@ -6663,7 +7176,8 @@
         "officialjournal_page": 1,
         "published_date": "2002-05-15",
         "regulation_code": "D0357/02",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D129,YEAR_OJ%3D2002,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D129,YEAR_OJ%3D2002,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Accord JO"
       }
     },
     {
@@ -6671,14 +7185,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "2868841",
@@ -6689,8 +7204,13 @@
         "effective_start_date": "2006-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6728,6 +7248,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6746,6 +7269,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "jordan"
+        }
       }
     },
     {
@@ -6753,7 +7282,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6766,7 +7295,8 @@
         "officialjournal_page": 1,
         "published_date": "2006-05-30",
         "regulation_code": "D0356/06",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D143,YEAR_OJ%3D2006,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D143,YEAR_OJ%3D2006,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Association agreement between the EU and Lebanon"
       }
     },
     {
@@ -6774,14 +7304,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "2916482",
@@ -6792,8 +7323,13 @@
         "effective_start_date": "2006-04-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6827,6 +7363,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6845,6 +7384,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "lebanon"
+        }
       }
     },
     {
@@ -6852,7 +7397,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6865,7 +7410,8 @@
         "officialjournal_page": 2,
         "published_date": "2012-09-07",
         "regulation_code": "D0497/12",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D241,YEAR_OJ%3D2012,PAGE_FIRST%3D0002\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D241,YEAR_OJ%3D2012,PAGE_FIRST%3D0002&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Agreement MA - Agricultural products measure 142"
       }
     },
     {
@@ -6878,7 +7424,8 @@
         "officialjournal_page": 1,
         "published_date": "2000-03-18",
         "regulation_code": "D0204/00",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D70,YEAR_OJ%3D2000,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D70,YEAR_OJ%3D2000,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Accord MA"
       }
     },
     {
@@ -6886,14 +7433,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3271638",
@@ -6904,8 +7452,13 @@
         "effective_start_date": "2012-10-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -6943,6 +7496,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -6961,6 +7517,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "morocco"
+        }
       }
     },
     {
@@ -6968,7 +7530,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -6981,7 +7543,8 @@
         "officialjournal_page": 1,
         "published_date": "2014-08-30",
         "regulation_code": "D0492/14",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D260,YEAR_OJ%3D2014,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D260,YEAR_OJ%3D2014,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Association Agreement - Moldova"
       }
     },
     {
@@ -6989,14 +7552,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3461056",
@@ -7007,8 +7571,13 @@
         "effective_start_date": "2016-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7042,6 +7611,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7060,6 +7632,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "moldova"
+        }
       }
     },
     {
@@ -7067,7 +7645,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7080,7 +7658,8 @@
         "officialjournal_page": 1,
         "published_date": "2010-04-29",
         "regulation_code": "D0224/10",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D108,YEAR_OJ%3D2010,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D108,YEAR_OJ%3D2010,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "ME Stabilisation and Association Agreement PRF"
       }
     },
     {
@@ -7088,14 +7667,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3161497",
@@ -7106,8 +7686,13 @@
         "effective_start_date": "2010-05-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7141,6 +7726,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7159,6 +7747,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -7166,7 +7760,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7179,7 +7773,8 @@
         "officialjournal_page": 1,
         "published_date": "2004-03-20",
         "regulation_code": "D0239/04",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D84,YEAR_OJ%3D2004,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D84,YEAR_OJ%3D2004,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "MK - SAA - PRF"
       }
     },
     {
@@ -7187,14 +7782,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3064933",
@@ -7205,8 +7801,13 @@
         "effective_start_date": "2009-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7240,6 +7841,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7258,6 +7862,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "north-macedonia"
+        }
       }
     },
     {
@@ -7265,7 +7875,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7278,7 +7888,8 @@
         "officialjournal_page": 3,
         "published_date": "2012-12-21",
         "regulation_code": "D0735/12",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D354,YEAR_OJ%3D2012,PAGE_FIRST%3D0003\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D354,YEAR_OJ%3D2012,PAGE_FIRST%3D0003&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Trade Agreement, Colombia and Peru, category 3/AV0 3"
       }
     },
     {
@@ -7286,14 +7897,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3467489",
@@ -7304,8 +7916,13 @@
         "effective_start_date": "2016-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7339,6 +7956,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7357,6 +7977,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "andean"
+        }
       }
     },
     {
@@ -7364,7 +7990,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7372,14 +7998,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3166168",
@@ -7390,8 +8017,13 @@
         "effective_start_date": "2010-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7425,6 +8057,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7443,6 +8078,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "pacific"
+        }
       }
     },
     {
@@ -7450,7 +8091,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7463,7 +8104,8 @@
         "officialjournal_page": 2,
         "published_date": "2011-12-10",
         "regulation_code": "D0824/11",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D328,YEAR_OJ%3D2011,PAGE_FIRST%3D0002\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D328,YEAR_OJ%3D2011,PAGE_FIRST%3D0002&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Palestine - new protocol 1"
       }
     },
     {
@@ -7476,7 +8118,8 @@
         "officialjournal_page": 1,
         "published_date": "1997-07-16",
         "regulation_code": "D0430/97",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D187,YEAR_OJ%3D1997,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D187,YEAR_OJ%3D1997,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "EC-XI Agreement"
       }
     },
     {
@@ -7484,14 +8127,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3233980",
@@ -7502,8 +8146,13 @@
         "effective_start_date": "2012-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7541,6 +8190,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7559,6 +8211,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "palestinian-authority"
+        }
       }
     },
     {
@@ -7566,7 +8224,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7574,14 +8232,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3758156",
@@ -7592,8 +8251,13 @@
         "effective_start_date": "2020-05-17T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7627,6 +8291,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7645,14 +8312,20 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "pacific"
+        }
       }
     },
     {
-      "id": "3791351-duty_expression",
+      "id": "3860102-duty_expression",
       "type": "duty_expression",
       "attributes": {
-        "base": "3.80 %",
-        "formatted_base": "\u003cspan\u003e3.80\u003c/span\u003e %"
+        "base": "1.90 %",
+        "formatted_base": "<span>1.90</span> %"
       }
     },
     {
@@ -7665,39 +8338,46 @@
         "officialjournal_page": 1,
         "published_date": "2019-11-14",
         "regulation_code": "D1875/19",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D294,YEAR_OJ%3D2019,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D294,YEAR_OJ%3D2019,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Agreement Singapore - Measure 142. Cat 3 (Zero duty in four years)"
       }
     },
     {
-      "id": "3791351-01",
+      "id": "3860102-01",
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 3.8,
+        "duty_amount": 1.9,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
-      "id": "3791351",
+      "id": "3860102",
       "type": "measure",
       "attributes": {
-        "id": 3791351,
+        "id": 3860102,
         "origin": "eu",
-        "effective_start_date": "2020-11-21T00:00:00.000Z",
-        "effective_end_date": "2021-11-20T00:00:00.000Z",
+        "effective_start_date": "2021-11-21T00:00:00.000Z",
+        "effective_end_date": "2022-11-20T00:00:00.000Z",
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
           "data": {
-            "id": "3791351-duty_expression",
+            "id": "3860102-duty_expression",
             "type": "duty_expression"
           }
         },
@@ -7721,10 +8401,13 @@
         "measure_components": {
           "data": [
             {
-              "id": "3791351-01",
+              "id": "3860102-01",
               "type": "measure_component"
             }
           ]
+        },
+        "resolved_measure_components": {
+          "data": []
         },
         "national_measurement_units": {
           "data": []
@@ -7744,6 +8427,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "singapore"
+        }
       }
     },
     {
@@ -7751,7 +8440,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7759,9 +8448,14 @@
       "type": "measure_type",
       "attributes": {
         "description": "Customs Union Duty",
-        "national": null,
         "measure_type_series_id": "C",
-        "id": "106"
+        "measure_component_applicable_code": 1,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "2006-01-01T00:00:00.000Z",
+        "id": "106",
+        "measure_type_series_description": "Applicable duty"
       }
     },
     {
@@ -7774,7 +8468,8 @@
         "officialjournal_page": 41,
         "published_date": "2002-03-28",
         "regulation_code": "D0245/02",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D84,YEAR_OJ%3D2002,PAGE_FIRST%3D0041\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D84,YEAR_OJ%3D2002,PAGE_FIRST%3D0041&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Accord CE - Republique San Marino (SM) - Customs Union"
       }
     },
     {
@@ -7782,14 +8477,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "2865973",
@@ -7800,8 +8496,13 @@
         "effective_start_date": "2006-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7835,6 +8536,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7853,6 +8557,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -7860,7 +8570,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7873,7 +8583,8 @@
         "officialjournal_page": 1,
         "published_date": "1998-03-20",
         "regulation_code": "D0223/98",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D86,YEAR_OJ%3D1998,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D86,YEAR_OJ%3D1998,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "TR-Agri"
       }
     },
     {
@@ -7881,14 +8592,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "1775462",
@@ -7899,8 +8611,13 @@
         "effective_start_date": "1998-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -7934,6 +8651,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -7952,6 +8672,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "turkey"
+        }
       }
     },
     {
@@ -7959,7 +8685,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -7972,7 +8698,8 @@
         "officialjournal_page": 3,
         "published_date": "2014-05-29",
         "regulation_code": "D0295/14",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D161,YEAR_OJ%3D2014,PAGE_FIRST%3D0003\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D161,YEAR_OJ%3D2014,PAGE_FIRST%3D0003&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "Association Agreement, Ukraine, category 0"
       }
     },
     {
@@ -7980,14 +8707,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3469556",
@@ -7998,8 +8726,13 @@
         "effective_start_date": "2016-01-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8033,6 +8766,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8051,6 +8787,261 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "ukraine"
+        }
+      }
+    },
+    {
+      "id": "3900377-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "",
+        "formatted_base": ""
+      }
+    },
+    {
+      "id": "762",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Import control",
+        "measure_type_series_id": "B",
+        "measure_component_applicable_code": 0,
+        "order_number_capture_code": 2,
+        "trade_movement_code": 0,
+        "validity_end_date": null,
+        "validity_start_date": "2022-02-26T00:00:00.000Z",
+        "id": "762",
+        "measure_type_series_description": "Entry into free circulation or exportation subject to conditions"
+      }
+    },
+    {
+      "id": "R2202630",
+      "type": "legal_act",
+      "attributes": {
+        "validity_start_date": "2022-02-26T00:00:00.000Z",
+        "validity_end_date": null,
+        "officialjournal_number": "L 42I",
+        "officialjournal_page": 77,
+        "published_date": "2022-02-24",
+        "regulation_code": "R0263/22",
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D42I,YEAR_OJ%3D2022,PAGE_FIRST%3D0077&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "concerning restrictive measures in response to the recognition of the non-government controlled areas of the Donetsk and Luhansk oblasts of Ukraine and the ordering of Russian armed forces into those areas"
+      }
+    },
+    {
+      "id": "1684179",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Import/export allowed after control",
+        "action_code": "29",
+        "certificate_description": "The prohibitions defined in articles 2.1 and 4.1 of Council Regulation (EU) 2022/263 do not apply (see exemptions in articles 2.2 and 4.3)",
+        "condition": "Y: Other conditions",
+        "condition_code": "Y",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "Y983",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "exemption",
+        "monetary_unit_abbreviation": null,
+        "requirement": "Particular provisions: The prohibitions defined in articles 2.1 and 4.1 of Council Regulation (EU) 2022/263 do not apply (see exemptions in articles 2.2 and 4.3)"
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "1684180",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Import/export allowed after control",
+        "action_code": "29",
+        "certificate_description": "Goods not originating from or not destined for the areas of the Donetsk and Luhansk oblasts",
+        "condition": "Y: Other conditions",
+        "condition_code": "Y",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "Y984",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "exemption",
+        "monetary_unit_abbreviation": null,
+        "requirement": "Particular provisions: Goods not originating from or not destined for the areas of the Donetsk and Luhansk oblasts"
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "1684182",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Import/export allowed after control",
+        "action_code": "29",
+        "certificate_description": "Movement certificate EUR.1",
+        "condition": "Y: Other conditions",
+        "condition_code": "Y",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "N954",
+        "duty_expression": "",
+        "guidance_cds": "- Enter the reference number of the Certificate.\n\n- Where a sequentially numbered range of certificates covers the goods, enter the lowest to the highest reference numbers of the certificates concerned, e.g. document code + 0054037-0054047: status code.\n\n- Where certificates are not sequentially numbered, enter the reference number of each certificate concerned.\n\n- Use one of the following [document status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations): AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XB",
+        "guidance_chief": "- Use one of the [status codes](https://www.gov.uk/government/publications/uk-trade-tariff-document-status-codes-for-harmonised-declarations/uk-trade-tariff-document-status-codes-for-harmonised-declarations) AE, AF, AG, AP, AS, AT, GE, GP, JE, JP, LE, LP, UA, UE, UP, US, XA, XB.\n\n- Also insert the serial number of the Certificate.\n\n- Where a sequentially numbered range of certificates covers the goods, insert the lowest to the highest serial numbers of the certificates concerned, e.g. document code + 0054037-0054047: status code.\n\n- Where certificates are not sequentially numbered, insert the serial number of each certificate concerned.\n\n- When this document is used at export, then where the certificates used are in a numbered range enter only the lowest numbered and highest numbered certificates in the range otherwise\n\n- 'various' is permitted.\n\n",
+        "measure_condition_class": "document",
+        "monetary_unit_abbreviation": null,
+        "requirement": "UN/EDIFACT certificates: Movement certificate EUR.1"
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "1684183",
+      "type": "measure_condition",
+      "attributes": {
+        "action": "Import/export not allowed after control",
+        "action_code": "09",
+        "certificate_description": null,
+        "condition": "Y: Other conditions",
+        "condition_code": "Y",
+        "condition_duty_amount": null,
+        "condition_measurement_unit_code": null,
+        "condition_measurement_unit_qualifier_code": null,
+        "condition_monetary_unit_code": null,
+        "document_code": "",
+        "duty_expression": "",
+        "guidance_cds": null,
+        "guidance_chief": null,
+        "measure_condition_class": "negative",
+        "monetary_unit_abbreviation": null,
+        "requirement": null
+      },
+      "relationships": {
+        "measure_condition_components": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": "CD860",
+      "type": "footnote",
+      "attributes": {
+        "code": "CD860",
+        "description": "According to Council Regulation (EU) 2022/263 (OJ L42I, p. 77): I. It shall be prohibited to import into the European Union goods originating in non-government controlled areas of the Donetsk and Luhansk oblasts of Ukraine. The import prohibitions not apply in respect of: (a) the execution until 24 May 2022 of trade contracts concluded before 23 February 2022, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal person, entity or body seeking to perform the contract has notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established; (b) goods originating in the specified territories which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with the EU-Ukraine Association Agreement. II. It shall be prohibited to sell, supply, transfer or export goods and technology listed in Annex II to Council Regulation (EU) 2022/263: (a) to any natural or legal person, entity or body in the specified territories, or (b) for use in the specified territories. Annex II shall include certain goods and technologies suited for use in the following key sectors: (i) transport; (ii) telecommunications; (iii) energy; (iv) the prospecting, exploration and production of oil, gas and mineral resources. The prohibitions in point II above shall be without prejudice to the execution until 24 August 2022 of an obligation arising from a contract concluded before 23 February 2022, or from ancillary contracts necessary for the execution of such contracts, provided that the competent authority has been informed at least five working days in advance.",
+        "formatted_description": "According to Council Regulation (EU) 2022/263 (OJ L42I, p. 77): I. It shall be prohibited to import into the European Union goods originating in non-government controlled areas of the Donetsk and Luhansk oblasts of Ukraine. The import prohibitions not apply in respect of: (a) the execution until 24 May 2022 of trade contracts concluded before 23 February 2022, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal person, entity or body seeking to perform the contract has notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established; (b) goods originating in the specified territories which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with the EU-Ukraine Association Agreement. II. It shall be prohibited to sell, supply, transfer or export goods and technology listed in Annex II to Council Regulation (EU) 2022/263: (a) to any natural or legal person, entity or body in the specified territories, or (b) for use in the specified territories. Annex II shall include certain goods and technologies suited for use in the following key sectors: (i) transport; (ii) telecommunications; (iii) energy; (iv) the prospecting, exploration and production of oil, gas and mineral resources. The prohibitions in point II above shall be without prejudice to the execution until 24 August 2022 of an obligation arising from a contract concluded before 23 February 2022, or from ancillary contracts necessary for the execution of such contracts, provided that the competent authority has been informed at least five working days in advance."
+      }
+    },
+    {
+      "id": "3900377",
+      "type": "measure",
+      "attributes": {
+        "id": 3900377,
+        "origin": "eu",
+        "effective_start_date": "2022-02-26T00:00:00.000Z",
+        "effective_end_date": "2022-05-24T00:00:00.000Z",
+        "import": true,
+        "export": false,
+        "excise": false,
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "3900377-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "762",
+            "type": "measure_type"
+          }
+        },
+        "legal_acts": {
+          "data": [
+            {
+              "id": "R2202630",
+              "type": "legal_act"
+            }
+          ]
+        },
+        "measure_conditions": {
+          "data": [
+            {
+              "id": "1684179",
+              "type": "measure_condition"
+            },
+            {
+              "id": "1684180",
+              "type": "measure_condition"
+            },
+            {
+              "id": "1684182",
+              "type": "measure_condition"
+            },
+            {
+              "id": "1684183",
+              "type": "measure_condition"
+            }
+          ]
+        },
+        "measure_components": {
+          "data": []
+        },
+        "resolved_measure_components": {
+          "data": []
+        },
+        "national_measurement_units": {
+          "data": []
+        },
+        "geographical_area": {
+          "data": {
+            "id": "UA",
+            "type": "geographical_area"
+          }
+        },
+        "excluded_countries": {
+          "data": []
+        },
+        "footnotes": {
+          "data": [
+            {
+              "id": "CD860",
+              "type": "footnote"
+            }
+          ]
+        },
+        "order_number": {
+          "data": null
+        }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": null
+        }
       }
     },
     {
@@ -8058,7 +9049,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -8071,7 +9062,8 @@
         "officialjournal_page": 1,
         "published_date": "2020-06-12",
         "regulation_code": "D0753/20",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D186,YEAR_OJ%3D2020,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D186,YEAR_OJ%3D2020,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "EU-Vietnam FTA, Staging category A"
       }
     },
     {
@@ -8079,14 +9071,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3770610",
@@ -8097,8 +9090,13 @@
         "effective_start_date": "2020-08-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8132,6 +9130,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8150,6 +9151,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "vietnam"
+        }
       }
     },
     {
@@ -8157,7 +9164,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -8165,14 +9172,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3671001",
@@ -8183,8 +9191,13 @@
         "effective_start_date": "2018-12-31T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8218,6 +9231,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8236,6 +9252,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "pacific"
+        }
       }
     },
     {
@@ -8243,7 +9265,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -8256,7 +9278,8 @@
         "officialjournal_page": 1,
         "published_date": "2016-03-16",
         "regulation_code": "D0342/16",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D71,YEAR_OJ%3D2016,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D71,YEAR_OJ%3D2016,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "SAA Kosovo"
       }
     },
     {
@@ -8264,14 +9287,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3483389",
@@ -8282,8 +9306,13 @@
         "effective_start_date": "2016-04-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8317,6 +9346,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8335,6 +9367,12 @@
         "order_number": {
           "data": null
         }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "kosovo"
+        }
       }
     },
     {
@@ -8342,7 +9380,7 @@
       "type": "duty_expression",
       "attributes": {
         "base": "0.00 %",
-        "formatted_base": "\u003cspan\u003e0.00\u003c/span\u003e %"
+        "formatted_base": "<span>0.00</span> %"
       }
     },
     {
@@ -8355,7 +9393,8 @@
         "officialjournal_page": 1,
         "published_date": "2010-01-30",
         "regulation_code": "D0036/10",
-        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D28,YEAR_OJ%3D2010,PAGE_FIRST%3D0001\u0026DB_COLL_OJ=oj-l\u0026type=advanced\u0026lang=en"
+        "regulation_url": "http://eur-lex.europa.eu/search.html?whOJ=NO_OJ%3D28,YEAR_OJ%3D2010,PAGE_FIRST%3D0001&DB_COLL_OJ=oj-l&type=advanced&lang=en",
+        "description": "XS Interim Agreement PRF"
       }
     },
     {
@@ -8363,14 +9402,15 @@
       "type": "measure_component",
       "attributes": {
         "duty_expression_id": "01",
-        "duty_amount": 0.0,
+        "duty_amount": 0,
         "monetary_unit_code": null,
         "monetary_unit_abbreviation": null,
         "measurement_unit_code": null,
+        "measurement_unit_qualifier_code": null,
         "duty_expression_description": "% or amount",
-        "duty_expression_abbreviation": "%",
-        "measurement_unit_qualifier_code": null
-      }
+        "duty_expression_abbreviation": "%"
+      },
+      "relationships": {}
     },
     {
       "id": "3150497",
@@ -8381,8 +9421,13 @@
         "effective_start_date": "2010-02-01T00:00:00.000Z",
         "effective_end_date": null,
         "import": true,
+        "export": false,
         "excise": false,
-        "vat": false
+        "vat": false,
+        "reduction_indicator": null,
+        "meursing": false,
+        "resolved_duty_expression": "",
+        "universal_waiver_applies": false
       },
       "relationships": {
         "duty_expression": {
@@ -8416,6 +9461,9 @@
             }
           ]
         },
+        "resolved_measure_components": {
+          "data": []
+        },
         "national_measurement_units": {
           "data": []
         },
@@ -8433,6 +9481,12 @@
         },
         "order_number": {
           "data": null
+        }
+      },
+      "meta": {
+        "duty_calculator": {
+          "source": "xi",
+          "scheme_code": "serbia"
         }
       }
     }

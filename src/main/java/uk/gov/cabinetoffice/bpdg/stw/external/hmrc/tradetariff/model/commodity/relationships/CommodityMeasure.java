@@ -41,6 +41,7 @@ import lombok.experimental.SuperBuilder;
 public class CommodityMeasure extends TradeTariffCommodityResponseIncludedEntity {
 
   private boolean isImport;
+  private boolean isExport;
   private boolean isVAT;
   private boolean isExcise;
   private String measureTypeId;
@@ -57,7 +58,11 @@ public class CommodityMeasure extends TradeTariffCommodityResponseIncludedEntity
     this.isImport =
         Optional.ofNullable(attributes.get("import"))
             .map(Boolean.class::cast)
-            .orElseThrow(() -> new IllegalArgumentException("Measure should have a trade type"));
+            .orElseThrow(() -> new IllegalArgumentException("Measure should have import indicator"));
+    this.isExport =
+        Optional.ofNullable(attributes.get("export"))
+            .map(Boolean.class::cast)
+            .orElseThrow(() -> new IllegalArgumentException("Measure should have export indicator"));
     this.isVAT =
         Optional.ofNullable(attributes.get("vat"))
             .map(Boolean.class::cast)
