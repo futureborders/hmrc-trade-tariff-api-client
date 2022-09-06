@@ -39,6 +39,9 @@ public class CommodityMeasureCondition extends TradeTariffCommodityResponseInclu
   private String requirement;
   private String action;
   private String dutyExpression;
+  private String conditionDutyAmount;
+  private String conditionMonetaryUnitCode;
+  private String conditionMeasurementUnitCode;
 
   @JsonProperty("attributes")
   private void unpackAttributes(Map<String, String> attributes) {
@@ -48,5 +51,8 @@ public class CommodityMeasureCondition extends TradeTariffCommodityResponseInclu
     this.requirement = attributes.getOrDefault("requirement", "");
     this.action = attributes.getOrDefault("action", "");
     this.dutyExpression = attributes.getOrDefault("duty_expression", "");
+    this.conditionDutyAmount = attributes.getOrDefault("condition_duty_amount", "");
+    this.conditionMonetaryUnitCode = attributes.getOrDefault("condition_monetary_unit_code", "");
+    this.conditionMeasurementUnitCode = attributes.getOrDefault("condition_measurement_unit_code", "");
   }
 }
