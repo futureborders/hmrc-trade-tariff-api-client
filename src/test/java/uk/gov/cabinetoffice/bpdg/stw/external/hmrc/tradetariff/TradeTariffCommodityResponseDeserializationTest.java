@@ -196,6 +196,13 @@ class TradeTariffCommodityResponseDeserializationTest {
             "UN/EDIFACT certificates: UN/EDIFACT certificates: Common Health Entry Document for Products (CHED-P) (as set out in Part 2, Section B of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261)) as transposed into UK Law.");
     assertThat(expectedResponse.getMeasureConditions().get(0).getDocumentCode()).isEqualTo("N853");
     assertThat(expectedResponse.getMeasureConditions().get(0).getDutyExpression()).isEmpty();
+    assertThat(expectedResponse.getMeasureConditions().get(0).getConditionDutyAmount()).isNull();
+    assertThat(expectedResponse.getMeasureConditions().get(0).getConditionMonetaryUnitCode()).isNull();
+    assertThat(expectedResponse.getMeasureConditions().get(0).getConditionMeasurementUnitCode()).isNull();
+
+    assertThat(expectedResponse.getMeasureConditions().get(7).getConditionDutyAmount()).isEqualTo("20");
+    assertThat(expectedResponse.getMeasureConditions().get(7).getConditionMonetaryUnitCode()).isNull();
+    assertThat(expectedResponse.getMeasureConditions().get(7).getConditionMeasurementUnitCode()).isEqualTo("KGM");
   }
 
   @Test
