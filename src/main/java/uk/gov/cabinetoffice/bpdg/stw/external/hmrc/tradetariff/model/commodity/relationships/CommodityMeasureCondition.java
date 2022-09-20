@@ -19,6 +19,7 @@ package uk.gov.cabinetoffice.bpdg.stw.external.hmrc.tradetariff.model.commodity.
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Map;
+import java.util.Optional;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -37,6 +38,7 @@ public class CommodityMeasureCondition extends TradeTariffCommodityResponseInclu
   private String condition;
   private String documentCode;
   private String requirement;
+  private String certificateDescription;
   private String action;
   private String dutyExpression;
   private String conditionDutyAmount;
@@ -49,6 +51,7 @@ public class CommodityMeasureCondition extends TradeTariffCommodityResponseInclu
     this.condition = attributes.getOrDefault("condition", "");
     this.documentCode = attributes.getOrDefault("document_code", "");
     this.requirement = attributes.getOrDefault("requirement", "");
+    this.certificateDescription = Optional.ofNullable(attributes.get("certificate_description")).map(String::trim).orElse("");
     this.action = attributes.getOrDefault("action", "");
     this.dutyExpression = attributes.getOrDefault("duty_expression", "");
     this.conditionDutyAmount = attributes.getOrDefault("condition_duty_amount", "");

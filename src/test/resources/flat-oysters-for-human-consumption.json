@@ -466,7 +466,7 @@
       "attributes": {
         "action": "Import/export allowed after control",
         "action_code": "29",
-        "certificate_description": "Common Health Entry Document for Animals (CHED-A) (as set out in Part 2, Section A of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261))",
+        "certificate_description": " Common Health Entry Document for Animals (CHED-A) (as set out in Part 2, Section A of Annex II to Commission Implementing Regulation (EU) 2019/1715 (OJ L 261)) ",
         "condition": "B: Presentation of a certificate/licence/document",
         "condition_code": "B",
         "condition_duty_amount": null,
