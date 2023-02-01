@@ -1,0 +1,610 @@
+{
+  "data": {
+    "id": "27624",
+    "type": "heading",
+    "attributes": {
+      "goods_nomenclature_item_id": "0101000000",
+      "description": "Live horses, asses, mules and hinnies",
+      "bti_url": "https://www.gov.uk/guidance/check-what-youll-need-to-get-a-legally-binding-decision-on-a-commodity-code",
+      "formatted_description": "Live horses, asses, mules and hinnies",
+      "declarable": false
+    },
+    "relationships": {
+      "footnotes": {
+        "data": [
+          {
+            "id": "701",
+            "type": "footnote"
+          }
+        ]
+      },
+      "section": {
+        "data": {
+          "id": "1",
+          "type": "section"
+        }
+      },
+      "chapter": {
+        "data": {
+          "id": "27623",
+          "type": "chapter"
+        }
+      },
+      "commodities": {
+        "data": [
+          {
+            "id": "93797",
+            "type": "commodity"
+          },
+          {
+            "id": "93796",
+            "type": "commodity"
+          },
+          {
+            "id": "93798",
+            "type": "commodity"
+          },
+          {
+            "id": "93799",
+            "type": "commodity"
+          },
+          {
+            "id": "93800",
+            "type": "commodity"
+          },
+          {
+            "id": "93801",
+            "type": "commodity"
+          },
+          {
+            "id": "72763",
+            "type": "commodity"
+          }
+        ]
+      }
+    }
+  },
+  "included": [
+    {
+      "id": "1",
+      "type": "section",
+      "attributes": {
+        "numeral": "I",
+        "title": "Live animals; animal products",
+        "position": 1,
+        "section_note": "1. Any reference in this section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.\r\n\r\n2. Except where the context otherwise requires, throughout the classification any reference to 'dried' products also covers products which have been dehydrated, evaporated or freeze-dried.\r\n"
+      }
+    },
+    {
+      "id": "23",
+      "type": "guide",
+      "attributes": {
+        "title": "Classification of goods",
+        "url": "https://www.gov.uk/government/collections/classification-of-goods"
+      }
+    },
+    {
+      "id": "27623",
+      "type": "chapter",
+      "attributes": {
+        "goods_nomenclature_item_id": "0100000000",
+        "description": "LIVE ANIMALS",
+        "formatted_description": "Live animals",
+        "chapter_note": "1. This chapter covers all live animals except:\r\n\r\n    a) fish and crustaceans, molluscs and other aquatic invertebrates, of heading 0301, 0306, 0307 or 0308;\r\n\r\n    b) cultures of micro-organisms and other products of heading 3002; and\r\n\r\n    c) animals of heading 9508.\r\n\r\n2. In this chapter “purebred breeding animal” is defined as in (UK law equivalent to EU Regulation 1012/2016)\r\n",
+        "forum_url": null
+      },
+      "relationships": {
+        "guides": {
+          "data": [
+            {
+              "id": "23",
+              "type": "guide"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "701",
+      "type": "footnote",
+      "attributes": {
+        "code": "TN701",
+        "description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.<br>The prohibition shall not apply in respect of: <br>(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. <br>(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement.",
+        "formatted_description": "According to the Council Regulation (EU) No 692/2014 (OJ L183, p. 9) it shall be prohibited to import into European Union goods originating in Crimea or Sevastopol.<br>The prohibition shall not apply in respect of: <br>(a) the execution until 26 September 2014, of trade contracts concluded before 25 June 2014, or of ancillary contracts necessary for the execution of such contracts, provided that the natural or legal persons, entity or body seeking to perform the contract have notified, at least 10 working days in advance, the activity or transaction to the competent authority of the Member State in which they are established. <br>(b) goods originating in Crimea or Sevastopol which have been made available to the Ukrainian authorities for examination, for which compliance with the conditions conferring entitlement to preferential origin has been verified and for which a certificate of origin has been issued in accordance with Regulation (EU) No 978/2012 and Regulation (EU) No 374/2014 or in accordance with the EU-Ukraine Association Agreement."
+      }
+    },
+    {
+      "id": "2982599-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "p/st",
+        "formatted_base": "<abbr title='Number of items'>p/st</abbr>"
+      }
+    },
+    {
+      "id": "109",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Supplementary unit",
+        "measure_type_series_id": null,
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "109",
+        "measure_type_series_description": null
+      }
+    },
+    {
+      "id": "2982599",
+      "type": "measure",
+      "attributes": {
+        "id": 2982599,
+        "vat": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "2982599-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "109",
+            "type": "measure_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "-1010362444-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "20.00 %",
+        "formatted_base": "<span>20.00</span> %"
+      }
+    },
+    {
+      "id": "305",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Value added tax",
+        "measure_type_series_id": null,
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "305",
+        "measure_type_series_description": null
+      }
+    },
+    {
+      "id": "-1010362444",
+      "type": "measure",
+      "attributes": {
+        "id": -1010362444,
+        "vat": true
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "-1010362444-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "305",
+            "type": "measure_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "93797",
+      "type": "commodity",
+      "attributes": {
+        "description": "Horses",
+        "number_indents": 1,
+        "goods_nomenclature_item_id": "0101210000",
+        "leaf": false,
+        "goods_nomenclature_sid": 93797,
+        "formatted_description": "Horses",
+        "description_plain": "Horses",
+        "producline_suffix": "10",
+        "parent_sid": null
+      },
+      "relationships": {
+        "overview_measures": {
+          "data": [
+            {
+              "id": "2982599",
+              "type": "measure"
+            },
+            {
+              "id": "-1010362444",
+              "type": "measure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20000000-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "0.00 %",
+        "formatted_base": "<span>0.00</span> %"
+      }
+    },
+    {
+      "id": "103",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Third country duty",
+        "measure_type_series_id": null,
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "103",
+        "measure_type_series_description": null
+      }
+    },
+    {
+      "id": "20000000",
+      "type": "measure",
+      "attributes": {
+        "id": 20000000,
+        "vat": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20000000-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "103",
+            "type": "measure_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "93796",
+      "type": "commodity",
+      "attributes": {
+        "description": "Pure-bred breeding animals",
+        "number_indents": 2,
+        "goods_nomenclature_item_id": "0101210000",
+        "leaf": true,
+        "goods_nomenclature_sid": 93796,
+        "formatted_description": "Pure-bred breeding animals",
+        "description_plain": "Pure-bred breeding animals",
+        "producline_suffix": "80",
+        "parent_sid": 93797
+      },
+      "relationships": {
+        "overview_measures": {
+          "data": [
+            {
+              "id": "20000000",
+              "type": "measure"
+            },
+            {
+              "id": "2982599",
+              "type": "measure"
+            },
+            {
+              "id": "-1010362444",
+              "type": "measure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "93798",
+      "type": "commodity",
+      "attributes": {
+        "description": "Other",
+        "number_indents": 2,
+        "goods_nomenclature_item_id": "0101290000",
+        "leaf": false,
+        "goods_nomenclature_sid": 93798,
+        "formatted_description": "Other",
+        "description_plain": "Other",
+        "producline_suffix": "80",
+        "parent_sid": 93797
+      },
+      "relationships": {
+        "overview_measures": {
+          "data": [
+            {
+              "id": "2982599",
+              "type": "measure"
+            },
+            {
+              "id": "-1010362444",
+              "type": "measure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20000001-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "0.00 %",
+        "formatted_base": "<span>0.00</span> %"
+      }
+    },
+    {
+      "id": "105",
+      "type": "measure_type",
+      "attributes": {
+        "description": "Non preferential duty under authorised use",
+        "measure_type_series_id": null,
+        "measure_component_applicable_code": null,
+        "order_number_capture_code": null,
+        "trade_movement_code": null,
+        "validity_end_date": null,
+        "validity_start_date": null,
+        "id": "105",
+        "measure_type_series_description": null
+      }
+    },
+    {
+      "id": "20000001",
+      "type": "measure",
+      "attributes": {
+        "id": 20000001,
+        "vat": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20000001-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "105",
+            "type": "measure_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "93799",
+      "type": "commodity",
+      "attributes": {
+        "description": "For slaughter",
+        "number_indents": 3,
+        "goods_nomenclature_item_id": "0101291000",
+        "leaf": true,
+        "goods_nomenclature_sid": 93799,
+        "formatted_description": "For slaughter",
+        "description_plain": "For slaughter",
+        "producline_suffix": "80",
+        "parent_sid": 93798
+      },
+      "relationships": {
+        "overview_measures": {
+          "data": [
+            {
+              "id": "20000001",
+              "type": "measure"
+            },
+            {
+              "id": "2982599",
+              "type": "measure"
+            },
+            {
+              "id": "-1010362444",
+              "type": "measure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20000002-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "10.00 %",
+        "formatted_base": "<span>10.00</span> %"
+      }
+    },
+    {
+      "id": "20000002",
+      "type": "measure",
+      "attributes": {
+        "id": 20000002,
+        "vat": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20000002-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "103",
+            "type": "measure_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "93800",
+      "type": "commodity",
+      "attributes": {
+        "description": "Other",
+        "number_indents": 3,
+        "goods_nomenclature_item_id": "0101299000",
+        "leaf": true,
+        "goods_nomenclature_sid": 93800,
+        "formatted_description": "Other",
+        "description_plain": "Other",
+        "producline_suffix": "80",
+        "parent_sid": 93798
+      },
+      "relationships": {
+        "overview_measures": {
+          "data": [
+            {
+              "id": "20000002",
+              "type": "measure"
+            },
+            {
+              "id": "2982599",
+              "type": "measure"
+            },
+            {
+              "id": "-1010362444",
+              "type": "measure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20000003-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "6.00 %",
+        "formatted_base": "<span>6.00</span> %"
+      }
+    },
+    {
+      "id": "20000003",
+      "type": "measure",
+      "attributes": {
+        "id": 20000003,
+        "vat": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20000003-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "103",
+            "type": "measure_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "93801",
+      "type": "commodity",
+      "attributes": {
+        "description": "Asses",
+        "number_indents": 1,
+        "goods_nomenclature_item_id": "0101300000",
+        "leaf": true,
+        "goods_nomenclature_sid": 93801,
+        "formatted_description": "Asses",
+        "description_plain": "Asses",
+        "producline_suffix": "80",
+        "parent_sid": null
+      },
+      "relationships": {
+        "overview_measures": {
+          "data": [
+            {
+              "id": "20000003",
+              "type": "measure"
+            },
+            {
+              "id": "2982599",
+              "type": "measure"
+            },
+            {
+              "id": "-1010362444",
+              "type": "measure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20000004-duty_expression",
+      "type": "duty_expression",
+      "attributes": {
+        "base": "10.00 %",
+        "formatted_base": "<span>10.00</span> %"
+      }
+    },
+    {
+      "id": "20000004",
+      "type": "measure",
+      "attributes": {
+        "id": 20000004,
+        "vat": false
+      },
+      "relationships": {
+        "duty_expression": {
+          "data": {
+            "id": "20000004-duty_expression",
+            "type": "duty_expression"
+          }
+        },
+        "measure_type": {
+          "data": {
+            "id": "103",
+            "type": "measure_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "72763",
+      "type": "commodity",
+      "attributes": {
+        "description": "Other",
+        "number_indents": 1,
+        "goods_nomenclature_item_id": "0101900000",
+        "leaf": true,
+        "goods_nomenclature_sid": 72763,
+        "formatted_description": "Other",
+        "description_plain": "Other",
+        "producline_suffix": "80",
+        "parent_sid": null
+      },
+      "relationships": {
+        "overview_measures": {
+          "data": [
+            {
+              "id": "20000004",
+              "type": "measure"
+            },
+            {
+              "id": "2982599",
+              "type": "measure"
+            },
+            {
+              "id": "-1010362444",
+              "type": "measure"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
