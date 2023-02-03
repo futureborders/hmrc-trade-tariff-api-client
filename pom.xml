@@ -6,7 +6,7 @@
 
   <groupId>uk.gov.cabinetoffice.bpdg.stw</groupId>
   <artifactId>hmrc-trade-tariff-api-client</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <properties>
     <java.version>11</java.version>
@@ -105,7 +105,7 @@
     <dependency>
       <groupId>uk.gov.cabinetoffice.bpdg.stw</groupId>
       <artifactId>stw-prometheus-metrics</artifactId>
-      <version>0.0.22</version>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
